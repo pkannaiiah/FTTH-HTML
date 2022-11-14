@@ -1,0 +1,1238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>IOH FTTH</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="metatitle" content="" />
+    <meta name="metadescription" content="" />
+    <meta name="metakeyword" content="" />
+    <meta name="description" content="" />
+    <meta name="keyword" content="" />
+
+    <!-- image -->
+    <!-- <meta property="og:image" content="assets/images/img/meta_image.jpeg">
+    <meta name="twitter:image" content="assets/images/img/meta_image.jpeg"> -->
+
+    <!-- <link rel="preload" href="assets/images/img/header-hero-banner-en-mobile.webp" as="image" media="(max-width: 575px)">
+    <link rel="preload" href="assets/images/img/header-hero-banner-en.webp" as="image" media="(min-width: 576px)"> -->
+
+    <!--IPhone meta tags-->
+    <!-- <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0'/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1,user-scalable=0"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" /> 
+    -->
+
+    <!--/* -- Brand Favicon -- */-->
+    <link rel="shortcut icon" href="assets/images/icons/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="assets/images/icons/favicon.ico" type="image/x-icon">
+
+    <!-- /* -- BOOTSTRAP CSS V 5.1.3 -- */ -->
+    <link rel="stylesheet" href="assets/css/vendors/bootstrap.min.css">
+    <!-- /* -- Swiper CSS V 8.1.4 -- */ -->
+    <link rel="stylesheet" href="assets/css/vendors/swiper-bundle.min.css">
+    <!-- /* -- Animate CSS -- */ -->
+    <link rel="stylesheet" href="assets/css/vendors/animate.css">
+    <!--/* -- Indosat Custom CSS V 1.0 -- */-->
+    <link rel="stylesheet" href="assets/css/ftth-custom.css">
+    <style>
+        #active-btn {display: none;}
+    </style>
+</head>
+
+<body>
+
+    <header class="header_mainmenu navbar-expand-lg">
+        <div class="top_header">
+            <div class="container">
+                <div class="top_header_in">
+                    <a href="https://indosatooredoo.com/" class="back">
+                        <img src="assets/images/icons/arrow_right_dark.svg" alt="">
+                        Indosat Ooredoo Hutchison
+                    </a>
+                    <div class="top_header_right">
+                        <ul class="language_links">
+                            <li>
+                                <a href="javascript:void(0);">ID</a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0);" class="active">EN</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bottom_header">
+            <div class="container">
+                <div class="bottom_header_in">
+                    <button class="navbar-toggler humburger" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                        <span></span>
+                    </button>
+                    <a class="navbar-brand header_logo" href="index.html">
+                        <img src="assets/images/icons/logo.svg" loading="lazy" title="IOH Logo" alt="IOH Logo">
+                    </a>
+                    <div class="collapse nav_menu navbar-collapse" id="navbarTogglerDemo03">
+                        <ul class="me-auto">
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#">Product</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#">Promo</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#">News</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#">About Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#">Help</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#">Contact Us</a>
+                            </li>
+                        </ul>
+                        <div class="only_mobile">
+                            <div class="flex_grp_align_center">
+                                <a class="ioh_btn ioh_lg_btn ioh_btn_primary" href="login.html">Login</a>
+                                <a class="ioh_btn ioh_lg_btn ioh_btn_outline_primary ms-3" href="ftth-location.html">Register</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pre_login">
+                        <button class="login_action">
+                            <img src="assets/images/icons/profile-dark.svg" alt="">
+                        </button>
+                        <div class="pre_login_dropdown">
+                            <a class="ioh_btn ioh_sm_btn ioh_btn_primary" href="login.html">Login</a>
+                            <a class="ioh_btn ioh_sm_btn ioh_btn_outline_primary ms-3" href="ftth-location.html">Register</a>
+                        </div>
+                    </div>
+                    <!-- <div class="post_login">
+                        <button class="login_action">
+                            <img src="assets/images/icons/profile-red.svg" alt="">
+                        </button>
+                        <div class="post_login_dropdown">
+                            <div class="profile">
+                                <div class="profile_img">
+                                    <img src="assets/images/img/avatar.png" alt="">
+                                </div>
+                                <div class="profile_info">
+                                    <p>Welcome Mr.Abdul</p>
+                                    <h4 class="mb-0">085810005859</h4>
+                                </div>
+                            </div>
+                            <ul>
+                                <li>
+                                    <a href="#">
+                                        <img src="assets/images/icons/logout.svg" class="me-2" alt="">
+                                        Logout
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="ioh_main">
+
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <ul class="ioh_pagination">
+                            <li>
+                                <a href="index.html">Home</a>
+                            </li>
+                            <li>
+                                <a href="ftth-location.html">Location</a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0);">Subscription</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="ftth-subscriptions-comp">
+
+            <div class="container">
+                <div class="row vert-tabs-sec">
+                    <div class="col-md-5">
+                        <!--tabs left section-->
+                        <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                            <li class="nav-item" role="presentation">
+                            <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">
+                                <h5 class="ioh_h4">Subscriptions</h5>
+                                <p class="vtab-suptext">Fill Out the form below and we will contact you</p>
+                            </button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">
+                                <h5 class="ioh_h4">Installation Details</h5>
+                                <p class="vtab-suptext">All we need is your address to get started </p>
+                            </button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">
+                                <h5 class="ioh_h4">Subscription Summary</h5>
+                                <p class="vtab-suptext">All about your plan and allow you to manage your account on your own</p>
+                                </button>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-7">
+                        <!--tabs right section-->
+                  <div class="tab-content" id="pills-tabContent">
+
+                    <!--subscriptions-tab1-->
+                    <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
+                        <div class="ftth-tab-cont">
+                            <di class="ftth-hedsec mb-3">
+                                <div class="ioh_h1 mb-2">Subscriptions</div>
+                                <p class="support_text">Fill Out the form below and we will contact you</p>
+                            </di>
+                            
+                            <!--infor comp-->
+                            <div class="flex_grp_align_center mt-20 info-comp">
+                                <div class="flex-grow-0 parag"> Your Subscription Type </div>
+                                <div class="flex-shrink-1 ms-3">
+                                    <span class="tooltipped tooltipped-align-left-1 tooltipped-multiline tooltipped-se" aria-label="Additional installation time is required a maximum of 14 working days">
+                                        <img src="assets/images/icons/info-icon.svg" alt="" title="" class="ml-3" />
+                                     </span>
+                                </div>
+                              </div>
+
+                              <!--checkbox comp-->
+                              <div class="d-flex ftth-mt-10 ftth-radio-comp">
+
+                                <div class="form-check disabled">
+                                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" checked>
+                                    <label class="form-check-label ms-2" for="flexRadioDefault1">
+                                        Internet for Home
+                                    </label>
+                                  </div>
+
+                                  <div class="form-check ms-3" style="display:none;">
+                                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDisabled" disabled>
+                                    <label class="form-check-label ms-2" for="flexRadioDefault2">
+                                        Internet for Apartment
+                                    </label>
+                                  </div>
+                              </div>
+
+                              <!--select option comp-->
+                              <div class="ftth-dropdown ftth-mt-20">
+
+                                <div class="colum-one">
+                                <label class="mb-2">Choose Subscription Plan</label>
+                                <select class="form-select" id="hifiselect01" aria-label="Default select example">
+                                    <option selected>Select Input</option>
+                                    <option value="hifi01">Hifi 1 Gbps (Rp 6.100.000)</option>
+                                    <option value="hifi02">Hifi 300 Mbps (Rp 1.800.000)</option>
+                                    <option value="hifi03">Hifi 100 Mbps (Rp 600.000)</option>
+                                    <option value="hifi04">Hifi 50 Mbps (Rp 400.000)</option>
+                                    <option value="hifi05">Hifi 30 Mbps (Rp 200.000)</option>
+                                  </select>
+                                </div>
+
+                                <div class="colum-one ms-10">
+                                    <label class="mb-2">Choose Service Type</label>
+                                    <select class="form-select" aria-label="Default select example">
+                                        <option selected>Select Input</option>
+                                        <option value="1">Internet</option>
+                                        <option value="2" disabled>TV</option>
+                                        <option value="3" disabled>Telephony</option>
+                                        <option value="3" disabled>OTT Content</option>
+                                      </select>
+                                    </div>
+
+                              
+
+                              <!--Benefits comp-->
+                              <div class="ftth-benefits hifi01 selectpack">
+                                  <div class="ftth_h6">Benefits</div>
+                                  <div class="ftth-f-list">
+                                    <ul>
+                                        <li><img src="assets/images/icons/speed-icon.svg"> Unlimited Internet <label> 30 Mbps </label></li>
+                                        <li><img src="assets/images/icons/router 2.svg"> Free <label> Wi-Fi Router </label> </li>
+                                        <li><img src="assets/images/icons/installation 2.svg"> Free <label> Installation </label></li>
+                                        <li><img src="assets/images/icons/device 1.svg"> Ideal for <label> 5 - 7 Device </label></li>
+                                        <li><img src="assets/images/icons/streaming-wifi.svg"> Ideal for individual and couple with standard Usage </li>
+                                    </ul>
+                                  </div>
+                              </div>
+
+                              <div class="ftth-benefits hifi02 selectpack">
+                                <div class="ftth_h6">Benefits2</div>
+                                <div class="ftth-f-list">
+                                    <ul>
+                                        <li><img src="assets/images/icons/speed-icon.svg"> Unlimited Internet <label> 50 Mbps </label></li>
+                                        <li><img src="assets/images/icons/router 2.svg"> Free <label> Wi-Fi Router </label> </li>
+                                        <li><img src="assets/images/icons/installation 2.svg"> Free <label> Installation </label></li>
+                                        <li><img src="assets/images/icons/device 1.svg"> Ideal for <label> 8 - 12 Device </label></li>
+                                        <li><img src="assets/images/icons/streaming-wifi.svg"> Ideal for family with standard usage </li>
+                                      </ul>
+                                  </div>
+                            </div>
+
+                            <div class="ftth-benefits hifi03 selectpack">
+                                <div class="ftth_h6">Benefits3</div>
+                                <div class="ftth-f-list">
+                                    <ul>
+                                        <li><img src="assets/images/icons/speed-icon.svg"> Unlimited Internet <label> 100 Mbps </label></li>
+                                        <li><img src="assets/images/icons/router 2.svg"> Free <label> Wi-Fi Router </label> </li>
+                                        <li><img src="assets/images/icons/installation 2.svg"> Free <label> Installation </label></li>
+                                        <li><img src="assets/images/icons/device 1.svg"> Ideal for <label> 16 - 20 Device </label></li>
+                                        <li><img src="assets/images/icons/streaming-wifi.svg"> Ideal for family with streaming and downloading. </li>
+                                      </ul>
+                                  </div>
+                            </div>
+
+                            <div class="ftth-benefits hifi04 selectpack">
+                                <div class="ftth_h6">Benefits4</div>
+                                <div class="ftth-f-list">
+                                    <ul>
+                                        <li><img src="assets/images/icons/speed-icon.svg"> Unlimited Internet <label> 30 Mbps </label></li>
+                                        <li><img src="assets/images/icons/router 2.svg"> Free <label> Wi-Fi Router </label> </li>
+                                        <li><img src="assets/images/icons/installation 2.svg"> Free <label> Installation </label></li>
+                                        <li><img src="assets/images/icons/device 1.svg"> Ideal for <label> 5 - 7 Device </label></li>
+                                        <li><img src="assets/images/icons/streaming-wifi.svg"> Ideal for individual and couple with standard Usage </li>
+                                    </ul>
+                                  </div>
+                            </div>
+
+                            <div class="ftth-benefits hifi05 selectpack">
+                                <div class="ftth_h6">Benefits4</div>
+                                <div class="ftth-f-list">
+                                    <ul>
+                                        <li><img src="assets/images/icons/speed-icon.svg"> Unlimited Internet <label> 30 Mbps </label></li>
+                                        <li><img src="assets/images/icons/router 2.svg"> Free <label> Wi-Fi Router </label> </li>
+                                        <li><img src="assets/images/icons/installation 2.svg"> Free <label> Installation </label></li>
+                                        <li><img src="assets/images/icons/device 1.svg"> Ideal for <label> 5 - 7 Device </label></li>
+                                        <li><img src="assets/images/icons/streaming-wifi.svg"> Ideal for individual and couple with standard Usage </li>
+                                    </ul>
+                                  </div>
+                            </div>
+                        </div>
+
+                              <!--Total Amount-->
+                              <div class="mt-22">
+                                  <div class="total-amount-comp">
+                                      <div class="cont">Total Amount</div>
+                                      <div class="total-amount">Rp. 350.000</div>
+                                  </div>
+                                </div>
+ 
+                                <div class="mt-30 mb-5">
+                                    <a href="javascript:void(0);" class="btn ioh_btn_primary ioh_btn disabled">Next</a>
+                                </div>
+
+                        </div>
+                    </div>
+
+                    <!--Installation Details-tab2-->
+                    <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
+                        
+                        <form class="needs-validation" novalidate>
+
+                        <div class="ftth-tab-cont">
+                        <di class="ftth-hedsec mb-3">
+                            <div class="ioh_h1 mb-2">Installation Details</div>
+                            <p class="support_text">Thank you for your interest in subscribing to ultra fast internet. Please fill in your data in the column below:</p>
+                        </di>
+
+                        <div class="mt-20 ftth-img-upload-comp">
+                            <div class="row ftth-cont-comp g-2">
+
+                                <div class="col flex-grow-1 mt-3">
+                                    <div class="mb-2">KPI Upload</div>
+                                    <div class="upload-pic-comp01">
+                                    <div class="ftth-image-upload-comp">
+
+                                        <!-- Upload Area -->
+                            <div id="uploadArea" class="upload-area">
+                                <!-- Header -->
+                                <div class="upload-area__header" style="display:none;">
+                                      <span class="upload-area__tooltip-data"></span>
+                                </div>
+                                <!-- Drop Zoon -->
+                                <div id="dropZoon" class="upload-area__drop-zoon drop-zoon">
+                                  <span class="drop-zoon__icon mb-2">
+                                    <img src="assets/images/icons/upload 1.svg" alt="" title=""  class='bx bxs-file-image'/>
+                                  </span>
+                                  
+                                  <p class="drop-zoon__paragraph">Drag and drop your <br> selfi photo,or <span class="browselink"> Browse </span></p>
+                                  <span id="loadingText" class="drop-zoon__loading-text">Please Wait</span>
+                                  <img src="" alt="Preview Image" id="previewImage" class="drop-zoon__preview-image" draggable="false">
+                                  <input type="file" id="fileInput" class="drop-zoon__file-input" accept="image/*">
+                                </div>
+                                <!-- End Drop Zoon -->
+                              
+                                <!-- File Details -->
+                                <div id="fileDetails" class="upload-area__file-details file-details" style="display:none;">
+                                  <h3 class="file-details__title">Uploaded File</h3>
+                              
+                                  <div id="uploadedFile" class="uploaded-file">
+                                    <div class="uploaded-file__icon-container">
+                                      <i class='bx bxs-file-blank uploaded-file__icon'></i>
+                                      <span class="uploaded-file__icon-text"></span> 
+                                    </div>
+                              
+                                    <div id="uploadedFileInfo" class="uploaded-file__info">
+                                      <span class="uploaded-file__name">Proejct 1</span>
+                                      <span class="uploaded-file__counter">0%</span>
+                                    </div>
+                                  </div>
+                                </div>
+                            
+                                <!-- End File Details -->
+                              </div>
+                              <!-- End Upload Area -->
+                            
+                            </div>
+                            </div>
+                                </div>
+                                
+                                <div class="col flex-grow-0 mt-3">
+                                    <div class="mb-2">Selfie Photo</div>
+                                    <div class="upload-pic-comp02">
+                                         <!-- Upload Area -->
+                            <div id="uploadArea1" class="upload-area">
+                                <!-- Header -->
+                                <div class="upload-area__header" style="display:none;">
+                                      <span class="upload-area__tooltip-data"></span>
+                                </div>
+                                <!-- Drop Zoon -->
+                                <div id="dropZoon" class="upload-area__drop-zoon drop-zoon">
+                                  <span class="drop-zoon__icon mb-3">
+                                    <img src="assets/images/icons/camera-icon.svg" alt="" title="" class='bx bxs-file-image'/>
+                                  </span>
+                                  <p class="drop-zoon__paragraph">Drag and drop your <br> selfi photo,or <span class="browselink"> Browse </span></p>
+                                  <span id="loadingText" class="drop-zoon__loading-text">Please Wait</span>
+                                  <img src="" alt="Preview Image" id="previewImage" class="drop-zoon__preview-image" draggable="false">
+                                  <input type="file" id="fileInput" class="drop-zoon__file-input" accept="image/*">
+                                </div>
+                                <!-- End Drop Zoon -->
+                              
+                                <!-- File Details -->
+                                <div id="fileDetails" class="upload-area__file-details file-details">
+                                  <h3 class="file-details__title">Uploaded File</h3>
+                              
+                                  <div id="uploadedFile" class="uploaded-file">
+                                    <div class="uploaded-file__icon-container">
+                                      <i class='bx bxs-file-blank uploaded-file__icon'></i>
+                                      <span class="uploaded-file__icon-text"></span> 
+                                    </div>
+                              
+                                    <div id="uploadedFileInfo" class="uploaded-file__info">
+                                      <span class="uploaded-file__name">Proejct 1</span>
+                                      <span class="uploaded-file__counter">0%</span>
+                                    </div>
+                                  </div>
+                                </div>
+                            
+                                <!-- End File Details -->
+                              </div>
+                              <!-- End Upload Area -->
+
+                                    </div>
+                                </div>
+
+                              </div>
+                        </div>
+
+                        <div class="ftth-list-comp">
+                            <ul>
+                                <li>Please use valid KTP</li>
+                                <li>Make sure image/photo you've uploaded is clear & not blurry.</li>
+                                <li>Maximum file size is XX MB </li>
+                                <li>Upload in XXX, XXX, XXX format </li>
+                            </ul>
+                        </div>
+
+                        <div class="personal-det-comp ftth-cont-twocolm-comp mt-30">
+                            <div class="d-flex justify-content-between">
+                            <h5 class="ioh_h5">Personal Details</h5> 
+                            <div class="">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    <label class="form-check-label ms-2" for="flexCheckDefault">
+                                        Auto fill from uploaded KTP
+                                    </label>
+                                  </div>
+                            </div>
+                           </div>
+
+                           <div class="mt-20">
+                            <div class="row g-2 ftth-formgroup">
+
+                                <div class="col-lg-6 col-md-12 mb-16 mt-0 fcloum">
+                                    <label for="validationName" class="form-label">Full Name</label>
+                                    <input type="text" class="iohform_control" id="validationName" placeholder="Enter Full Name" required>
+                                    <div class="invalid-feedback"> Please provide a valid Name. </div>
+                                  </div>
+
+                                  <!--div class="col-lg-6 col-md-12 mb-16 fcloum">
+                                    <label for="validationNIK" class="form-label">NIK</label>
+                                    <input type="text" class="iohform_control" id="validationNIK" placeholder="your company name" required>
+                                    <div class="invalid-feedback"> Please provide a valid NIK.
+                                    </div>
+                                  </div-->
+
+                                  <div class="col-lg-6 col-md-12 mb-16 mt-0 fcloum">
+                                    <label for="validationDateofbirth" class="form-label"> Date of Birth </label>
+                                      <div class="input-group ftth-password">
+                                        <input id="startDate" name="startDate" type="text" class="iohform_control" />
+                                        <span class="input-group-text border-l">
+                                            <img src="assets/images/icons/date-icon.svg" alt="search-icon" title="search-icon"/>
+                                        </span>
+                                        <div class="invalid-feedback"> Date of Birh </div>
+                                    </div>
+                                  </div>
+
+                                  <div class="col-md-6 col-sm-12 mb-16 mt-0 fcloum">
+                                    <label for="validationMothersMaiden" class="form-label"> Mother’s Maiden </label>
+                                    <input type="text" class="iohform_control" id="validationMothersMaiden" placeholder="Enter Mother’s Maiden" required>
+                                    <div class="invalid-feedback"> Enter Mother’s Maiden </div>
+                                  </div>
+
+                                  <div class="col-md-6 col-sm-12 mb-16 mt-0 fcloum">
+                                    <label for="validationAddress" class="form-label"> Address </label>
+                                    <input type="text" class="iohform_control" id="validationAddress" placeholder="Enter your Address" required>
+                                    <div class="invalid-feedback"> Enter your Address </div>
+                                  </div>
+
+                                  <div class="col-lg-6 col-md-12 mb-16 mt-0 fcloum">
+                                    <label for="validationProvince/Provinci" class="form-label"> Province/Provinci </label>
+                                    <input type="text" class="iohform_control" id="validationProvince/Provinci" placeholder="Jawa Barat" required readonly>
+                                    <div class="invalid-feedback"> Enter your Province/Provinci </div>
+                                  </div>
+
+                                  <div class="col-lg-6 col-md-12 mb-16 mt-0 fcloum">
+                                    <label for="validationCityKabupaten" class="form-label"> City/Kabupaten </label>
+                                    <input type="text" class="iohform_control" id="validationCityKabupaten" placeholder="Enter Kabupaten" required readonly>
+                                    <div class="invalid-feedback"> Enter your City/Kabupaten </div>
+                                  </div>
+
+                                  <div class="col-lg-6 col-md-12 mb-16 mt-0 fcloum">
+                                    <div>
+                                        <label class="mb-2 form-label">District/Kecamatan</label>
+                                        <select class="form-select" aria-label="Default select example">
+                                            <option selected>Select Province</option>
+                                            <option value="1">Bangka Belitung</option>
+                                            <option value="2">Banten</option>
+                                            <option value="3">Bengkulu</option>
+                                            <option value="4">DI Yogyakarta</option>
+                                            <option value="5">DKI Jakarta</option>
+                                          </select>
+                                        </div>
+                                  </div>
+
+                                  <div class="col-lg-6 col-md-12 mb-16 mt-0 fcloum">
+                                    <div>
+                                        <label class="mb-2 form-label">Ward/Kelurahan</label>
+                                        <select class="form-select" aria-label="Default select example">
+                                            <option selected>Select City</option>
+                                            <option value="1">Kab. Lebak</option>
+                                            <option value="2">Kab. Pandeglang</option>
+                                            <option value="3">Kab. Serang</option>
+                                            <option value="4">Kab. Tangerang</option>
+                                          </select>
+                                        </div>
+                                  </div>
+
+                                  <div class="col-lg-6 col-md-12 mb-16 mt-0 fcloum">
+                                    <label for="validationPostalcode" class="form-label"> Postalcode </label>
+                                    <input type="text" class="iohform_control" id="validationPostalcode" placeholder="Enter your Postalcode" required>
+                                    <div class="invalid-feedback"> Enter your Postalcode </div>
+                                  </div>
+
+                                  <div class="col-lg-6 col-md-12 mb-16 mt-0 fcloum">
+                                    <label for="validationRT/RW (address 1)" class="form-label"> RT/RW (address 1) </label>
+                                    <input type="text" class="iohform_control" id="validationRT/RW (address 1)" placeholder="Enter your RT/RW (address 1)" required>
+                                    <div class="invalid-feedback"> Enter your RT/RW (address 1) </div>
+                                  </div>
+
+                                  <div class="col-md-12 col-sm-12 mt-0 fcloum">
+                                    <label for="validationOthersaddr" class="form-label">Others (Address 2)</label>
+                                    <input type="text" class="iohform_control" id="validationOthersaddr" placeholder="Enter Others (Address 2)" required>
+                                    <div class="invalid-feedback"> Please provide Others (Address 2).
+                                    </div>
+                                  </div>
+                                  
+                            </div>
+                               
+                           </div>
+
+                        </div>
+
+                        <div class="personal-det-comp ftth-cont-twocolm-comp mt-30">
+                            <div class="d-flex justify-content-between">
+                                <h5 class="ioh_h5">Installation Address</h5>
+                           </div>
+
+                           <!--alert message div-->
+                    <div class="alert alert_danger mb-20 mt-3">
+                        <div class="alert_img">
+                            <img src="assets/images/icons/danger.svg" alt="">
+                        </div>
+                        <p>Selected location should be same as Province and City displayed.</p>
+                    </div>
+
+                           <div class="mt-20">
+                            
+                            <div class="row g-2 ftth-formgroup">
+
+                                <div class="col-lg-6 col-md-12 mb-16 mt-0 fcloum">
+                                    <label for="validationProvince" class="form-label">Province/Provinci</label>
+                                    <input type="text" class="iohform_control" id="validationProvince" placeholder=" Jawa Barat" required disabled>
+                                    <div class="invalid-feedback"> Enter your Province/Provinci </div>
+                                </div>
+
+                                <div class="col-lg-6 col-md-12 mb-16 mt-0 fcloum">
+                                    <label for="validationCity-Kabupaten" class="form-label">City/Kabupaten</label>
+                                    <input type="text" class="iohform_control" id="validationCity-Kabupaten" placeholder="Kabupaten" required disabled>
+                                    <div class="invalid-feedback"> Enter your City/Kabupaten </div>
+                                </div>
+                                
+                                <div class="col-lg-6 col-md-12 mb-16 mt-0 fcloum">
+                                    <div>
+                                        <label class="mb-2 form-label">District/Kecamatan</label>
+                                        <select class="form-select" aria-label="Default select example">
+                                            <option selected>Select Province</option>
+                                            <option value="1">Bangka Belitung</option>
+                                            <option value="2">Banten</option>
+                                            <option value="3">Bengkulu</option>
+                                            <option value="4">DI Yogyakarta</option>
+                                            <option value="5">DKI Jakarta</option>
+                                          </select>
+                                        </div>
+                                  </div>
+
+                                  <div class="col-lg-6 col-md-12 mb-16 mt-0 fcloum">
+                                    <div>
+                                        <label class="mb-2 form-label">Ward/Kelurahan</label>
+                                        <select class="form-select" aria-label="Default select example">
+                                            <option selected>Select City</option>
+                                            <option value="1">Kab. Lebak</option>
+                                            <option value="2">Kab. Pandeglang</option>
+                                            <option value="3">Kab. Serang</option>
+                                            <option value="4">Kab. Tangerang</option>
+                                          </select>
+                                        </div>
+                                  </div>
+
+                                  <div class="col-lg-6 col-md-12 mb-16 mt-0 fcloum">
+                                    <label for="validationPostalcode" class="form-label">Postalcode</label>
+                                    <input type="text" class="iohform_control" id="validationPostalcode" placeholder="Enter your Postalcode" required>
+                                    <div class="invalid-feedback"> Enter your Postalcode </div>
+                                  </div>
+
+                                  <div class="col-lg-6 col-md-12 mb-16 mt-0 fcloum">
+                                    <label for="validationRTRW" class="form-label">RT/RW</label>
+                                    <input type="text" class="iohform_control" id="validationRTRW" placeholder="Enter your RT/RW" required>
+                                    <div class="invalid-feedback"> Enter RT/RWN </div>
+                                  </div>
+
+                                  <div class="col-lg-12 col-md-12 mb-16 mt-0 fcloum">
+                                    <label for="validationOthers-Address2" class="form-label">Others (Address 2)</label>
+                                    <input type="text" class="iohform_control" id="validationOthers-Address2" placeholder="Enter your Others (Address 2)" required>
+                                    <div class="invalid-feedback"> Enter your Others (Address 2) </div>
+                                  </div>
+                            </div>
+                               
+                           </div>
+
+                        </div>
+
+                        <hr>
+
+                            <div class="mt-4 ver-line-comp">
+                                <label class="form-label">Estimated Installation Time</label>
+                                <h5 class="ioh_h5">06 June 2022 - 18 June 2022  <span> | </span> 09.00 - 15.00 WIB</h5>
+                            </div>
+
+                            <!--alert message div-->
+                    <div class="alert alert_danger mb-20 mt-3">
+                        <div class="alert_img">
+                            <img src="assets/images/icons/danger.svg" alt="">
+                        </div>
+                        <p>
+                            Our field officer will contact you at these period of time to confirm the actual installation schedule.
+                        </p>
+                    </div>
+
+                        <div class="personal-det-comp ftth-cont-twocolm-comp mt-30">
+                            <div class="d-flex justify-content-between">
+                                <h5 class="ioh_h5"> Other Details </h5>
+                           </div>
+
+                           <div class="mt-20">
+                            <div class="row g-2 ftth-formgroup">
+
+                                <div class="col-lg-6 col-md-12 mb-16 mt-0 fcloum">
+                                    <label for="validationEmailID" class="form-label">Email Address/Socmed Account</label>
+                                    <input type="email" class="iohform_control" id="validationEmailID" placeholder="Enter your Email Address" required>
+                                    <div class="invalid-feedback"> Email Address/Socmed Account </div>
+                                    <div class="ftth-toast-message">
+                                        <div role="alert" aria-live="assertive" aria-atomic="true" class="toast" data-bs-autohide="false">
+                                            <div class="container__arrow container__arrow--tl"></div>
+                                            <div class="toast-body"><img src="assets/images/icons/info-icon.svg" alt="" title="" /> Email id is already registered </div>
+                                        </div>
+                                    </div>
+                                  </div>
+
+                                  <div class="col-lg-6 col-md-12 mb-16 mt-0 fcloum">
+                                    <label for="validationPhoneno" class="form-label">Phone Number/Whatsapp</label>
+                                    <input type="number" class="iohform_control" id="validationPhoneno" placeholder="Enter your Phone Number" required>
+                                    <div class="invalid-feedback"> Phone Number/Whatsapp </div>
+                                  </div>
+
+                                  <div class="col-lg-6 col-md-12 mb-16 mt-0 fcloum">
+                                    <label for="validationReferral" class="form-label">Referral (optional)</label>
+                                    <input type="text" class="iohform_control" id="validationReferral" placeholder="Enter Referral (optional)" required>
+                                    <div class="invalid-feedback"> Referral (optional) </div>
+                                  </div>
+                            </div>
+                               
+                           </div>
+
+                        </div>
+
+                        <div class="mt-20 mb-5">
+                            <button type="submit" class="ioh_btn ioh_btn_primary"> Submit </button>
+                        </div>
+
+                    </div>
+
+                    </form>
+
+                    </div>
+
+
+                    <!--Subscription Summary-tab3-->
+                    <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab" tabindex="0">
+                        <div class="ftth-tab-cont">
+                        <div class="ftth-hedsec mb-3">
+                            <div class="ioh_h1 mb-2">Subscription Summary</div>
+                            <p class="support_text">All about your plan and allow you to manage your account on your own</p>
+                        </div>
+
+                        <!--ftth-cont-twocolm-comp-->
+                    <div class="ftth-cont-twocolm-comp mt-20 ftth-box-shadow">
+                        <div class="d-flex justify-content-between">
+                            <h5 class="ioh_h5">Scheduled Installation</h5>
+                            <div>
+                                <a href="#" id="editbtnig" ><img src="assets/images/icons/edit-icon.svg" alt="" title=""/></a>
+                            </div>
+                        </div>
+
+                        <div class="mt-15">
+
+                        <div class="cont-row">
+                            <div class="ftth-colums">Name</div>
+                            <div class="ftth-colums"> : <h5 class="ioh_h5"> Abdul Shah</h5> </div>
+                        </div>
+
+                        <div class="cont-row">
+                            <div class="ftth-colums">Date of birth</div>
+                            <div class="ftth-colums"> : <h5 class="ioh_h5"> 18/06/1995 </h5> </div>
+                        </div>
+
+                        <div class="cont-row">
+                            <div class="ftth-colums">Mother’s Maiden</div>
+                            <div class="ftth-colums"> : <h5 class="ioh_h5">Abdul</h5> </div>
+                        </div>
+                        
+                        <div class="cont-row">
+                            <div class="ftth-colums">Email</div>
+                            <div class="ftth-colums"> : <h5 class="ioh_h5">Abdulshah@ioh.co.id</h5> </div>
+                        </div>
+
+                        <div class="cont-row">
+                            <div class="ftth-colums">Phone Number</div>
+                            <div class="ftth-colums"> : <h5 class="ioh_h5">6281512345678</h5></div>
+                        </div>
+
+                        <div class="cont-row">
+                            <div class="ftth-colums">Address</div>
+                            <div class="ftth-colums"> : <h5 class="ioh_h5">Jalan Terusan Jakarta Babakan
+                                Surabay</h5></div>
+                        </div>
+
+                        <div class="cont-row">
+                            <div class="ftth-colums">Village</div>
+                            <div class="ftth-colums"> : <h5 class="ioh_h5">Kelurahan</h5></div>
+                        </div>
+
+                        <div class="cont-row">
+                            <div class="ftth-colums">Province/Provinci</div>
+                            <div class="ftth-colums"> : <h5 class="ioh_h5">Jawa Barat</h5> </div>
+                        </div>
+
+                        <div class="cont-row">
+                            <div class="ftth-colums">City/Kabupaten</div>
+                            <div class="ftth-colums"> : <h5 class="ioh_h5">Kab. Sleman</h5> </div>
+                        </div>
+
+                        <div class="cont-row">
+                            <div class="ftth-colums">District/Kecamatan</div>
+                            <div class="ftth-colums"> : <h5 class="ioh_h5"> Kecamatan</h5> </div>
+                        </div>
+
+                        <div class="cont-row">
+                            <div class="ftth-colums">Postal Code</div>
+                            <div class="ftth-colums"> : <h5 class="ioh_h5">123456</h5> </div>
+                        </div>
+
+                        <div class="cont-row">
+                            <div class="ftth-colums">RT/RW</div>
+                            <div class="ftth-colums"> : <h5 class="ioh_h5">Xxxxxxxxxx</h5></div>
+                        </div>
+
+                    </div>
+
+                    </div>
+                    
+                    <div class="ftth-cont-twocolm-comp mt-30 ftth-box-shadow">
+
+                        <div class="d-flex justify-content-between">
+                            <h5 class="ioh_h5">Installation Address</h5>
+                            <div><a href="javascript:void(0);"><img src="assets/images/icons/edit-icon.svg" alt="" title=""/></a></div>
+                        </div>
+
+                        <div class="mt-15">
+
+                            <div class="cont-row">
+                                <div class="ftth-colums">Province/Provinci</div>
+                                <div class="ftth-colums"> : <h5 class="ioh_h5">Jawa Barat</h5></div>
+                            </div>
+
+                        <div class="cont-row">
+                            <div class="ftth-colums">City/Kabupaten</div>
+                            <div class="ftth-colums"> : <h5 class="ioh_h5">Kab. Sleman</h5></div>
+                        </div>
+
+                        <div class="cont-row">
+                            <div class="ftth-colums">District/Kecamatan</div>
+                            <div class="ftth-colums"> : <h5 class="ioh_h5">Kecamatan</h5></div>
+                        </div>
+
+                        <div class="cont-row">
+                            <div class="ftth-colums">Ward/Kelurahan</div>
+                            <div class="ftth-colums"> : <h5 class="ioh_h5">Kecamatan</h5></div>
+                        </div>
+
+                        <div class="cont-row">
+                            <div class="ftth-colums">Postal Code</div>
+                            <div class="ftth-colums"> : <h5 class="ioh_h5">123456</h5></div>
+                        </div>
+
+                        <div class="cont-row">
+                            <div class="ftth-colums">RT/RW (address 1)</div>
+                            <div class="ftth-colums"> : <h5 class="ioh_h5">Xxxxxxxxxx</h5></div>
+                        </div>
+
+                        <div class="cont-row">
+                            <div class="ftth-colums">Other (address 2)</div>
+                            <div class="ftth-colums"> : <h5 class="ioh_h5">Xxxxxxxxxx</h5></div>
+                        </div>
+
+                        <div class="cont-row">
+                            <div class="ftth-colums">Estimated Installation Time</div>
+                            <div class="ftth-colums"> : <h5 class="ioh_h5">06 June 2022 - 18 June 2022 | 09.00 - 15.00 WIB</h5> </div>
+                        </div>
+
+                    </div>
+
+                    <!--message div-->
+                    <div class="alert alert_danger mb-20 mt-3">
+                        <div class="alert_img">
+                            <img src="assets/images/icons/danger.svg" alt="">
+                        </div>
+                        <p>
+                            Our field officer will contact you at these period of time to confirm the actual installation schedule.
+                        </p>
+                    </div>
+
+                    </div>
+
+                    <div class="ftth-cont-twocolm-comp mt-30 ftth-box-shadow">
+                        
+                        <div class="d-flex justify-content-between">
+                            <h5 class="ioh_h5">Subscriptions</h5>
+                            <div><a href="javascript:void(0);"><img src="assets/images/icons/edit-icon.svg" alt="" title=""/></a></div>
+                        </div>
+
+                        <div class="mt-15">
+
+                        <div class="cont-row">
+                            <div class="ftth-colums">Subscription Type</div>
+                            <div class="ftth-colums"> : <h5 class="ioh_h5">Internet for Home</h5></div>
+                        </div>
+
+                        <div class="cont-row">
+                            <div class="ftth-colums">Subscription Plan</div>
+                            <div class="ftth-colums"> : <h5 class="ioh_h5"> Hifi 30Mbps - Rp 245.000/month</h5> </div>
+                        </div>
+
+                        <div class="cont-row">
+                            <div class="ftth-colums">Service Type</div>
+                            <div class="ftth-colums"> : <h5 class="ioh_h5">Internet</h5></div>
+                        </div>
+
+                    </div>
+                        
+                    </div>
+
+                    <!--info comp-->
+                    <div class="ftth-info-comp mt-20 mb-2">
+                        <div class="contsec">
+                            <img src="assets/images/icons/Info-filled-icon.svg" alt="" title="" />
+                            <div class="ms-3">
+                                This above package does not include installation costs or any other additional costs that may be incurred. Customers must pay a deposit fee Rp. 245.000 before the installation can starts.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="ftth-parag mt-20 res-mt-16">
+                        <p> Are you sure about the input data? If Yes, please proceed to the next Step </p>
+                    </div>
+
+                    <div class="mt-15">
+                        <div class="form-check" data-bs-toggle="modal" data-bs-target=".terms-conditions">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                            <label class="form-check-label ms-2" for="flexCheckDefault">
+                                I agree to the <b> Terms & Conditions </b>
+                            </label>
+                          </div>
+                    </div>
+
+                    <div class="mt-30 mb-5">
+                        <button href="javascript:void(0);" class="btn ioh_btn_primary ioh_btn disabled" id="disabled-btn"> Subscribe </button>
+                        <button type="button" class="btn ioh_btn_primary ioh_btn" id="active-btn" data-bs-toggle="modal" data-bs-target=".success-popup"> Subscribe </button>
+                    </div>
+
+                </div>
+            </div>
+
+
+                  </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer class="main_footer">
+        <div class="footer_top py_75">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5">
+                        <div class="footer_desc">
+                            <div class="mb-3 footer_logo">
+                                <a href="index.html">
+                                    <img src="assets/images/icons/logo.svg" loading="lazy" title="IOH Logo" alt="IOH Logo">
+                                </a>
+                            </div>
+                            <h3 class="ioh_h1 mb-4">Indosat HiFi</h3>
+                            <h5 class="ioh_h5 mb-3">Follow Us</h5>
+                            <ul class="social_list">
+                                <li>
+                                    <a href="https://www.facebook.com/indosat/">
+                                        <img src="assets/images/icons/facebook.svg" loading="lazy" title="" alt="Facebook">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.instagram.com/indosat/">
+                                        <img src="assets/images/icons/instagram.svg" loading="lazy" title="" alt="Instagram">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://twitter.com/indosat">
+                                        <img src="assets/images/icons/twitter.svg" loading="lazy" title="" alt="Twitter">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.youtube.com/c/indosatooredoohutchison">
+                                        <img src="assets/images/icons/youtube.svg" loading="lazy" title="" alt="Youtube">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.linkedin.com/company/indosatooredoo">
+                                        <img src="assets/images/icons/linkedin.svg" loading="lazy" title="" alt="Linkdin">
+                                    </a>
+                                </li>
+                                <!-- <li>
+                                    <a href="https://www.tiktok.com/@indosat.ioh">
+                                        <img src="assets/images/icons/tiktok.svg" loading="lazy" title="" alt="Tiktok">
+                                    </a>
+                                </li> -->
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <h4 class="footer_menu_head">
+                            Main Menu
+                            <img src="assets/images/icons/caret_down_black.svg" loading="lazy" alt="">
+                        </h4>
+                        <ul class="footer_menus">
+                            <li>
+                                <a href="javascript:void(0);">Product</a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0);">Promo</a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0);">News</a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0);">About Us</a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0);">Help</a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0);">Privacy Policy</a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0);">Terms & Conditions</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="footer_desc">
+                            <h5 class="ioh_h5 mb-3">Contact Us</h5>
+                            <p class="description">Do you have any questions related to our company? Send an email to us.</p>
+                            <a href="mailto:contact@hifi.ioh.co.id" class="flex_grp_align_center mb-3 contact_info_grp">
+                                <div class="contact_info_icon">
+                                    <img src="assets/images/icons/dark_mail.svg" alt="Mail">
+                                </div>
+                                <div class="contact_info_desc">
+                                    <h5 class="mb-0">contact@hifi.ioh.co.id</h5>
+                                </div>
+                            </a>
+                            <a href="tel:+021-30003000" class="flex_grp_align_center mb-3 contact_info_grp">
+                                <div class="contact_info_icon">
+                                    <img src="assets/images/icons/callicon-n1.svg" alt="Call">
+                                </div>
+                                <div class="contact_info_desc">
+                                    <h5 class="mb-0">021-30003000</h5>
+                                    <p class="mb-0 mt-1">press 3 for Indosat HiFi</p>
+                                </div>
+                            </a>
+                            <a href="javascript:void(0);" class="flex_grp_align_center mb-3 contact_info_grp">
+                                <div class="contact_info_icon">
+                                    <img src="assets/images/icons/dark_twitter.svg" alt="Twitter">
+                                </div>
+                                <div class="contact_info_desc">
+                                    <h5 class="mb-0">@ftthindosatcare</h5>
+                                </div>
+                            </a>
+                            <a href="javascript:void(0);" class="flex_grp_align_center mb-3 contact_info_grp">
+                                <div class="contact_info_icon">
+                                    <img src="assets/images/icons/dark_whatsapp.svg" alt="Whatsapp">
+                                </div>
+                                <div class="contact_info_desc">
+                                    <h5 class="mb-0">+628551000185</h5>
+                                    <p class="mb-0 mt-1">Official Whatsapp IM3 Ooredoo</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--ioh_footer_top-->
+        <div class="footer_bottom">
+            <div class="footer_all_rights">
+                <div class="container">
+                    <p class="reserved_txt">Indosat Ooredoo Hutchison and HiFi as a product from IOH © 2022</p>
+                </div>
+            </div>
+            <!--ioh_footer_all_rights-->
+        </div>
+        <!--ioh_footer_bottom-->
+    </footer>
+
+    <!--Success Popup-->
+    <div class="modal fade custom_modal animated slideInUp faster success-popup" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel1" aria-hidden="true" data-bs-keyboard="false" data-bs-backdrop="static">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-body text-center">
+                    <div class="modal_img mb-20">
+                        <img src="assets/images/icons/success_green.svg" alt="">
+                    </div>
+                    <h4 class="modal_h4 mb-20">Thank you for choosing the Indosat Ooredoo Hutchison indosat hifi service.</h4>
+                    <p class="modal_p mb-0">A detailed login account to the website https://www.hifi.ioh.co.id has been sent to your email address. </p>
+                    <p class="modal_p mb-0">If you have any questions, please visit our FAQ page or contact us at cshifi@ioh.co.id. </p>
+                </div>
+                <div class="modal-footer">
+                    <a href="login.html" class="ioh_btn ioh_btn_primary">Login</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--T&C-->
+    <div class="modal fade custom_modal animated slideInUp faster terms-conditions" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel1" aria-hidden="true" data-bs-keyboard="false" data-bs-backdrop="static">
+        <div class="modal-dialog" role="document">
+            <!--div class="popup-close">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button class="modal_close" data-bs-dismiss="modal" onclick="switchVisible();" onclick="document.getElementById('demo').innerHTML = Date()">
+                        <img src="assets/images/icons/cross_pop.svg" alt="">
+                    </button>
+                </div>
+                <div class="modal-body text-center">
+                    <h4 class="modal_h4 mb-20">Terms & Conditions</h4>
+                    <div class="v-height text-left">
+                    <p class="modal_p mb-0">
+                        A. Buyer is obligated to finish the Card’s purchase and payment by following the procedure that is defined by Indosat Ooredoo Hutchison.
+                    </p>
+                    <p class="modal_p mb-0">
+                        Buyer agree that:
+                    </p>
+                    <p>
+                        B. Buyer is responsible to read, understand, and agree to the whole information/description of the Card (including but not limited to the coverage of delivery service, delivery address, number selection, data package) before making a purchase.
+                    </p>
+                    <p>
+                        Buyer is subject to any conditions regarding purchase, payment, and the Card delivery.
+                    </p>
+                    <p>
+                        Buyer is responsible for any late payment for the Card which causes the automatic cancellation for delivering the Card.
+                    </p>
+                    <p>
+                        D. Any charges due to the purchase of the Card including but not limited to Bank administration fee and other additional charges are the Buyer’s responsibility.
+                    </p>
+                </div>
+                </div>
+                <div class="modal-footer">
+                    <!-- <a onclick="switchVisible();" class="arrow_link me-4" data-bs-dismiss="modal" onclick="document.getElementById('demo').innerHTML = Date()">
+                        <img src="assets/images/icons/arrow_left_red.svg" class="me-2" alt="">
+                        Back
+                    </a> -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--e-KYC Process Failed-->
+    <div class="modal fade custom_modal animated slideInUp faster terms-conditions" data-bs-keyboard="false" data-bs-backdrop="static">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button class="modal_close" data-bs-dismiss="modal">
+                        <img src="assets/images/icons/cross_pop.svg" alt="">
+                    </button>
+                </div>
+                <div class="modal-body text-center">
+                    <div class="modal_img mb-20">
+                        <img src="assets/images/icons/location_fail_pop.svg" alt="">
+                    </div>
+                    <h4 class="modal_h4 mb-20">Your e-KYC Process Failed</h4>
+                    <p class="modal_p mb-0">
+                        Ensure that the recorded face matches the one in our system.    
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <a onclick="switchVisible();" class="arrow_link me-4" data-bs-dismiss="modal" onclick="document.getElementById('demo').innerHTML = Date()">
+                        <img src="assets/images/icons/arrow_left_red.svg" class="me-2" alt="">
+                        Back
+                    </a>
+                    <button class="ioh_btn ioh_btn_primary">Retry</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--/* -- jQuery JS V 3.6.0 -- */-->
+    <script type="text/javascript" src="assets/js/jquery.min.js"></script>
+    <!--/* -- bootstrap JS Bundle V 5.1.3 -- */-->
+    <script type="text/javascript" src="assets/js/bootstrap.bundle.min.js"></script>
+    <!--/* -- Swiper JS V 8.1.4 -- */-->
+    <script type="text/javascript" src="assets/js/swiper-bundle.min.js"></script>
+    <!--/* -- Custom Js V 1.0 -- */-->
+    <script type="text/javascript" src="assets/js/upload-img.js"></script>
+    <!--/* -- Datepicker Js -- */-->
+    <script type="text/javascript" src="assets/js/date-picker.js"></script>
+    <!--/* -- Custom Js V 1.0 -- */-->
+    <script type="text/javascript" src="assets/js/ftth-custom.js"></script>
+
+    <!--validation JS-->
+    <script>
+        (function () {
+  'use strict'
+  var forms = document.querySelectorAll('.needs-validation')
+  Array.prototype.slice.call(forms)
+    .forEach(function (form) {
+      form.addEventListener('submit', function (event) {
+        if (!form.checkValidity()) {
+          event.preventDefault()
+          event.stopPropagation()
+        }
+
+        form.classList.add('was-validated')
+      }, false)
+    })
+})()
+</script>
+
+<script>
+    //t&c submit button enab & dis
+    function switchVisible() {
+            if (document.getElementById('disabled-btn')) {
+
+                if (document.getElementById('disabled-btn').style.display == 'none') {
+                    document.getElementById('disabled-btn').style.display = 'block';
+                    document.getElementById('active-btn').style.display = 'none';
+                }
+                else {
+                    document.getElementById('disabled-btn').style.display = 'none';
+                    document.getElementById('active-btn').style.display = 'block';
+                }
+            }
+}
+
+    ///Select Pack JS
+    $(document).ready(function(){
+        setTimeout(function(){ $("#hifiselect01").prop("selectedIndex", 1).val();},3000);
+        $("#hifiselect01").change(function(){
+            $(this).find("option:selected").each(function(){
+                var optionValue = $(this).attr("value");
+                if(optionValue){
+                    $(".selectpack").not("." + optionValue).hide();
+                    $("." + optionValue).show();
+                } else{
+                    $(".selectpack").hide();
+                }
+            });
+        }).change();
+
+//Edit option js
+$("#editbtnig").click(function(){
+            $("#pills-profile-tab").addClass("active");
+            $("#pills-profile").addClass("active").addClass("show");
+            $("#pills-contact-tab").removeClass("active");
+            $("#pills-contact").removeClass("active").removeClass("show");
+        });
+});
+</script>
+
+</body>
+</html>

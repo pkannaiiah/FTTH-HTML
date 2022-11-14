@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>IOH FTTH</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="metatitle" content="" />
+    <meta name="metadescription" content="" />
+    <meta name="metakeyword" content="" />
+    <meta name="description" content="" />
+    <meta name="keyword" content="" />
+
+    <!-- image -->
+    <!-- <meta property="og:image" content="assets/images/img/meta_image.jpeg">
+    <meta name="twitter:image" content="assets/images/img/meta_image.jpeg"> -->
+
+    <!-- <link rel="preload" href="assets/images/img/header-hero-banner-en-mobile.webp" as="image" media="(max-width: 575px)">
+    <link rel="preload" href="assets/images/img/header-hero-banner-en.webp" as="image" media="(min-width: 576px)"> -->
+
+    <!--IPhone meta tags-->
+    <!-- <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0'/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1,user-scalable=0"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" /> -->
+
+    <!--/* -- Brand Favicon -- */-->
+    <link rel="shortcut icon" href="assets/images/icons/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="assets/images/icons/favicon.ico" type="image/x-icon">
+
+    <!-- /* -- BOOTSTRAP CSS V 5.1.3 -- */ -->
+    <link rel="stylesheet" href="assets/css/vendors/bootstrap.min.css">
+    <!-- /* -- Swiper CSS V 8.1.4 -- */ -->
+    <link rel="stylesheet" href="assets/css/vendors/swiper-bundle.min.css">
+    <!-- /* -- Animate CSS -- */ -->
+    <link rel="stylesheet" href="assets/css/vendors/animate.css">
+    <!--/* -- Indosat Custom CSS V 1.0 -- */-->
+    <link rel="stylesheet" href="assets/css/ftth-custom.css">
+
+</head>
+
+<body>
+
+    <section class="payment_main">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7">
+                    <div class="payment_left">
+                        <div class="payment_header">
+                            <a href="dashboard.html" class="arrow_link me-4">
+                                <img src="assets/images/icons/arrow_left_red.svg" class="me-2" alt="">
+                                Back
+                            </a>
+                            <img src="assets/images/icons/logo.svg" alt="">
+                            <ul class="language_links">
+                                <li>
+                                    <a href="javascript:void(0);">ID</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0);" class="active">EN</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="payment_options">
+                            <h4>Payment Method</h4>
+                            <ul class="mb-20">
+                                <li>
+                                    <div class="box_radio" data-bs-toggle="modal" data-bs-target=".walletPay">
+                                        <input type="radio" name="payments" id="shopeepay" data-target-id="1">
+                                        <label for="shopeepay">
+                                            <img src="assets/images/icons/shopeepay.svg" alt="">
+                                            Shopeepay
+                                        </label>
+                                    </div>
+                                </li>
+                                <li></li>
+                                <!--li>
+                                    <div class="box_radio" data-bs-toggle="modal" data-bs-target=".walletPay">
+                                        <input type="radio" name="payments" id="gopay" data-target-id="1" checked>
+                                        <label for="gopay">
+                                            <img src="assets/images/icons/gopay.svg" alt="">
+                                            GoPay
+                                        </label>
+                                    </div>
+                                </li-->
+                                <!--li>
+                                    <div class="box_radio" data-bs-toggle="modal" data-bs-target=".walletPay">
+                                        <input type="radio" name="payments" id="ovo" data-target-id="1">
+                                        <label for="ovo">
+                                            <img src="assets/images/icons/ovo.svg" alt="">
+                                            OVO
+                                        </label>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="box_radio" data-bs-toggle="modal" data-bs-target=".cardPay">
+                                        <input type="radio" name="payments" id="card" data-target-id="2">
+                                        <label for="card">
+                                            <img src="assets/images/icons/card.svg" alt="">
+                                            Credit / Debit Card
+                                        </label>
+                                    </div>
+                                </li-->
+                            </ul>
+                            <h4>Virtual Account</h4>
+                            <ul>
+                                <!--li>
+                                    <div class="box_radio" data-bs-toggle="modal" data-bs-target=".virtualPay">
+                                        <input type="radio" name="payments" id="bersama" data-target-id="3">
+                                        <label for="bersama">
+                                            <img src="assets/images/icons/bersama.svg" alt="">
+                                            Bersama
+                                        </label>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="box_radio" data-bs-toggle="modal" data-bs-target=".virtualPay">
+                                        <input type="radio" name="payments" id="bca" data-target-id="3">
+                                        <label for="bca">
+                                            <img src="assets/images/icons/bca.svg" alt="">
+                                            BCA
+                                        </label>
+                                    </div>
+                                </li-->
+                                <li>
+                                    <div class="box_radio" data-bs-toggle="modal" data-bs-target=".virtualPay">
+                                        <input type="radio" name="payments" id="mandiri" data-target-id="3">
+                                        <label for="mandiri">
+                                            <img src="assets/images/icons/mardiri.svg" alt="">
+                                            Mandiri
+                                        </label>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="box_radio" data-bs-toggle="modal" data-bs-target=".virtualPay">
+                                        <input type="radio" name="payments" id="bni" data-target-id="4">
+                                        <label for="bni">
+                                            <img src="assets/images/icons/bni.svg" alt="">
+                                            BNI
+                                        </label>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="box_radio" data-bs-toggle="modal" data-bs-target=".virtualPay-bersama">
+                                        <input type="radio" name="payments" id="bri" data-target-id="3">
+                                        <label for="bri">
+                                            <img src="assets/images/icons/bersama.svg" alt="">
+                                            Bersama
+                                        </label>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="box_radio" data-bs-toggle="modal" data-bs-target=".virtualPay">
+                                        <input type="radio" name="payments" id="dana" data-target-id="6">
+                                        <label for="dana">
+                                            <img src="assets/images/icons/dana.svg" alt="">
+                                            DANA
+                                        </label>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                    <div class="payment_right">
+                        <div class="payment_right_top">
+
+                            <div class="hide_div" data-target="1">
+                                <h3>Account Shopeepay</h3>
+                                <div class="mb-3">
+                                    <label class="control_label">Account Number</label>
+                                    <input type="number" class="iohform_control" id="" max="9999999999" name="" placeholder="Enter Your Account Number">
+                                </div>
+                                <div class="alert alert_gray">
+                                    <div class="alert_img">
+                                        <img src="assets/images/icons/info_gray.svg" alt="">
+                                    </div>
+                                    <p>
+                                        Please input your account number used on Shopeepay app and make sure you have Shopeepay app installed on your phone.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="hide_div" data-target="2" style="display: none;">
+                                <h3>Card Details</h3>
+                                <div class="mb-3">
+                                    <label class="control_label">Name on Card</label>
+                                    <input type="text" class="iohform_control" id="" maxlength="20" name="" placeholder="Enter Name on Card">
+                                </div>
+                                <div class="mb-3">
+                                    <label class="control_label">Card Number</label>
+                                    <div class="input_icon input_right_icon">
+                                        <input type="number" class="iohform_control" id="" max="99999999999999" name="" placeholder="Enter Card Number">
+                                        <button>
+                                            <img src="assets/images/icons/visa.svg" alt="">
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="row mb-3">
+                                    <div class="col-8 pe-2">
+                                        <label class="control_label">Expiration Date</label>
+                                        <input type="number" class="iohform_control" id="" max="9999999" name="" placeholder="Enter Exp Date">
+                                    </div>
+                                    <div class="col-4 ps-2">
+                                        <label class="control_label">CVV</label>
+                                        <input type="number" class="iohform_control" id="" max="999" name="" placeholder="Enter CVV">
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="hide_div" data-target="3" style="display: none;">
+                                <h3>Virtual Account</h3>
+                                <div class="mb-3 virtual_info">
+                                    <img src="assets/images/icons/mardiri.svg" alt="">
+                                    <h6 class="mb-0">Mandiri</h6>
+                                </div>
+                                <div class="alert alert_gray mb-0">
+                                    <div class="alert_img">
+                                        <img src="assets/images/icons/info_gray.svg" alt="">
+                                    </div>
+                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy </p>
+                                </div>
+                            </div>
+
+                            <div class="hide_div" data-target="4" style="display: none;">
+                                <h3>Virtual Account</h3>
+                                <div class="mb-3 virtual_info">
+                                    <img src="assets/images/icons/bni.svg" alt="">
+                                    <h6 class="mb-0">BNI</h6>
+                                </div>
+                                <div class="alert alert_gray mb-0">
+                                    <div class="alert_img">
+                                        <img src="assets/images/icons/info_gray.svg" alt="">
+                                    </div>
+                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy </p>
+                                </div>
+                            </div>
+
+                            <div class="hide_div" data-target="5" style="display: none;">
+                                <h3>Virtual Account</h3>
+                                <div class="mb-3 virtual_info">
+                                    <img src="assets/images/icons/bersama.svg" alt="">
+                                    <h6 class="mb-0">Bersama</h6>
+                                </div>
+                                <div class="alert alert_gray mb-0">
+                                    <div class="alert_img">
+                                        <img src="assets/images/icons/info_gray.svg" alt="">
+                                    </div>
+                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy </p>
+                                </div>
+                            </div>
+
+                            <div class="hide_div" data-target="6" style="display: none;">
+                                <h3>Virtual Account</h3>
+                                <div class="mb-3 virtual_info">
+                                    <img src="assets/images/icons/dana.svg" alt="">
+                                    <h6 class="mb-0">DANA</h6>
+                                </div>
+                                <div class="alert alert_gray mb-0">
+                                    <div class="alert_img">
+                                        <img src="assets/images/icons/info_gray.svg" alt="">
+                                    </div>
+                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy </p>
+                                </div>
+                            </div>
+                            
+
+                        </div><!--payment_right_top-->
+                       <div class="payment_right_btm">
+                            <div class="summary_footer_info">
+                                <p>Total Amount </p>
+                                <h4 class="mb-0">Rp 272.000</h4>
+                            </div>
+                            <button class="ioh_btn ioh_btn_primary" data-bs-toggle="modal" data-bs-target=".success2">Pay Now</button>
+                       </div><!--payment_right_btm-->
+                    </div><!--payment_right-->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="fixed_payment">
+        <div class="container">
+            <div class="fixed_payment_in">
+                <div class="summary_footer_info">
+                    <p>Total Amount </p>
+                    <h4 class="mb-0">Rp 343.000</h4>
+                </div>
+                <button class="ioh_btn ioh_btn_primary">Pay Now</button>
+            </div>
+        </div>
+    </section>
+
+    
+    <div class="modal fade bottom_modal animated slideInUp faster walletPay" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel1" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3>Account GOPAY</h3>
+                    <button data-bs-dismiss="modal">
+                        <img src="assets/images/icons/cross.svg" alt="">
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="mb-3">
+                        <label class="control_label">Account Number</label>
+                        <input type="number" class="iohform_control" id="" max="9999999999" name="" placeholder="Enter Your Account Number">
+                    </div>
+                    <div class="alert alert_gray mb-0">
+                        <div class="alert_img">
+                            <img src="assets/images/icons/info_gray.svg" alt="">
+                        </div>
+                        <p>Please input your account number used on GOPAY app and make sure you have GOPAY app installed on your phone.</p>
+                    </div><!--alert-->
+                </div>
+                <div class="modal-footer">
+                    <button class="ioh_btn ioh_btn_primary" data-bs-dismiss="modal" data-bs-toggle="modal" data-bs-target=".success1">Continue</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade bottom_modal animated slideInUp faster cardPay" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel1" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3>Card Details</h3>
+                    <button data-bs-dismiss="modal">
+                        <img src="assets/images/icons/cross.svg" alt="">
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="mb-3">
+                        <label class="control_label">Name on Card</label>
+                        <input type="text" class="iohform_control" id="" maxlength="20" name="" placeholder="Enter Name on Card">
+                    </div>
+                    <div class="mb-3">
+                        <label class="control_label">Card Number</label>
+                        <div class="input_icon input_right_icon">
+                            <input type="number" class="iohform_control" id="" max="99999999999999" name="" placeholder="Enter Card Number">
+                            <button>
+                                <img src="assets/images/icons/visa.svg" alt="">
+                            </button>
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <div class="col-8 pe-2">
+                            <label class="control_label">Expiration Date</label>
+                            <input type="number" class="iohform_control" id="" max="9999999" name="" placeholder="Enter Exp Date">
+                        </div>
+                        <div class="col-4 ps-2">
+                            <label class="control_label">CVV</label>
+                            <input type="number" class="iohform_control" id="" max="999" name="" placeholder="Enter CVV">
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button class="ioh_btn ioh_btn_primary" data-bs-dismiss="modal" data-bs-toggle="modal" data-bs-target=".success1">Continue</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="modal fade bottom_modal animated slideInUp faster virtualPay" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel1" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3>Virtual Account</h3>
+                    <button data-bs-dismiss="modal">
+                        <img src="assets/images/icons/cross.svg" alt="">
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="mb-3 virtual_info">
+                        <img src="assets/images/icons/bersama.svg" alt="">
+                        <h6 class="mb-0">Bersama</h6>
+                    </div>
+                    <div class="alert alert_gray mb-0">
+                        <div class="alert_img">
+                            <img src="assets/images/icons/info_gray.svg" alt="">
+                        </div>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy </p>
+                    </div><!--alert-->
+                </div>
+                <div class="modal-footer">
+                    <button class="ioh_btn ioh_btn_primary" data-bs-dismiss="modal" data-bs-toggle="modal" data-bs-target=".success2">Continue</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade custom_modal animated slideInUp faster success1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel1" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-body text-center">
+                    <div class="modal_img mb-20">
+                        <img src="assets/images/icons/success_pop.svg" alt="">
+                    </div>
+                    <h4 class="modal_h4 mb-20">Thank you</h4>
+                    <p class="modal_p mb-0">Your deposit fee has been confirmed. We will continue to installation process</p>
+                </div>
+                <div class="modal-footer">
+                    <button class="ioh_btn ioh_btn_primary" onclick="location.href='dashboard.html'">Ok</button>
+                </div>
+            </div>
+        </div>
+    </div> 
+
+    <div class="modal fade custom_modal animated slideInUp faster success2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel1" aria-hidden="true" data-bs-keyboard="false" data-bs-backdrop="static">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="modal_img text-center mb-20">
+                        <img src="assets/images/icons/progress_pop.svg" alt="">
+                    </div>
+                    <h4 class="modal_h4 mb-20 text-center">Transaction In Progress</h4>
+                    <p class="modal_p mb-20 text-center">Finish your deposit fee </p>
+                    <ul class="sumamry_list mb-0">
+                        <li class="horizental_info">
+                            <p>Account number</p>
+                            <h4 class="mb-0 text-end">123456789</h4>
+                        </li>
+                        <li class="horizental_info">
+                            <p>Total Amount</p>
+                            <h4 class="mb-0 text-end">Rp 272.000</h4>
+                        </li>
+                    </ul>
+                    <div class="copy_payment">
+                        <div class="vertical_info_contpop">
+                            <p>Transfer to</p>
+                            <h4 class="mb-0">[Bersama][987][500067313829</h4>
+                        </div>
+                        <button>
+                            <img src="assets/images/icons/copy.svg" alt="">
+                        </button>
+                    </div>   
+                    <ul class="sumamry_list mb-0">
+                        <li class="horizental_info">
+                            <p>Time left</p>
+                            <h4 class="mb-0 text-end">59:36</h4>
+                        </li>
+                    </ul>
+                </div>
+                <div class="modal-footer">
+                    <button class="ioh_btn ioh_btn_primary" onclick="location.href='profile.html#history'">Close</button>
+                </div>
+            </div>
+        </div>
+    </div> 
+
+    <!--/* -- jQuery JS V 3.6.0 -- */-->
+    <script type="text/javascript" src="assets/js/jquery.min.js"></script>
+    <!--/* -- bootstrap JS Bundle V 5.1.3 -- */-->
+    <script type="text/javascript" src="assets/js/bootstrap.bundle.min.js"></script>
+    <!--/* -- Swiper JS V 7.3.0 -- */-->
+    <script type="text/javascript" src="assets/js/swiper-bundle.min.js"></script>
+    <!--/* -- Custom Js V 1.0 -- */-->
+    <script type="text/javascript" src="assets/js/ftth-custom.js"></script>
+
+</body>
+
+</html>

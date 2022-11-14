@@ -1,0 +1,9 @@
+SCSS Files (/*ka-10-11-22 st*/)
+----------
+1. _ftth-hiflex-card.scss
+2. _ftth-offer-tag-comp.scss
+
+HTML Files
+----------
+1. ftth-components.html
+2. promo1.html

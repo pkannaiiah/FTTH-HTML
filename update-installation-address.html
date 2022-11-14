@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>IOH FTTH</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="metatitle" content="" />
+    <meta name="metadescription" content="" />
+    <meta name="metakeyword" content="" />
+    <meta name="description" content="" />
+    <meta name="keyword" content="" />
+
+    <!-- image -->
+    <!-- <meta property="og:image" content="assets/images/img/meta_image.jpeg">
+    <meta name="twitter:image" content="assets/images/img/meta_image.jpeg"> -->
+
+    <!-- <link rel="preload" href="assets/images/img/header-hero-banner-en-mobile.webp" as="image" media="(max-width: 575px)">
+    <link rel="preload" href="assets/images/img/header-hero-banner-en.webp" as="image" media="(min-width: 576px)"> -->
+
+    <!--IPhone meta tags-->
+    <!-- <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0'/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1,user-scalable=0"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" /> 
+    -->
+
+    <!--/* -- Brand Favicon -- */-->
+    <link rel="shortcut icon" href="assets/images/icons/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="assets/images/icons/favicon.ico" type="image/x-icon">
+
+    <!-- /* -- BOOTSTRAP CSS V 5.1.3 -- */ -->
+    <link rel="stylesheet" href="assets/css/vendors/bootstrap.min.css">
+    <!-- /* -- Swiper CSS V 8.1.4 -- */ -->
+    <link rel="stylesheet" href="assets/css/vendors/swiper-bundle.min.css">
+    <!-- /* -- Animate CSS -- */ -->
+    <link rel="stylesheet" href="assets/css/vendors/animate.css">
+    <!--/* -- Indosat Custom CSS V 1.0 -- */-->
+    <link rel="stylesheet" href="assets/css/ftth-custom.css">
+    <style>
+        #active-btn {display: none;}
+    </style>
+</head>
+
+<body>
+
+    <header class="header_mainmenu navbar-expand-lg">
+        <div class="top_header">
+            <div class="container">
+                <div class="top_header_in">
+                    <a href="https://indosatooredoo.com/" class="back">
+                        <img src="assets/images/icons/arrow_right_dark.svg" alt="">
+                        Indosat Ooredoo Hutchison
+                    </a>
+                    <div class="top_header_right">
+                        <ul class="language_links">
+                            <li>
+                                <a href="javascript:void(0);">ID</a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0);" class="active">EN</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bottom_header">
+            <div class="container">
+                <div class="bottom_header_in">
+                    <button class="navbar-toggler humburger" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                        <span></span>
+                    </button>
+                    <a class="navbar-brand header_logo" href="index.html">
+                        <img src="assets/images/icons/logo.svg" loading="lazy" title="IOH Logo" alt="IOH Logo">
+                    </a>
+                    <div class="collapse nav_menu navbar-collapse" id="navbarTogglerDemo03">
+                        <ul class="me-auto">
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#">Product</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#">Promo</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#">News</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#">About Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#">Help</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#">Contact Us</a>
+                            </li>
+                        </ul>
+                        <div class="only_mobile">
+                            <div class="flex_grp_align_center">
+                                <a class="ioh_btn ioh_sm_btn ioh_btn_primary" href="login.html">Login</a>
+                                <a class="ioh_btn ioh_sm_btn ioh_btn_outline_primary ms-3" href="ftth-location.html">Register</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pre_login">
+                        <button class="login_action">
+                            <img src="assets/images/icons/profile-dark.svg" alt="">
+                        </button>
+                        <div class="pre_login_dropdown">
+                            <a class="ioh_btn ioh_lg_btn ioh_btn_primary" href="login.html">Login</a>
+                            <a class="ioh_btn ioh_lg_btn ioh_btn_outline_primary ms-3" href="ftth-location.html">Register</a>
+                        </div>
+                    </div>
+                    <!-- <div class="post_login">
+                        <button class="login_action">
+                            <img src="assets/images/icons/profile-red.svg" alt="">
+                        </button>
+                        <div class="post_login_dropdown">
+                            <div class="profile">
+                                <div class="profile_img">
+                                    <img src="assets/images/img/avatar.png" alt="">
+                                </div>
+                                <div class="profile_info">
+                                    <p>Welcome Mr.Abdul</p>
+                                    <h4 class="mb-0">085810005859</h4>
+                                </div>
+                            </div>
+                            <ul>
+                                <li>
+                                    <a href="#">
+                                        <img src="assets/images/icons/logout.svg" class="me-2" alt="">
+                                        Logout
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="ioh_main">
+
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <ul class="ioh_pagination">
+                            <li>
+                                <a href="index.html">Home</a>
+                            </li>
+                            <li>
+                                <a href="ftth-location.html">Dashboard</a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0);">Profile</a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0);">Relocation</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="mb-5">
+            <div class="container">
+                <div class="cont-box-shadow p-3 pb-3">
+                    <div class="container-withd-md mt-3">
+                        <div class="ioh_h1 mb-2">Update your Installation Address</div>
+                        <div class="ftth-benefits pack-select-comp mt-3">
+                            Relocation Fee : <label>Rp 245.000</label>
+                        </div>
+                        <div class="alert alert_danger mt-3">
+                            <div class="alert_img">
+                                <img src="assets/images/icons/danger.svg" alt="">
+                            </div>
+                            <p>Selected location should be same as Province and City displayed.</p>
+                        </div>
+                        <h5 class="ioh_h5 mt-4 mb-3">Personal Details</h5>
+                        <div class="row">
+                            <div class="col-sm-6 mb-3">
+                                <label class="form-label">Full Name</label>
+                                <input type="text" class="iohform_control" placeholder="Enter Full Name" required>
+                            </div>
+                            <div class="col-sm-6 mb-3">
+                                <label class="form-label">Service Address</label>
+                                <input type="text" class="iohform_control" placeholder="Enter your NIK" required>
+                            </div>
+                            <div class="col-sm-6 mb-3">
+                                <label class="form-label">Email Address</label>
+                                <input type="text" class="iohform_control" placeholder="Enter email address" required>
+                            </div>
+                            <div class="col-sm-6 mb-3">
+                                <label class="form-label">Enter Phone Number/Whatsapp</label>
+                                <input type="number" class="iohform_control" placeholder="Enter your phone number" required>
+                            </div>
+                        </div><!--row-->
+                        <h5 class="ioh_h5 mt-4 mb-3">Installation Address</h5>
+                        <div class="row">
+                            <div class="col-sm-6 mb-3">
+                                <label class="form-label">Province/Provinci</label>
+                                <input type="text" class="iohform_control" placeholder="Jawa Barat" required>
+                            </div>
+                            <div class="col-sm-6 mb-3">
+                                <label class="form-label">City/Kabupaten</label>
+                                <input type="text" class="iohform_control" placeholder="Kabupaten" required>
+                            </div>
+                            <div class="col-sm-6 mb-3">
+                                <label class="mb-2 form-label">District/Kecamatan</label>
+                                <select class="form-select" aria-label="Default select example">
+                                    <option selected>Select Province</option>
+                                    <option value="1">Bangka Belitung</option>
+                                    <option value="2">Banten</option>
+                                    <option value="3">Bengkulu</option>
+                                    <option value="4">DI Yogyakarta</option>
+                                    <option value="5">DKI Jakarta</option>
+                                </select>
+                            </div>
+                            <div class="col-sm-6 mb-3">
+                                <label class="mb-2 form-label">Ward/Kelurahan</label>
+                                <select class="form-select" aria-label="Default select example">
+                                    <option selected>Select City</option>
+                                    <option value="1">Kab. Lebak</option>
+                                    <option value="2">Kab. Pandeglang</option>
+                                    <option value="3">Kab. Serang</option>
+                                    <option value="4">Kab. Tangerang</option>
+                                </select>
+                            </div>
+                            <div class="col-sm-12 mb-3">
+                                <label class="form-label"> Postalcode </label>
+                                <input type="text" class="iohform_control" placeholder="Enter your Postalcode" required>
+                            </div>
+                        </div><!--row-->
+                        <div class="row mb-4">
+                            <div class="col-md-12">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    <label class="form-check-label ms-2 flex1" for="flexCheckDefault">
+                                        I’d like to receive more information about the Freedom Home Service.
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="text-center pt-3 mb-5">
+                            <button class="btn ioh_btn_primary ioh_btn" data-bs-toggle="modal" data-bs-target=".success-popup"> Submit </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="main_footer">
+        <div class="footer_top py_75">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5">
+                        <div class="footer_desc">
+                            <div class="mb-3 footer_logo">
+                                <a href="index.html">
+                                    <img src="assets/images/icons/logo.svg" loading="lazy" title="IOH Logo" alt="IOH Logo">
+                                </a>
+                            </div>
+                            <h3 class="ioh_h1 mb-4">Indosat HiFi</h3>
+                            <h5 class="ioh_h5 mb-3">Follow Us</h5>
+                            <ul class="social_list">
+                                <li>
+                                    <a href="https://www.facebook.com/indosat/">
+                                        <img src="assets/images/icons/facebook.svg" loading="lazy" title="" alt="Facebook">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.instagram.com/indosat/">
+                                        <img src="assets/images/icons/instagram.svg" loading="lazy" title="" alt="Instagram">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://twitter.com/indosat">
+                                        <img src="assets/images/icons/twitter.svg" loading="lazy" title="" alt="Twitter">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.youtube.com/c/indosatooredoohutchison">
+                                        <img src="assets/images/icons/youtube.svg" loading="lazy" title="" alt="Youtube">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.linkedin.com/company/indosatooredoo">
+                                        <img src="assets/images/icons/linkedin.svg" loading="lazy" title="" alt="Linkdin">
+                                    </a>
+                                </li>
+                                <!-- <li>
+                                    <a href="https://www.tiktok.com/@indosat.ioh">
+                                        <img src="assets/images/icons/tiktok.svg" loading="lazy" title="" alt="Tiktok">
+                                    </a>
+                                </li> -->
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <h4 class="footer_menu_head">
+                            Main Menu
+                            <img src="assets/images/icons/caret_down_black.svg" loading="lazy" alt="">
+                        </h4>
+                        <ul class="footer_menus">
+                            <li>
+                                <a href="javascript:void(0);">Product</a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0);">Promo</a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0);">News</a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0);">About Us</a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0);">Help</a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0);">Privacy Policy</a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0);">Terms & Conditions</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="footer_desc">
+                            <h5 class="ioh_h5 mb-3">Contact Us</h5>
+                            <p class="description">Do you have any questions related to our company? Send an email to us.</p>
+                            <a href="mailto:contact@hifi.ioh.co.id" class="flex_grp_align_center mb-3 contact_info_grp">
+                                <div class="contact_info_icon">
+                                    <img src="assets/images/icons/dark_mail.svg" alt="Mail">
+                                </div>
+                                <div class="contact_info_desc">
+                                    <h5 class="mb-0">contact@hifi.ioh.co.id</h5>
+                                </div>
+                            </a>
+                            <a href="tel:+021-30003000" class="flex_grp_align_center mb-3 contact_info_grp">
+                                <div class="contact_info_icon">
+                                    <img src="assets/images/icons/callicon-n1.svg" alt="Call">
+                                </div>
+                                <div class="contact_info_desc">
+                                    <h5 class="mb-0">021-30003000</h5>
+                                    <p class="mb-0 mt-1">press 3 for Indosat HiFi</p>
+                                </div>
+                            </a>
+                            <a href="javascript:void(0);" class="flex_grp_align_center mb-3 contact_info_grp">
+                                <div class="contact_info_icon">
+                                    <img src="assets/images/icons/dark_twitter.svg" alt="Twitter">
+                                </div>
+                                <div class="contact_info_desc">
+                                    <h5 class="mb-0">@ftthindosatcare</h5>
+                                </div>
+                            </a>
+                            <a href="javascript:void(0);" class="flex_grp_align_center mb-3 contact_info_grp">
+                                <div class="contact_info_icon">
+                                    <img src="assets/images/icons/dark_whatsapp.svg" alt="Whatsapp">
+                                </div>
+                                <div class="contact_info_desc">
+                                    <h5 class="mb-0">+628551000185</h5>
+                                    <p class="mb-0 mt-1">Official Whatsapp IM3 Ooredoo</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--ioh_footer_top-->
+        <div class="footer_bottom">
+            <div class="footer_all_rights">
+                <div class="container">
+                    <p class="reserved_txt">Indosat Ooredoo Hutchison and HiFi as a product from IOH © 2022</p>
+                </div>
+            </div>
+            <!--ioh_footer_all_rights-->
+        </div>
+        <!--ioh_footer_bottom-->
+    </footer>
+
+    <!--Success Popup-->
+    <div class="modal fade custom_modal animated slideInUp faster success-popup" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel1" aria-hidden="true" data-bs-keyboard="false" data-bs-backdrop="static">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-body text-center">
+                    <div class="modal_img mb-20">
+                        <img src="assets/images/icons/success_green.svg" alt="">
+                    </div>
+                    <h4 class="modal_h4">Thank you </h4>
+                </div>
+                <div class="modal-footer">
+                    <a href="profile.html" class="ioh_btn ioh_btn_primary">Ok</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <!--/* -- jQuery JS V 3.6.0 -- */-->
+    <script type="text/javascript" src="assets/js/jquery.min.js"></script>
+    <!--/* -- bootstrap JS Bundle V 5.1.3 -- */-->
+    <script type="text/javascript" src="assets/js/bootstrap.bundle.min.js"></script>
+    <!--/* -- Swiper JS V 8.1.4 -- */-->
+    <script type="text/javascript" src="assets/js/swiper-bundle.min.js"></script>
+    <!--/* -- Custom Js V 1.0 -- */-->
+    <script type="text/javascript" src="assets/js/upload-img.js"></script>
+    <!--/* -- Datepicker Js -- */-->
+    <script type="text/javascript" src="assets/js/date-picker.js"></script>
+    <!--/* -- Custom Js V 1.0 -- */-->
+    <script type="text/javascript" src="assets/js/ftth-custom.js"></script>
+
+    <!--validation JS-->
+    <script>
+        (function () {
+  'use strict'
+  var forms = document.querySelectorAll('.needs-validation')
+  Array.prototype.slice.call(forms)
+    .forEach(function (form) {
+      form.addEventListener('submit', function (event) {
+        if (!form.checkValidity()) {
+          event.preventDefault()
+          event.stopPropagation()
+        }
+
+        form.classList.add('was-validated')
+      }, false)
+    })
+})()
+</script>
+
+<script>
+
+    //t&c submit button enab & dis
+    function switchVisible() {
+            if (document.getElementById('disabled-btn')) {
+
+                if (document.getElementById('disabled-btn').style.display == 'none') {
+                    document.getElementById('disabled-btn').style.display = 'block';
+                    document.getElementById('active-btn').style.display = 'none';
+                }
+                else {
+                    document.getElementById('disabled-btn').style.display = 'none';
+                    document.getElementById('active-btn').style.display = 'block';
+                }
+            }
+}
+
+    ///Select Pack JS
+    $(document).ready(function(){
+        setTimeout(function(){ $("#hifiselect01").prop("selectedIndex", 1).val();},3000);
+        $("#hifiselect01").change(function(){
+            $(this).find("option:selected").each(function(){
+                var optionValue = $(this).attr("value");
+                if(optionValue){
+                    $(".selectpack").not("." + optionValue).hide();
+                    $("." + optionValue).show();
+                } else{
+                    $(".selectpack").hide();
+                }
+            });
+        }).change();
+
+//Edit option js
+$("#editbtnig").click(function(){
+            $("#pills-profile-tab").addClass("active");
+            $("#pills-profile").addClass("active").addClass("show");
+            $("#pills-contact-tab").removeClass("active");
+            $("#pills-contact").removeClass("active").removeClass("show");
+        });
+});
+</script>
+
+</body>
+</html>

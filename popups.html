@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>IOH FTTH</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="metatitle" content="" />
+    <meta name="metadescription" content="" />
+    <meta name="metakeyword" content="" />
+    <meta name="description" content="" />
+    <meta name="keyword" content="" />
+
+    <!-- image -->
+    <!-- <meta property="og:image" content="assets/images/img/meta_image.jpeg">
+    <meta name="twitter:image" content="assets/images/img/meta_image.jpeg"> -->
+
+    <!-- <link rel="preload" href="assets/images/img/header-hero-banner-en-mobile.webp" as="image" media="(max-width: 575px)">
+    <link rel="preload" href="assets/images/img/header-hero-banner-en.webp" as="image" media="(min-width: 576px)"> -->
+
+    <!--IPhone meta tags-->
+    <!-- <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0'/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1,user-scalable=0"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" /> -->
+
+    <!--/* -- Brand Favicon -- */-->
+    <link rel="shortcut icon" href="assets/images/icons/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="assets/images/icons/favicon.ico" type="image/x-icon">
+
+    <!-- /* -- BOOTSTRAP CSS V 5.1.3 -- */ -->
+    <link rel="stylesheet" href="assets/css/vendors/bootstrap.min.css">
+    <!-- /* -- Swiper CSS V 8.1.4 -- */ -->
+    <link rel="stylesheet" href="assets/css/vendors/swiper-bundle.min.css">
+    <!-- /* -- Animate CSS -- */ -->
+    <link rel="stylesheet" href="assets/css/vendors/animate.css">
+        
+    <!--/* -- Indosat Custom CSS V 1.0 -- */-->
+    <link rel="stylesheet" href="assets/css/ftth-custom.css">
+
+</head>
+<body>
+
+    <header class="header_mainmenu navbar-expand-lg">
+        <div class="top_header">
+            <div class="container">
+                <div class="top_header_in">
+                    <a href="https://indosatooredoo.com/" class="back">
+                        <img src="assets/images/icons/arrow_right_dark.svg" alt="">
+                        Indosat Ooredoo Hutchison
+                    </a>
+                    <div class="top_header_right">
+                        <ul class="language_links">
+                            <li>
+                                <a href="javascript:void(0);">ID</a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0);" class="active">EN</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bottom_header">
+            <div class="container">
+                <div class="bottom_header_in">
+                    <button class="navbar-toggler humburger" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                        <span></span>
+                    </button>
+                    <a class="navbar-brand header_logo" href="index.html">
+                        <img src="assets/images/icons/logo.svg" loading="lazy" title="IOH Logo" alt="IOH Logo">
+                    </a>
+                    <div class="collapse nav_menu navbar-collapse" id="navbarTogglerDemo03">
+                        <ul class="me-auto">
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#">Product</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#">Promo</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#">News</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#">About Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#">Help</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#">Contact Us</a>
+                            </li>
+                        </ul>
+                        <div class="only_mobile">
+                            <div class="flex_grp_align_center">
+                                <a class="ioh_btn ioh_sm_btn ioh_btn_primary" href="login.html">Login</a>
+                                <a class="ioh_btn ioh_sm_btn ioh_btn_outline_primary ms-3" href="ftth-location.html">Register</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pre_login">
+                        <button class="login_action">
+                            <img src="assets/images/icons/profile-dark.svg" alt="">
+                        </button>
+                        <div class="pre_login_dropdown">
+                            <a class="ioh_btn ioh_sm_btn ioh_btn_primary" href="login.html">Login</a>
+                            <a class="ioh_btn ioh_sm_btn ioh_btn_outline_primary ms-3" href="ftth-location.html">Register</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="ioh_main" style="height:800px;background:#e0e0e0;">
+        <div class="container">
+            <button class="ioh_btn ioh_btn_primary mt-4 me-4" data-bs-toggle="modal" data-bs-target=".select-location-popup">
+                Popup 1
+            </button>
+            <button class="ioh_btn ioh_btn_primary mt-4 me-4" data-bs-toggle="modal" data-bs-target=".confirmation-popup">
+                Location Confirmation
+            </button>
+
+            <button class="ioh_btn ioh_btn_primary mt-4 me-4" data-bs-toggle="modal" data-bs-target=".location-condition">
+                Location Condition
+            </button>
+
+            <button class="ioh_btn ioh_btn_primary mt-4 me-4" data-bs-toggle="modal" data-bs-target=".location-fail">
+                Location Fail
+            </button>
+
+            <button class="ioh_btn ioh_btn_primary mt-4 me-4" data-bs-toggle="modal" data-bs-target=".service-request-form">
+               Service Request Form
+            </button>
+
+            <button class="ioh_btn ioh_btn_primary mt-4 me-4" data-bs-toggle="modal" data-bs-target=".thankyou-popup">
+                Thank you
+             </button>
+
+             <button class="ioh_btn ioh_btn_primary mt-4 me-4" data-bs-toggle="modal" data-bs-target=".processing-request">
+                Processing your request
+             </button>
+
+             <button class="ioh_btn ioh_btn_primary mt-4 me-4" data-bs-toggle="modal" data-bs-target=".loading-popup">
+                Loading-popup
+             </button>
+
+             <button class="ioh_btn ioh_btn_primary mt-4 me-4" data-bs-toggle="modal" data-bs-target=".cont-more-detail-popup">
+                More Details
+             </button>
+
+             <button class="ioh_btn ioh_btn_primary mt-4 me-4" data-bs-toggle="modal" data-bs-target=".coming-soon-popup">
+                Coming Soon
+             </button>
+
+             <button class="ioh_btn ioh_btn_primary mt-4 me-4" data-bs-toggle="modal" data-bs-target=".pack-change-popup">
+                Pack Change
+             </button>
+
+             <section class="mt-5">
+                 <!-- element start -->
+                 <!-- partial:index.partial.html -->
+<!--form id="form" name="form" class="form-inline">
+    <div class="form-group">
+        <label for="startDate">Start Date</label>
+        <input id="startDate" name="startDate" type="text" class="form-control" />
+        <span class="input-group-text border-l">
+            <img src="assets/images/icons/date-icon.svg" alt="search-icon" title="search-icon"/>
+        </span>
+    </div>
+</form-->
+<!-- partial -->
+<!-- element end -->
+             </section>
+
+        </div>
+    </main>
+
+    <footer class="main_footer">
+        <div class="footer_top py_75">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5">
+                        <div class="footer_desc">
+                            <div class="mb-3 footer_logo">
+                                <a href="index.html">
+                                    <img src="assets/images/icons/logo.svg" loading="lazy" title="IOH Logo" alt="IOH Logo">
+                                </a>
+                            </div>
+                            <h3 class="ioh_h1 mb-4">Indosat HiFi</h3>
+                            <h5 class="ioh_h5 mb-3">Follow Us</h5>
+                            <ul class="social_list">
+                                <li>
+                                    <a href="https://www.facebook.com/indosat/">
+                                        <img src="assets/images/icons/facebook.svg" loading="lazy" title="" alt="Facebook">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.instagram.com/indosat/">
+                                        <img src="assets/images/icons/instagram.svg" loading="lazy" title="" alt="Instagram">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://twitter.com/indosat">
+                                        <img src="assets/images/icons/twitter.svg" loading="lazy" title="" alt="Twitter">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.youtube.com/c/indosatooredoohutchison">
+                                        <img src="assets/images/icons/youtube.svg" loading="lazy" title="" alt="Youtube">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.linkedin.com/company/indosatooredoo">
+                                        <img src="assets/images/icons/linkedin.svg" loading="lazy" title="" alt="Linkdin">
+                                    </a>
+                                </li>
+                                <!-- <li>
+                                    <a href="https://www.tiktok.com/@indosat.ioh">
+                                        <img src="assets/images/icons/tiktok.svg" loading="lazy" title="" alt="Tiktok">
+                                    </a>
+                                </li> -->
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <h4 class="footer_menu_head">
+                            Main Menu
+                            <img src="assets/images/icons/caret_down_black.svg" loading="lazy" alt="">
+                        </h4>
+                        <ul class="footer_menus">
+                            <li>
+                                <a href="javascript:void(0);">Product</a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0);">Promo</a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0);">News</a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0);">About Us</a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0);">Help</a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0);">Privacy Policy</a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0);">Terms & Conditions</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="footer_desc">
+                            <h5 class="ioh_h5 mb-3">Contact Us</h5>
+                            <p class="description">Do you have any questions related to our company? Send an email to us.</p>
+                            <a href="mailto:contact@hifi.ioh.co.id" class="flex_grp_align_center mb-3 contact_info_grp">
+                                <div class="contact_info_icon">
+                                    <img src="assets/images/icons/dark_mail.svg" alt="Mail">
+                                </div>
+                                <div class="contact_info_desc">
+                                    <h5 class="mb-0">contact@hifi.ioh.co.id</h5>
+                                </div>
+                            </a>
+                            <a href="tel:+021-30003000" class="flex_grp_align_center mb-3 contact_info_grp">
+                                <div class="contact_info_icon">
+                                    <img src="assets/images/icons/callicon-n1.svg" alt="Call">
+                                </div>
+                                <div class="contact_info_desc">
+                                    <h5 class="mb-0">021-30003000</h5>
+                                    <p class="mb-0 mt-1">press 3 for Indosat HiFi</p>
+                                </div>
+                            </a>
+                            <a href="javascript:void(0);" class="flex_grp_align_center mb-3 contact_info_grp">
+                                <div class="contact_info_icon">
+                                    <img src="assets/images/icons/dark_twitter.svg" alt="Twitter">
+                                </div>
+                                <div class="contact_info_desc">
+                                    <h5 class="mb-0">@ftthindosatcare</h5>
+                                </div>
+                            </a>
+                            <a href="javascript:void(0);" class="flex_grp_align_center mb-3 contact_info_grp">
+                                <div class="contact_info_icon">
+                                    <img src="assets/images/icons/dark_whatsapp.svg" alt="Whatsapp">
+                                </div>
+                                <div class="contact_info_desc">
+                                    <h5 class="mb-0">+628551000185</h5>
+                                    <p class="mb-0 mt-1">Official Whatsapp IM3 Ooredoo</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--ioh_footer_top-->
+        <div class="footer_bottom">
+            <div class="footer_all_rights">
+                <div class="container">
+                    <p class="reserved_txt">Indosat Ooredoo Hutchison and HiFi as a product from IOH © 2022</p>
+                </div>
+            </div>
+            <!--ioh_footer_all_rights-->
+        </div>
+        <!--ioh_footer_bottom-->
+    </footer>
+
+    <div class="modal fade custom_modal animated slideInUp faster select-location-popup" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel1" aria-hidden="true" data-bs-keyboard="false" data-bs-backdrop="static">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button class="modal_close" data-bs-dismiss="modal">
+                        <img src="assets/images/icons/cross_pop.svg" alt="">
+                    </button>
+                </div>
+                <div class="modal-body text-center">
+                    <div class="modal_img mb-20">
+                        <img src="assets/images/icons/location_check_pop.svg" alt="">
+                    </div>
+                    <h4 class="modal_h4 mb-20">Thank you Your address is covered by our service</h4>
+                    <p class="modal_p mb-0">Click next to continue</p>
+                </div>
+                <div class="modal-footer">
+                    <!--a href="#" class="arrow_link me-4" data-bs-dismiss="modal">
+                        <img src="assets/images/icons/arrow_left_red.svg" class="me-2" alt="">
+                        Back
+                    </a-->
+                    <button class="ioh_btn ioh_btn_primary">Next</button>
+                </div>
+            </div>
+        </div>
+    </div> 
+
+    <!--confirmation-popup-->
+    <div class="modal fade custom_modal animated slideInUp faster confirmation-popup" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel1" aria-hidden="true" data-bs-keyboard="false" data-bs-backdrop="static">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button class="modal_close" data-bs-dismiss="modal">
+                        <img src="assets/images/icons/cross_pop.svg" alt="">
+                    </button>
+                </div>
+                <div class="modal-body text-center">
+                    <div class="modal_img mb-20">
+                        <img src="assets/images/icons/warning_pop.svg" alt="">
+                    </div>
+                    <h4 class="modal_h4 mb-20">Your address is covered by our service with condition</h4>
+                    <p class="modal_p mb-0">The installation takes little longer. To continue, click next if you agree</p>
+                </div>
+                <div class="modal-footer">
+                    <!--a href="#" class="arrow_link me-4" data-bs-dismiss="modal">
+                        <img src="assets/images/icons/arrow_left_red.svg" class="me-2" alt="">
+                        Back
+                    </a-->
+                    <button class="ioh_btn ioh_btn_primary">Next</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Location Condition-->
+    <div class="modal fade custom_modal animated slideInUp faster location-condition" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel1" aria-hidden="true"  data-bs-keyboard="false" data-bs-backdrop="static">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-body text-center">
+                    <div class="modal-header">
+                        <button class="modal_close" data-bs-dismiss="modal">
+                            <img src="assets/images/icons/cross_pop.svg" alt="">
+                        </button>
+                    </div>
+                    <div class="modal_img mb-20 mt-2">
+                        <img src="assets/images/icons/info_orange.svg" alt="">
+                    </div>
+                    <h4 class="modal_h4 mb-20">Your address is covered by our 
+                        service with condition</h4>
+                    <p class="modal_p mb-0">The installation takes little longer.
+                        To continue, click next if you agree</p>
+                </div>
+                <div class="modal-footer">
+                    <!--a href="#" class="arrow_link me-4" data-bs-dismiss="modal">
+                        <img src="assets/images/icons/arrow_left_red.svg" class="me-2" alt="">
+                        Back
+                    </a-->
+                    <button class="ioh_btn ioh_btn_primary">Next</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Location Fail-->
+    <div class="modal fade custom_modal animated slideInUp faster location-fail" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel1" aria-hidden="true" data-bs-keyboard="false" data-bs-backdrop="static">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button class="modal_close" data-bs-dismiss="modal">
+                        <img src="assets/images/icons/cross_pop.svg" alt="">
+                    </button>
+                </div>
+                <div class="modal-body text-center mt-2">
+                    <div class="modal_img mb-20">
+                        <img src="assets/images/icons/location_fail_pop.svg" alt="">
+                    </div>
+                    <h4 class="modal_h4 mb-20">Your address is covered by our 
+                        service with condition. </h4>
+                    <p class="modal_p mb-0">The installation takes little longer.
+                        To continue, click next if you agree. </p>
+                </div>
+                <div class="modal-footer">
+                    <!--a href="#" class="arrow_link me-4" data-bs-dismiss="modal">
+                        <img src="assets/images/icons/arrow_left_red.svg" class="me-2" alt="">
+                        Back
+                    </a-->
+                    <button class="ioh_btn ioh_btn_primary">Next</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Service Request Form-->
+    <div class="modal fade custom_modal animated slideInUp faster service-request-form" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel1" aria-hidden="true" data-bs-keyboard="false" data-bs-backdrop="static">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button class="modal_close" data-bs-dismiss="modal">
+                        <img src="assets/images/icons/cross_pop.svg" alt="">
+                    </button>
+                </div>
+                <div class="modal-body mt-3">
+                    <p class="modal_p mb-0 text-center">
+                        Please fill in the form below and we will 
+                        inform you if the service is available
+                    </p>
+
+                    <div class="row mt-3">
+
+                        <div class="col-md-12 col-sm-12 mb-16 mt-0">
+                            <label for="validationName" class="form-label">Full Name</label>
+                            <input type="text" class="form-control" id="validationName" placeholder="Enter Full Name" required>
+                            <div class="invalid-feedback"> Please provide a valid Name </div>
+                        </div>
+
+                        <div class="col-md-12 col-sm-12 mb-16 mt-0">
+                            <label for="validationName" class="form-label">Service Address</label>
+                            <input type="text" class="form-control" id="validationName" placeholder="Service Address" required>
+                            <div class="invalid-feedback"> Please provide a Service Address </div>
+                        </div>
+
+                        <div class="col-md-12 col-sm-12 mb-16 mt-0">
+                            <label for="validationName" class="form-label">Email Address</label>
+                            <input type="text" class="form-control" id="validationName" placeholder="Email Address" required>
+                            <div class="invalid-feedback"> Please enter email address </div>
+                        </div>
+
+                        <div class="col-md-12 col-sm-12 mb-16 mt-0">
+                            <label for="validationName" class="form-label">Enter Phone Number/Whatsapp</label>
+                            <input type="text" class="form-control" id="validationName" placeholder="Enter Phone No./Whatsapp" required>
+                            <div class="invalid-feedback"> Please enter phone number </div>
+                        </div>
+
+                    </div>
+                    <div class="mt-15">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                            <label class="form-check-label ms-2" for="flexCheckDefault">
+                                I’d like to receive more information about the Freedom Home Service.
+                            </label>
+                          </div>
+                    </div>
+
+                </div>
+                <div class="modal-footer">
+                    <!--a href="#" class="arrow_link me-4" data-bs-dismiss="modal">
+                        <img src="assets/images/icons/arrow_left_red.svg" class="me-2" alt="">
+                        Back
+                    </a-->
+                    <button class="ioh_btn ioh_btn_primary">Next</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Thank you popup-->
+    <div class="modal fade custom_modal animated slideInUp faster thankyou-popup" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel1" aria-hidden="true" data-bs-keyboard="false" data-bs-backdrop="static">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button class="modal_close" data-bs-dismiss="modal">
+                        <img src="assets/images/icons/cross_pop.svg" alt="">
+                    </button>
+                </div>
+                <div class="modal-body text-center">
+                    <div class="modal_img mb-20">
+                        <img src="assets/images/icons/success_green.svg" alt="">
+                    </div>
+                    <h4 class="modal_h4 mb-20">Thank you</h4>
+                    <p class="modal_p mb-0">Lorem Ipsum is simply dummy </p>
+                </div>
+                <div class="modal-footer">
+                    <button class="ioh_btn ioh_btn_primary">OK</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Location Fail-->
+    <div class="modal fade custom_modal animated slideInUp faster processing-request" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel1" aria-hidden="true" data-bs-keyboard="false" data-bs-backdrop="static">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button class="modal_close" data-bs-dismiss="modal">
+                        <img src="assets/images/icons/cross_pop.svg" alt="">
+                    </button>
+                </div>
+                <div class="modal-body text-center mb-5">
+                    <div class="modal_img mb-20">
+                        <img src="assets/images/icons/loader-icon.svg" alt="">
+                    </div>
+                    <h4 class="modal_h4">Processing your request</h4>
+                    <p class="modal_p mb-0">Please wait for a while…</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!--Loading-popup-->
+    <div class="modal fade custom_modal animated slideInUp faster loading-popup" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel1" aria-hidden="true" data-bs-keyboard="false" data-bs-backdrop="static">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button class="modal_close" data-bs-dismiss="modal">
+                        <img src="assets/images/icons/cross_pop.svg" alt="">
+                    </button>
+                </div>
+                <div class="modal-body text-center mb-5">
+                    <div class="modal_img mb-20">
+                        <img src="assets/images/icons/loader-icon.svg" alt="">
+                    </div>
+                    <h4 class="modal_h4">Processing your request</h4>
+                    <p class="modal_p mb-0">Please wait for a while…</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+     <!--More-details-popup-->
+     <div class="modal fade custom_modal animated slideInUp faster cont-more-detail-popup" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel1" aria-hidden="true" data-bs-keyboard="false" data-bs-backdrop="static">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button class="modal_close" data-bs-dismiss="modal">
+                        <img src="assets/images/icons/cross_pop.svg" alt="">
+                    </button>
+                </div>
+                <div class="modal-body mb-4">
+                    <div class="text-center">
+                        <h4 class="modal_h4 mb-20">More Details</h4>
+                    </div>
+                    <div class="more-list-cont">
+                        <div class="d-flex mb-2"><img src="assets/images/icons/router 2.svg" alt="" title="" /> <div class="ms-3"> Free <b> 10Wi-Fi Router </b> </div> </div>
+                        <div class="d-flex mb-2"><img src="assets/images/icons/installation 2.svg" alt="" title="" /> <div class="ms-3">  Free <b> Installation </b>  </div> </div>
+                        <div class="d-flex"><img src="assets/images/icons/device 1.svg" alt="" title="" /> <div class="ms-3">  Ideal for <b> 5 - 7 Device </b>  </div> </div>
+                    </div>
+                    <div class="mt-4">
+                        <h6 class="ioh_h6">Upgrade / Downgrade your package</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--coming-soon-popup-->
+    <div class="modal fade custom_modal animated slideInUp faster coming-soon-popup" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel1" aria-hidden="true" data-bs-keyboard="false" data-bs-backdrop="static">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-body text-center">
+                    <div class="modal_img mb-20">
+                        <img src="assets/images/icons/coming_soon_icon.svg" alt="">
+                    </div>
+                    <h4 class="modal_h4 mb-20">Coming Soon</h4>
+                    <p class="modal_p mb-0">Lorem ipsum is a placeholder text commonly used to demonstrate the visual form</p>
+                </div>
+                <div class="modal-footer">
+                    <!--a href="#" class="arrow_link me-4" data-bs-dismiss="modal">
+                        <img src="assets/images/icons/arrow_left_red.svg" class="me-2" alt="">
+                        Back
+                    </a-->
+                    <button class="ioh_btn ioh_btn_primary" data-bs-dismiss="modal">OK</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Packages TAB > Packs Change-->
+    <div class="modal fade custom_modal animated slideInUp faster pack-change-popup" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel1" aria-hidden="true" data-bs-keyboard="false" data-bs-backdrop="static">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button class="modal_close" data-bs-dismiss="modal">
+                        <img src="assets/images/icons/cross_pop.svg" alt="">
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="text-center">
+                    <h4 class="modal_h4 mb-20">Change Package</h4>
+                    <p class="modal_p mb-0">Existing Package Hifi50 Mbps</p>
+                    </div>
+
+                    <div class="input-radiobtntwo mt-4">
+                            <div class="radio">
+                              <input id="hifi1gbp" name="radio" type="radio" checked>
+                              <label for="hifi1gbp" class="radio-label">Hifi 1 Gbps</label>
+                            </div>
+                          
+                            <div class="radio">
+                              <input id="hifi300" name="radio" type="radio">
+                              <label  for="hifi300" class="radio-label">Hifi 300 Mbps</label>
+                            </div>
+                            <div class="radio">
+                                <input id="hifi100" name="radio" type="radio">
+                                <label  for="hifi100" class="radio-label">Hifi 100 Mbps</label>
+                              </div>
+                              <div class="radio">
+                                <input id="hifi50" name="radio" type="radio">
+                                <label  for="hifi50" class="radio-label">Hifi 500 Mbps</label>
+                              </div>
+                          
+                            <div class="radio">
+                              <input id="hifi30" name="radio" type="radio" disabled>
+                              <label for="hifi30" class="radio-label">Hifi 30 Mbps</label>
+                            </div>
+                        </div>
+
+                        <div class="mt-3">
+                            <div class="colum-one">
+                                <label class="mb-2">Choose Payment</label>
+                                <select class="form-select" id="hifiselect01" aria-label="Default select example">
+                                    <option selected>Select</option>
+                                    <option value="hifi01">Immediately</option>
+                                    <option value="hifi02">Next Bill Date</option>
+                                  </select>
+                                </div>
+                        </div>
+
+                        <div class="mt-3">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label ms-2" for="flexCheckDefault">
+                                    I agree to the <b> Terms & Conditions </b>
+                                </label>
+                              </div>
+                        </div>
+
+                </div>
+                <div class="modal-footer">
+                    <!--a href="#" class="arrow_link me-4" data-bs-dismiss="modal">
+                        <img src="assets/images/icons/arrow_left_red.svg" class="me-2" alt="">
+                        Back
+                    </a-->
+                    <button class="ioh_btn ioh_btn_primary" data-bs-toggle="modal" data-bs-target=".packs-change-thankyou-popup">Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--/* -- jQuery JS V 3.6.0 -- */-->
+    <script type="text/javascript" src="assets/js/jquery.min.js"></script>
+    <!--/* -- bootstrap JS Bundle V 5.1.3 -- */-->
+    <script type="text/javascript" src="assets/js/bootstrap.bundle.min.js"></script>
+    <!--/* -- Swiper JS V 8.1.4 -- */-->
+    <script type="text/javascript" src="assets/js/swiper-bundle.min.js"></script>
+    <!--/* -- Custom Js V 1.0 -- */-->
+    <script type="text/javascript" src="assets/js/ftth-custom.js"></script>
+    <!--/* -- Datepicker Js -- */-->
+    <script type="text/javascript" src="assets/js/date-picker.js"></script>
+
+</body>
+</html>
