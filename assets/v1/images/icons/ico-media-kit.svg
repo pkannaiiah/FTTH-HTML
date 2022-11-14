@@ -1,0 +1,22 @@
+<svg width="65" height="64" viewBox="0 0 65 64" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <linearGradient x1="11.011%" y1="-26.752%" x2="100%" y2="149.252%" id="a">
+            <stop stop-color="#FF006B" offset="0%"/>
+            <stop stop-color="#ED1C24" offset="44.527%"/>
+            <stop stop-color="#BA0FB5" offset="100%"/>
+        </linearGradient>
+        <path d="M9.6 0h20.8v28.8a4.8 4.8 0 0 1-4.8 4.8H4.8V4.8A4.8 4.8 0 0 1 9.6 0z" id="b"/>
+    </defs>
+    <g transform="translate(.644)" fill="none" fill-rule="evenodd">
+        <circle fill="url(#a)" cx="32" cy="32" r="32"/>
+        <g transform="translate(12.8 16)">
+            <use fill="#FFF" xlink:href="#b"/>
+            <path d="M6.4 8h24V6.18L33.6 0h-24a3.2 3.2 0 0 0-3.2 3.2V8z" fill="#FFF"/>
+            <path d="M8.8 14.4h14.4a.8.8 0 1 1 0 1.6H8.8a.8.8 0 1 1 0-1.6zM8.8 17.6h14.4a.8.8 0 1 1 0 1.6H8.8a.8.8 0 1 1 0-1.6zM8.8 20.8h9.6a.8.8 0 1 1 0 1.6H8.8a.8.8 0 1 1 0-1.6z" fill="#ED2324"/>
+            <path d="M0 25.6h24v1.82l3.2 6.18h-24A3.2 3.2 0 0 1 0 30.4v-4.8z" fill="#E0E0E0"/>
+            <path d="M24 22.4h6.4v8a3.2 3.2 0 1 1-6.4 0v-8z" fill="#FFF"/>
+            <path d="M30.4 8h6.4V3.2a3.2 3.2 0 1 0-6.4 0V8z" fill="#E0E0E0"/>
+            <path d="M17.6 2.4a4 4 0 1 0 0 8 4 4 0 0 0 0-8zm0 1.6a2.4 2.4 0 1 1 0 4.8 2.4 2.4 0 0 1 0-4.8z" fill="#ED2324" fill-rule="nonzero"/>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,124 @@
+//Swiper
+.dashboardSwiper{
+    margin-bottom: 30px;
+    .swiper-wrapper{
+        .swiper-slide{
+            img{
+                width: 100%;
+                border-radius: 16px;
+            }
+        }
+    }
+    .swiper-pagination{
+        .swiper-pagination-bullet{
+            width: 10px;
+            height: 10px;
+            background: $disable;
+            &.swiper-pagination-bullet-active{
+                background: $primary;
+            }
+        }
+    }
+}
+.sw_produts--swiper{
+    padding:15px 15px 50px 0px;
+    .swiper-slide{
+        height: auto !important;
+    }
+}
+
+//g
+.swiper-horizontal > .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal{
+    bottom:auto;
+    padding:10px 5px;
+}
+.swiper-pagination-clickable .swiper-pagination-bullet{width:10px;height:10px;}
+.swiper-pagination-bullet-active{background-color:#ED1C24;}
+
+.dashboardSwiper .swiper-horizontal > .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal{
+    bottom:0px;
+    padding:10px 5px;
+}
+
+//cont swiper
+.multi-rows-swp-01{
+    position: relative;
+ .swiper-wrapper{
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+  .swiper-slide {
+    padding: 0px 10px 30px;
+    width: 33.3%;
+    height: auto;
+  }
+  
+}
+}
+
+@media (max-width: 1199.98px) {
+    .dashboardSwiper{
+        margin-bottom: 10px;
+        .swiper-wrapper{
+            padding-bottom: 30px;
+        }
+         .swiper-pagination{
+             bottom: 0px;
+         }
+    }
+    
+    .multi-rows-swp-01{
+     .swiper-wrapper {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: left;
+     .swiper-slide {
+        -webkit-box-flex: 0;
+        -ms-flex-positive: 0;
+        flex-grow: 0;
+        -ms-flex-negative: 0;
+        flex-shrink: 0;
+        width: 320px;
+        height: 100%;
+      }
+    }
+    .swiper-horizontal > .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal {
+        bottom: 40px;
+      }
+}
+
+}
+
+@media (max-width: 767.98px) {
+}
+
+@media (max-width: 575.98px) {
+    .multi-rows-swp-01{
+    .swiper-horizontal > .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal {
+        bottom: 6px;
+      }
+      .swiper-wrapper {
+     .swiper-slide {
+        width: 100%;
+      }
+    }
+    }
+}
+
+
+
+@media (max-width: 424.98px) {
+    .multi-rows-swp-01{
+          .swiper-wrapper {
+         .swiper-slide {
+            width: 100%;
+          }
+        }
+        }
+    
+}
+
+@media (max-width: 374.98px) {
+}
+
+////////////

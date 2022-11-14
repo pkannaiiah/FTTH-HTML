@@ -1,0 +1,22 @@
+.ftth-benefits{
+    background:#F8F8F8;
+    padding:16px 20px;
+    margin-top: 10px;
+    @include border-radius10;
+
+    .ftth_h6{font-family:$primary-font; font-size: 12px;font-family:$primary;color:#898989; text-transform: uppercase;}
+}
+
+//list
+.ftth-f-list{
+    margin-top:20px;
+    font-size: 14px;
+    label{color:#000;font-weight: 600;}
+    ul{
+        margin:-5px 0px;
+        li{
+            margin:8px 0px;
+            img{margin-right:5px;}
+        }
+    }
+}

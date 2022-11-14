@@ -1,0 +1,125 @@
+.hiflex-card{
+    border-radius:8px;
+    border-color:#E0E0E0;
+    padding:20px;
+    background: transparent;
+    .ioh_h4{margin:0px; padding:0px;}
+    .alignitemsc{display: flex; justify-content: space-between; align-items: center;}
+    img{width: 10px;}
+    .histor-colum2{
+        margin: 15px 0px 0px 0px;
+        p{font-size:12px; color:#898989;margin-bottom:5px;}
+        .ioh_h5{font-size:14px; color:#898989;margin:0px;padding:0px;}
+        .copyicon{width:20px;}
+    }
+ 
+}
+.hr-row{border:1.5px dashed #E0E0E0;border-top:0px; width:100%;margin:20px 0px;}
+
+.hist-twocolm{
+    display: flex; justify-content: space-between; align-items: center;
+    .dropdowminw{width:280px;}
+}
+
+/*ka 10-11-22 st*/
+.flexcard-3col-comp{
+    .card{
+        background:#F4F4EF;
+        border-radius: 16px;
+        box-shadow: 0 1px 0px rgba(0, 0, 0, 0.1);
+        border: 0px;
+    .pack-comp {
+        padding: 1.2em 1.2em 0em 1.2em;
+    .packname-title{
+        font-family: "qualy-bold", "prompt-regular", Arial, Helvetica, sans-serif;
+        font-size: 30px;
+        color: #EC008C;
+        text-align: left;
+        line-height: normal;
+        border-bottom: 1px solid rgba(0,0,0,.125);
+        padding-bottom: 1rem;
+}
+}
+.card-body{
+    ul{
+        li{
+            margin-bottom: 5px;
+            font-size: 14px;
+            label {
+                font-weight: 600;
+                margin: 0px;
+                padding: 0px;
+              }
+        }
+    }
+}
+}
+.card-footer {
+    padding:0rem 1rem 1rem 1rem;
+    background-color:transparent;
+    border-top: 0px solid rgba(0,0,0,.125);
+  }
+  p{font-weight: 600;}
+}
+
+.ftth-offer-price{
+    font-size:16px !important; color:#000 !important;
+}
+/*ka 10-11-22 end*/
+
+///lisring
+.sty-comp-sec02{
+    ul.numbered-list {
+       counter-reset: li;
+       list-style-type: none;
+       font-size: 14px;
+       padding-left: 10px;
+       
+       li {
+         position: relative;   
+         padding: 5px 0 15px 30px;
+         
+         &:before {
+           content: counter(li);
+           counter-increment: 0;
+           height: 14px;
+           width: 14px;
+           background-color: #000;
+           border-radius: 50%;
+           color: #000;
+           text-align: center;
+           position: absolute;
+           left: 0;
+           top: 4px;
+           line-height:normal;
+           font-size:10px;
+         }
+       }
+     }
+     
+   }
+
+@media (max-width: 640.98px) {
+    .hist-twocolm{
+        display:block!important; justify-content: space-between; align-items: center;
+        .colm2{margin-top:10px;}
+        .dropdowminw{width:100%;}
+    }
+    .history-comp{
+        .g-4{
+            --bs-gutter-y: 1.5rem;
+            --bs-gutter-x: 0rem;
+        }
+        .col-6{width:100%;}
+        .col-md-6 .col-sm-12{margin: 0px!important;padding:0px!important;}
+    }
+}
+
+@media (max-width: 576.98px) {
+    .hiflex-card{
+    .histor-colum2{
+        .ioh_h5{font-size:12px;}
+        .copyicon{width:14px;}
+    }
+}
+}

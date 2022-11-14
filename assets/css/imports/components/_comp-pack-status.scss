@@ -1,0 +1,74 @@
+.pack-status-comp{
+background:#F8F8F8;
+border-radius:16px;
+.cont-sec{
+    padding:20px;
+}
+}
+
+///@at-root
+.active-cont{
+    p{color:#4D4D4F;font-size:14px;}
+}
+
+.flex-containerv{
+    display: flex;
+    justify-content:start;
+    flex-wrap: wrap;
+    .flex-cont{
+        flex:0 34%;
+    }
+}
+
+//ftth-benefits-comp
+.ftth-benefits-comp{
+    background:#F8F8F8;
+    border-radius:10px;
+    padding:20px;
+}
+
+//22-06-2022 st
+.change-pack-comp2col{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    .radio{
+        flex: 0 47%;
+        padding: 0px;
+        label{
+        border:1px solid #E0E0E0;
+        border-radius:6px;
+        padding:10px;
+        width:100%;
+    }
+    }
+    ul{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        li{
+            margin: 0px;
+            padding: 0px;
+        }
+    }
+}
+.input-radiobtntwo .radio input[type="radio"]:checked + .radio-label{
+    background:#FFDDDD;
+    border:1px solid $pink0;
+}
+.pack-select-comp{
+    display: flex;
+    font-size:14px;
+    label{
+        @extend %primary-font;
+        margin-left:10px;
+    }
+}
+
+.message-comp{
+    & .warning_state_btn{
+        background:$yellow;
+        border-color: $yellow;
+        padding:10px
+    }
+}

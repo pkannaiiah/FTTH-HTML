@@ -1,0 +1,123 @@
+//Wizard
+.wizard{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    &::before{
+        content: '';
+        position: absolute;
+        top: 11px;
+        left:50%;
+        transform: translateX(-50%);
+        width:80%;
+        border: 1px solid $border;
+    }
+    &_item{
+        @extend %primary-font;
+        font-size: 14px;
+        position: relative;
+        color: $dark-gray;
+        text-align: center;
+        padding-top: 40px;
+        //flex: 33.33%;
+        h4{
+            font-size: 14px;
+            // min-height: 40px;
+            margin-bottom: 0px;
+        }
+        span{
+            display: none;
+            border: 1px solid $green;
+            position: absolute;
+            top: 11px;
+            transform: translateX(-50%);
+            left: 140%;
+            width: 160%;
+        }
+        p{
+            @extend %regular-font;
+            font-size: 14px;
+            margin-top: 16px;
+            color: $dark-gray;
+        }
+        &::before{
+            content: '';
+            width: 24px;
+            height: 24px;
+            border-radius: 30px;
+            border: 1px solid $border;
+            @extend %white-bg;
+            position: absolute;
+            top: 0px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        &.active,&.completed{
+            color: $dark-black;
+            &::before{
+                background: $green;
+                border: 1px solid $green;
+            }
+            &::after{
+                position: absolute;
+                content: '';
+                background: url(../images/icons/white_tick.svg) no-repeat;
+                background-size: cover;
+                top: 8px;
+                left: 50%;
+                transform: translateX(-50%);
+                width: 11px;
+                height: 8px;
+                pointer-events: none;
+            }
+        }
+        &.completed{
+            span{
+                display: inline-block;
+            }
+        }
+        
+        //NEW 21-06-22
+        &.inprogress{
+            color: $dark-black;
+            &::before{
+                background: $green;
+                border: 1px solid $green;
+            }
+            &::after{
+                position: absolute;
+                content: '';
+                background: url(../images/icons/progress_pop.svg) no-repeat;
+                background-size: cover;
+                top: 0px;
+                left: 50%;
+                transform: translateX(-50%);
+                width: 24px;
+                height: 24px;
+                pointer-events: none;
+            }
+        }
+
+    }
+}
+
+@media (max-width: 991.98px) {
+}
+
+@media (max-width: 767.98px) {
+
+}
+
+@media (max-width: 575.98px) {}
+@media (max-width: 479.98px) {
+
+}
+@media (max-width: 424.98px) {
+    .wizard_item{
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 374.98px) {
+}

@@ -1,0 +1,215 @@
+//Banners
+.global_hero_banner {
+    min-height: 400px;
+    background: $white-light;
+    .swiper-slide {
+        background: $white-light;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+        img {
+            width: auto;
+            height: auto;
+            // object-fit: cover;
+            // object-position: top;
+            max-width: 2000px;
+        }
+    }
+    .swiper-pagination-bullets {
+        width: 100%;
+        bottom: 10px;
+    }
+    .swiper-pagination-bullet {
+        width: 10px;
+        height: 10px;
+        opacity: 0.3;
+    }
+    .swiper-pagination-bullet-active {
+        background: $primary;
+        opacity: 1;
+    }
+}
+
+.full_card_swiper {
+    padding-bottom: 70px;
+    margin-left: -12px;
+    margin-right: -12px;
+    padding-left: 12px;
+    padding-right: 12px;
+    .swiper-pagination-bullets {
+        width: 100%;
+        bottom: 25px;
+    }
+    .swiper-pagination-bullet {
+        width: 10px;
+        height: 10px;
+        opacity: 0.3;
+        &:focus,
+        &:focus-visible {
+            outline: none;
+            box-shadow: none;
+        }
+    }
+    .swiper-pagination-bullet-active {
+        background: $primary;
+        opacity: 1;
+        &:focus,
+        &:focus-visible {
+            outline: none;
+            box-shadow: none;
+        }
+    }
+    .swiper-slide {
+        height: auto;
+    }
+    .shadow_card {
+        box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.1);
+        height: 100%;
+    }
+}
+
+//Font Deviate P tag
+.mini_hero_swiper {
+    min-height: 205px;
+    .ioh_h1 {
+        margin-bottom: 10px !important;
+    }
+    p {
+        font-size: 16px;
+    }
+}
+
+.rounded_bg_section {
+    @extend %white-bg;
+    position: relative;
+}
+
+.bg_text_banner {
+    padding: 130px 0px 100px 0px;
+    .ioh_h1 {
+        font-size: 32px;
+    }
+}
+
+@media (max-width: 1280px) {
+    .global_hero_banner {
+        min-height: 250px;
+        .swiper-slide {
+            img {
+                height: 454px;
+            }
+        }
+    }
+}
+
+@media (max-width: 1199.98px) {
+    .global_hero_banner {
+        .swiper-slide {
+            img {
+                height: 300px;
+            }
+        }
+    }
+}
+
+@media (max-width: 991.98px) {
+    .global_hero_banner {
+        .swiper-slide {
+            img {
+                height: 300px;
+            }
+        }
+    }
+    .bg_text_banner {
+        .ioh_h1 {
+            font-size: 28px;
+        }
+    }
+}
+
+@media (max-width: 767.98px) {
+    .global_hero_banner {
+        .swiper-slide {
+            img {
+                height: 250px;
+            }
+        }
+    }
+    .rounded_bg_section {
+        border-top-right-radius: 16px;
+        border-top-left-radius: 16px;
+        margin-top: -16px;
+        >section:first-child {
+            padding-top: 24px;
+            border-top-right-radius: 16px;
+            border-top-left-radius: 16px;
+        }
+    }
+    .mini_hero_swiper {
+        p {
+            font-size: 12px;
+            margin-bottom: 24px;
+        }
+    }
+    .bg_text_banner {
+        padding: 50px 0px 250px 0px;
+        .ioh_h1 {
+            font-size: 24px;
+        }
+    }
+}
+
+@media (max-width: 575.98px) {
+    .global_hero_banner {
+        .swiper-slide {
+            img {
+                height: auto;
+                width: 100%;
+            }
+        }
+    }
+    .bg_text_banner {
+        padding: 30px 0px 250px 0px;
+    }
+}
+
+@media (max-width: 424.98px) {}
+
+@media (max-width: 374.98px) {}
+
+@media (min-width: 320px) {
+    .global_hero_banner {
+        min-height: 390px;
+    }
+}
+
+@media (min-width: 360px) {
+    .global_hero_banner {
+        min-height: 440px;
+    }
+}
+
+@media (min-width: 375px) {
+    .global_hero_banner {
+        min-height: 450px;
+    }
+}
+
+@media (min-width: 425px) {
+    .global_hero_banner {
+        min-height: 510px;
+    }
+}
+
+@media (min-width: 576px) {
+    .global_hero_banner {
+        min-height: 250px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .global_hero_banner {
+        min-height: 400px;
+    }
+}

@@ -1,0 +1,53 @@
+//Full Section with two column layout
+
+.comp_full_desc_image{
+    &-img{
+        padding-left: 100px;
+        img{
+            width: 100%;
+        }
+    }
+}
+
+@media (max-width: 1199.98px) {
+
+}
+
+@media (max-width: 991.98px) {
+}
+
+@media (max-width: 767.98px) {
+    .comp_full_desc_image{
+        .my-4{
+            margin-top: 5px !important;
+        }
+        &-img{
+            text-align: center;
+            margin-top: 50px;
+            margin-bottom: 50px;
+            padding-left: 50px;
+            padding-right: 50px;
+        }
+        &.reverse_groups{
+            .row{
+                flex-direction: column-reverse
+            }
+            &-img{
+                text-align: center;
+                margin-bottom: 20px;
+            }
+        }
+    }
+}
+
+@media (max-width: 575.98px) {
+
+}
+
+@media (max-width: 424.98px) {
+
+}
+
+@media (max-width: 374.98px) {
+
+}

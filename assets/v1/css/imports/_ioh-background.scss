@@ -1,0 +1,201 @@
+//Backgrounds
+// .bottom_right_red_bg{
+//   background: url(../images/img/bottom_right_red_bg.png) no-repeat;
+//   background-position: bottom right;
+//   background-size: 100%;
+// }
+// .bottom_right_yellow_bg{
+//   background: url(../images/img/bottom_right_yellow_bg.png) no-repeat;
+//   background-position: bottom right;
+//   background-size: 100%;
+// }
+// .bottom_left_yellow_bg{
+//   background: url(../images/img/bottom_left_yellow_bg.png) no-repeat;
+//   background-position: bottom left;
+//   background-size: 100%;
+// }
+// .top_right_red_bg{
+//   background: url(../images/img/top_right_red_bg.png) no-repeat;
+//   background-position: top right;
+//   background-size: 100%;
+// }
+// .top_right_users_bg{
+//   background: url(../images/img/top_right_users_bg.jpg) no-repeat;
+//   background-position: top right;
+//   background-size: contain;
+// }
+// .top_right_black_bg{
+//   background: url(../images/img/top_right_black_bg.jpg) no-repeat;
+//   background-position: top right;
+//   background-size: contain;
+// }
+.top_right_gray_bg {
+    background: url(../images/img/top_right_gray_bg.png) no-repeat;
+    background-position: top right;
+    background-size: 100%;
+}
+
+.top_left_gray_bg {
+    background: url(../images/img/top_left_gray_bg.png) no-repeat;
+    background-position: top left;
+    background-size: 100%;
+}
+
+.top_right_pink_bg {
+    background: url(../images/img/top-right-pink-bg.png) no-repeat;
+    background-position: top right;
+    background-size: contain;
+}
+
+.md_top_xs_bottom_right_pink_bg {
+    background: url(../images/img/top-right-pink-bg.png) no-repeat;
+    background-position: top right;
+    background-size: contain;
+}
+
+.bottom_left_pink_bg,.bottom_left_pink_bg1 {
+    background: url(../images/img/bottom-left-pink-bg.png) no-repeat;
+    background-position: bottom left;
+    background-size: 450px;
+}
+
+// .bottom_left_pink_bg1 {
+//     background: url(../images/img/bottom-left-pink-bg.png) no-repeat;
+//     background-position: bottom left;
+//     background-size: 100%;
+// }
+
+.mini_banner_bg {
+    background: url(../images/img/header-mini-banner.webp) no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.bottom_right_pink_bg {
+    background-image: url(../images/img/bottom-right-pink-bg.png);
+    background-position: bottom right;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.bottom_right_pink_bg1 {
+    background-image: url(../images/img/bottom-right-pink-bg1.png);
+    background-position: center right;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.mini_banner_bg1 {
+    background: url(../images/img/header-mini-banner1.webp) no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+@media (min-width: 1999.98px) {
+    // .top_right_users_bg,.top_right_red_bg,.top_right_black_bg,.top_right_pink_bg{
+    //   background-size: cover;
+    // } 
+}
+@media (max-width: 1199.98px) {
+    .bottom_left_pink_bg,.bottom_left_pink_bg1 {
+        background: url(../images/img/bottom-left-pink-bg.png) no-repeat;
+        background-position: bottom left;
+        background-size: 400px;
+    }
+}
+@media (max-width: 991.98px) {
+    .bottom_left_pink_bg,.bottom_left_pink_bg1 {
+        background: url(../images/img/bottom-left-pink-bg.png) no-repeat;
+        background-position: bottom left;
+        background-size: 290px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .mini_banner_bg1 {
+        background: url(../images/img/header-mini-banner1-mobile.webp) no-repeat;
+        background-position: center center;
+        background-size: cover;
+    }
+    .md_top_xs_bottom_right_pink_bg {
+        background: url(../images/img/bottom-right-pink-bg.png) no-repeat;
+        background-position: bottom right;
+        background-size: 900px;
+    }
+    .bottom_left_pink_bg,.bottom_left_pink_bg1 {
+        background: url(../images/img/bottom-left-pink-bg.png) no-repeat;
+        background-position: bottom left;
+        background-size: 190px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    // .bottom_right_red_bg{
+    //   background: url(../images/img/bottom_right_red_bg-mobile.png) no-repeat;
+    //   background-position: bottom right;
+    //   background-size: 100%;
+    // }
+    // .bottom_right_yellow_bg{
+    //   background: url(../images/img/bottom_right_yellow_bg-mobile.png) no-repeat;
+    //   background-position: bottom right;
+    //   background-size: 100%;
+    // }
+    // .bottom_left_yellow_bg{
+    //   background: url(../images/img/bottom_left_yellow_bg-mobile.png) no-repeat;
+    //   background-position: bottom left;
+    //   background-size: 100%;
+    // }
+    // .top_right_red_bg{
+    //   background: url(../images/img/top_right_red_bg-mobile.png) no-repeat;
+    //   background-position: top right;
+    //   background-size: 100%;
+    // }
+    // .top_right_users_bg{
+    //   background: url(../images/img/top_right_users_bg-mobile.jpg) no-repeat;
+    //   background-position: top right;
+    //   background-size: 400px;
+    // }
+    // .top_right_black_bg{
+    //   background: url(../images/img/top_right_black_bg-mobile.png) no-repeat;
+    //   background-position: top right;
+    //   background-size: 400px;
+    // }
+    .top_right_gray_bg {
+        background: url(../images/img/top_right_gray_bg-mobile.png) no-repeat;
+        background-position: top right;
+        background-size: 100%;
+    }
+    .top_left_gray_bg {
+        background: url(../images/img/top_left_gray_bg-mobile.png) no-repeat;
+        background-position: top left;
+        background-size: cover;
+    }
+    .top_right_pink_bg {
+        background: url(../images/img/top-right-pink-bg-mobile.png) no-repeat;
+        background-position: top right;
+        background-size: 400px;
+    }
+    .bottom_left_pink_bg {
+        background: url(../images/img/bottom-left-pink-bg-mobile.png) no-repeat;
+        // background-position: bottom left;
+        background-position: 0px 70%;
+        background-size: 100%;
+    }
+    .bottom_left_pink_bg1,.bottom_right_pink_bg1 {
+        background: none;
+    }
+    .mini_banner_bg {
+        background: url(../images/img/header-mini-banner-mobile.webp) no-repeat;
+        background-position: center center;
+        background-size: cover;
+    }
+    // .bottom_right_pink_bg {
+    //     background: none;
+    // }
+}
+
+@media (max-width: 374.98px) {
+    // .top_right_users_bg,.top_right_black_bg,.top_right_pink_bg{
+    //     background-size: 106%;
+    // }
+}

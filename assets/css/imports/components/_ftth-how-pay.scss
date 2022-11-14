@@ -1,0 +1,121 @@
+.comp_how_to_pay{
+    .container{
+        display: flex;
+        align-items: center;
+    }
+    .card-colum-wdt{ 
+        ul{
+            li{min-width: 220px}
+        } 
+    }
+    .comp_how_to_pay_row{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-left: 35px;
+    }
+    .comp_how_to_pay_col{
+        h4{
+            @extend %primary-font;
+            font-size: 16px;
+            margin-bottom: 16px;
+        }
+        ul{
+            li{
+                padding: 6px 12px;
+                display: inline-flex;
+                align-items: center;
+                border-radius: 8px;
+                margin-right: 10px;
+                margin-bottom: 8px;
+                @extend %white-bg;
+                &:last-child{
+                    margin-right: 0px;
+                }
+                img{
+                    width: 40px;
+                    height: 40px;
+                    margin-right: 10px;
+                }
+                font-size: 14px;
+            }
+        }
+    }
+}
+.comp-col-left{margin-left:30px;}
+
+@media (max-width: 1199.98px) {
+    .comp_how_to_pay{
+        .container{
+            align-items: flex-start;
+        }
+        .comp_how_to_pay_row{
+            align-items: flex-start;
+        }
+    }
+}
+
+@media (max-width: 991.98px) {
+    .comp_how_to_pay{
+        .container{
+            flex-direction: column;
+            align-items: center;
+        }
+        .card-colum-wdt{
+            ul{
+                li{min-width: auto}
+            } 
+        }
+        .comp_how_to_pay_row{
+            flex-direction: column;
+            align-items: center;
+            margin-left: 0px;
+            margin-top: 40px;
+            .comp_how_to_pay_col{
+                margin:0px 15px;
+                text-align: center;
+                h4{
+                    text-align: center;
+                }
+                ul{
+                    li{
+                        margin-right: 8px;
+                    }
+                }
+                margin-bottom: 30px;
+                &:last-child{
+                    margin-bottom: 0px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 991.98px) {
+
+}
+
+@media (max-width: 767.98px) {
+    .comp_how_to_pay{
+        .ioh_h2{
+            font-size: 20px;
+        }
+    }
+}
+
+@media (max-width: 425px) {
+    .comp_how_to_pay{
+        .comp_how_to_pay_row{
+            margin-top: 30px;
+            .comp_how_to_pay_col {
+                margin-bottom: 20px;
+                ul{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-wrap: wrap;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,152 @@
+//Alerts
+.alert{
+    border: 1px solid;
+    border-radius: 8px;
+    padding: 9px;
+    @extend %flex_grp_align_start;
+    &_img{
+        margin-right: 10px;
+        line-height: 20px;
+        img{
+            width: 20px !important;
+        }
+    }
+    p{
+        margin-bottom: 0px;
+        font-size: 14px;
+        line-height: 21px;
+    }
+    &.alert_danger{
+        background: $light-red;
+        border-color: $primary;
+    }
+    &.alert_gray{
+        background: $white-light;
+        border-color: $border;
+    }
+    &.alert_info{
+        background: $light-yellow;
+        border-color: $yellow;
+    }
+    &.alert_success{
+        background: $light-green;
+        border-color: $green;
+    }
+}
+
+.cs_badge{
+    border-radius: 4px;
+    padding: 4px 10px;
+    font-size: 8px;
+    display: inline-block;
+    @extend %white-color;
+    text-transform: uppercase;
+    &.cs_badge_magenta{
+        background: $magenta;
+    }
+    &.cs_badge_primary{
+        background: $primary;
+    }
+}
+
+.alert_card_fixed{
+    border: 1px solid;
+    border-radius: 8px;
+    padding: 9px;
+    @extend %flex_grp_align_start;
+    border-top: 0px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    margin: 0px 16px;
+    &_img{
+        margin-right: 10px;
+        line-height: 20px;
+        img{
+            width: 20px;
+        }
+    }
+    p{
+        margin-bottom: 0px;
+        font-size: 14px;
+        line-height: 21px;
+    }
+    &.alert_danger{
+        background: $light-red;
+        border-color: $primary;
+    }
+    &.alert_gray{
+        background: $white-light;
+        border-color: $border;
+    }
+    &.alert_info{
+        background: $light-yellow;
+        border-color: $yellow;
+    }
+    &.alert_success{
+        background: $light-green;
+        border-color: $green;
+    }
+}
+//@at-root
+.alert1{
+    border: 0px solid;
+    border-radius:0px 0px 8px 8px;
+    padding: 10px;
+    @extend %flex_grp_align_start;
+    &_img{
+        margin-right: 10px;
+        line-height: 20px;
+        img{
+            width: 20px;
+        }
+    }
+    p{
+        margin-bottom: 0px;
+        font-size: 14px;
+        line-height: 21px;
+    }
+    &.alert_danger{
+        background: $light-red;
+        border-color: $primary;
+        color:$primary;
+    }
+    &.alert_gray{
+        background: $white-light;
+        border-color: $border;
+    }
+    &.alert_info{
+        background: $light-yellow;
+        border-color: $yellow;
+        color: #CCA200;
+    }
+    &.alert_success{
+        background: $light-green;
+        border-color: $green;
+    }
+    &.alert_nextbill{
+        background: $light-blue !important;
+        border-color: $light-blue !important;
+    }
+}
+
+@media (max-width: 991.98px) {
+    
+}
+
+@media (max-width: 767.98px) {
+
+}
+
+@media (max-width: 575.98px) {}
+
+@media (max-width: 424.98px) {
+    .alert,.alert_card_fixed{
+        p{
+            font-size: 12px;
+            line-height: 18px;
+        }
+    }
+}
+
+@media (max-width: 374.98px) {
+}

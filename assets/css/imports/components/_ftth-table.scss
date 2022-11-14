@@ -1,0 +1,74 @@
+.ftth-table-comps{
+.text-margin{width:600px; margin:0 auto;text-align: center;}
+
+.table > :not(caption) > * > *{
+    padding: 0.8rem;
+    border-bottom-width: 0px;
+}
+.table{font-family:$primary-font; color:#4D4D4F;text-align: center;}
+.table thead th{font-size:16px;}
+.table td{font-size:14px;}
+.table th{font-size:14px;font-weight: normal;}
+.table > :not(:first-child) {
+    border-top: 0px solid currentColor;
+  }
+
+.roundedTable {
+    border-collapse: collapse;
+    border-radius:16px;
+    overflow: hidden;
+    width: 100%;
+    margin: 0;
+}
+.table-sup-text{
+    font-size:14px;
+    font-family:$primary-font;
+    .text-right{text-align: right;}
+    .text-left{text-align: left;}
+}
+
+.ftth-table-comp01{
+    background:#F8F8F8;
+}
+.ftth-table-comp02{
+    background:#FFFFFF;
+}
+
+}
+
+.ftth-table-textl{
+    .table{text-align: left !important;}
+    .table thead th{border-right:1px solid #E0E0E0;}
+    .table th{border-right:1px solid #E0E0E0;}
+}
+@media (max-width: 767.98px) {
+    .ftth-table-comps .text-margin{
+        width:100%;
+    }
+}
+@media (max-width: 575.98px) {
+    .mt_60 {
+        margin-top:30px;
+      }
+    .ftth-table-comps{
+    .table thead th{font-size:14px;}
+    .table td{font-size:14px;}
+    .text-margin{margin:0 auto;text-align:left;}
+    .table-sup-text{
+        font-size:14px;
+        .text-right{text-align: left;margin-bottom: 15px;}
+        .text-left{text-align: left;}
+    }
+    .table > :not(caption) > * > *{
+        padding: 0.8rem 0.5rem;
+        border-bottom-width: 0px;
+    }
+    .ioh_h1 {
+        font-size: 18px;
+      }
+}
+.ftth-table-comps{
+    .my-4{margin-bottom:0px !important;}
+}
+
+}

@@ -1,0 +1,38 @@
+.ftth-toast-message{
+    position: relative;
+    .toast:not(.show){display: block;}
+    .toast{
+        border-radius:8px;
+        color:$primary;
+        background:#FFDDDD;
+        border:1px solid $primary;
+        margin-top:-18px;
+        box-shadow: 0 .0rem 0rem rgba(0,0,0,.15);
+        position: absolute;
+        img{margin-right:8px;}
+        .toast-body{font-size:13px;padding:10px; display: flex;}
+    }
+    .container__arrow {
+        height: 12px;
+        width: 12px;
+        background-color: #FFDDDD;
+        position: absolute;
+    }
+
+    .container__arrow--tl {
+        left: 25px;
+        top: 0px;
+        border-left: 1px solid $primary;
+        border-top: 1px solid $primary;
+        transform: translate(50%, -50%) rotate(45deg);
+    }
+
+}
+
+@media screen and (max-width: 576px) {
+    .ftth-toast-message{
+        .container__arrow--tl {
+            top: 0px;
+        }
+    }
+}

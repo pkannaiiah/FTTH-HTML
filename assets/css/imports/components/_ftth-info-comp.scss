@@ -1,0 +1,13 @@
+.ftth-info-comp{
+    width:100%;
+    border:1px solid #E0E0E0;
+    background-color:#F8F8F8;
+    padding:15px 20px;
+    @include border-radius10;
+    .contsec{
+        font-size:14px;
+        color:$dark-black;
+        display: flex;align-items: flex-start;
+        img{margin-top:4px;}
+    }
+}

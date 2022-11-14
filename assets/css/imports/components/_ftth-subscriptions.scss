@@ -1,0 +1,101 @@
+.ftth-subscriptions-comp{
+    margin-top: 20px;
+    .vert-tabs-sec{
+    .nav-pills{
+        .nav-link{
+            width:100%;
+            text-align: left;
+            color:$dark-black;
+            padding:16px 20px;
+        }
+        .active {
+            background-color: #FFF0F0;
+            text-align: left;
+            color: #000000;
+            padding:16px 20px;
+            border-radius: 8px;
+            .ioh_h4{color:#ED1D25;}
+          }
+          .ioh_h4{margin-bottom:8px;}
+          .vtab-suptext{
+              font-size: 14px;
+              margin-bottom: 0px;
+              line-height: 21px;
+              color:$dark-black;
+          }
+    }
+    
+    // .nav{
+    //     display: block;
+    //     width:425px;
+    //     margin-right: 107px;
+    //     position: sticky;
+    // }
+
+    .tab-content{width:100%;padding: 0px 20px;}
+}
+}
+.ftth-tab-cont{
+    max-width:500px;
+    margin: 0px auto;
+}
+
+//info-comp
+.info-comp{
+    .parag{font-size: 14px;}
+    img{width:20px; height:20px;}
+}
+
+//total-amount-comp
+.total-amount-comp{
+    border:1px solid #E0E0E0;
+    border-radius:15px;
+    padding:15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .cont{font-size:14px;line-height: normal;}
+    .total-amount{
+        font-family: 'qualy-bold';
+        line-height: normal;
+    }
+}
+
+@media (max-width: 768px) {
+    .ftth-subscriptions-comp{
+        .vert-tabs-sec{
+            display: block;
+            .vtab-suptext{display: none;}
+            
+        .nav-pills{
+            .nav-link{
+                padding:10px 20px;
+                white-space: nowrap;
+                display: inline-block;
+            }
+            .active {padding:10px 20px;}
+            .ioh_h4{font-size:14px; margin-bottom:0px;}
+        }
+        .nav{
+            display:flex;width:100%;
+            margin-right:0px;
+            overflow-y:hidden;
+            overflow-x: scroll;
+            flex-wrap: nowrap
+
+        }
+        .tab-content{width:100%;padding: 0px;}
+    }
+    }
+    .ftth-tab-cont {width:100%;margin-top:30px;}
+}
+@media (max-width: 575.98px) {
+    .ftth-subscriptions-comp{
+        .vert-tabs-sec{
+            .active {border-radius: 10px;}
+              .ioh_h4{font-size:14px; margin-bottom:4px;}
+              .vtab-suptext{display: none;}
+        }
+    }
+
+}

@@ -1,0 +1,13 @@
+.ftth-breadcrumb-comp{
+    .breadcrumb-item{
+        font-size:12px; color:#4C4D4F;
+    }
+    .active{color:$disable;}
+    .breadcrumb{margin-bottom:20px;}
+    .breadcrumb-item + .breadcrumb-item::before {
+        float: left;
+        padding-right: .5rem;
+        color: #6c757d;
+        content: var(--bs-breadcrumb-divider, ">");
+      }
+}

@@ -1,0 +1,333 @@
+//Buttons
+.ioh_btn {
+    padding: 8px 30px;
+    font-size: 14px;
+    height: calc(2em + 12px);
+    min-width: 120px;
+    border: 1px solid;
+    border-radius: 50px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    text-align: center;
+    @extend %primary-font;
+}
+
+.ioh_md_btn {
+    padding: 4px 20px;
+    font-size: 13px;
+    height: calc(1em + 17px);
+    min-width: auto;
+}
+
+.ioh_sm_btn {
+    padding: 8px 20px;
+    font-size: 12px;
+    height: calc(2em + 6px);
+    min-width: auto;
+    border-radius:30px;
+}
+
+.ioh_xs_btn {
+    padding: 5px 16px;
+    font-size: 12px;
+    height: calc(1em + 10px);
+}
+
+//11-07
+.ioh_btn_primary {
+    border-color: $red-color;
+    @extend %red-color-bg;
+    @extend %white-color;
+    &:hover {
+        border-color: $red-color;
+        background: $white;
+        @extend %red-color;
+    }
+    &.disabled,
+    &:disabled {
+        background: $disable;
+        border-color: $disable;
+        @extend %white-color;
+        &:hover {
+            background: $disable;
+            border-color: $disable;
+            @extend %white-color;
+        }
+    }
+}
+
+.ioh_btn_white {
+    border-color: $white;
+    @extend %white-bg;
+    @extend %dark-black-color;
+    &:hover {
+        border-color: $white;
+        @extend %white-bg;
+        @extend %dark-black-color;
+    }
+    &.disabled,
+    &:disabled {
+        background: $disable;
+        border-color: $disable;
+        @extend %white-color;
+        &:hover {
+            background: $disable;
+            border-color: $disable;
+            @extend %white-color;
+        }
+    }
+}
+
+.ioh_btn_turqoise {
+    border-color: $turqoise;
+    background: $turqoise;
+    @extend %white-color;
+    &:hover {
+        border-color: $turqoise;
+        background: $turqoise;
+        @extend %white-color;
+    }
+    &.disabled,
+    &:disabled {
+        background: $disable;
+        border-color: $disable;
+        @extend %white-color;
+        &:hover {
+            background: $disable;
+            border-color: $disable;
+            @extend %white-color;
+        }
+    }
+}
+
+.ioh_btn_gray {
+    border-color: $border;
+    background: $border;
+    @extend %dark-black-color;
+    &:hover {
+        border-color: $border;
+        background: $border;
+        @extend %dark-black-color;
+    }
+}
+
+//11-07-22
+.ioh_btn_outline_primary {
+    border-color: $red-color;
+    @extend %white-bg;
+    @extend %red-color;
+    &:hover {
+        border-color: $red-color;
+        background: $red-color;
+        @extend %white-bg;
+        @extend %white-color;
+
+    }
+    &.disabled,
+    &:disabled {
+        @extend %white-bg;
+        color: $disable;
+        border-color: $disable;
+        &:hover {
+            @extend %white-bg;
+            color: $disable;
+            border-color: $disable;
+        }
+    }
+}
+
+.ioh_btn_outline_secondary {
+    font-size:12px;
+    border-color: $dark-black;
+    color:$dark-black;
+    min-width: 115px;
+    padding:10px 16px;
+    height:34px;
+    @extend %white-bg;
+    &:hover {
+        border-color: $dark-black;
+        color:$dark-black;
+        @extend %white-bg;
+    }
+    &.disabled,
+    &:disabled {
+        @extend %white-bg;
+        color: $disable;
+        border-color: $disable;
+        &:hover {
+            @extend %white-bg;
+            color: $disable;
+            border-color: $disable;
+        }
+    }
+    img{width: 20px !important;margin-left:10px;}
+}
+
+.ioh_btn_outline_download {
+    font-size:12px;
+    border-color: $pink0;
+    color:$pink0;
+    min-width: 115px;
+    padding:10px 16px;
+    height:34px;
+    @extend %white-bg;
+    &:hover {
+        border-color: $pink0;
+        color:$pink0;
+        @extend %white-bg;
+    }
+    &.disabled,
+    &:disabled {
+        @extend %white-bg;
+        color: $disable;
+        border-color: $disable;
+        &:hover {
+            @extend %white-bg;
+            color: $disable;
+            border-color: $disable;
+        }
+    }
+    img{width: 20px !important;margin-left:10px;}
+}
+
+.btn-block{
+    min-width: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.arrow_link {
+    display: inline-flex;
+    align-items: center;
+    font-size: 14px;
+    @extend %primary-font;
+    @extend %primary-color;
+    cursor: pointer;
+    img {
+        width: 6px;
+    }
+    &:hover {
+        @extend %primary-color;
+    }
+    &.arrow_link_white {
+        @extend %white-color;
+        &:hover {
+            @extend %white-color;
+        }
+    }
+}
+
+.swiper_btn_prev,
+.swiper_btn_next {
+    width: 48px;
+    height: 48px;
+    border-radius: 50px;
+    @extend %white-bg;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: 0px;
+    box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.1);
+    img {
+        width: 12px;
+    }
+    &.swiper-button-disabled {
+        background: $white-light;
+        img {
+            opacity: .3;
+        }
+    }
+}
+
+.ioh_mail_btn {
+    padding: 6px 25px 6px 12px;
+    @extend %primary-bg;
+    @extend %white-color;
+    @extend %primary-font;
+    height: 48px;
+    border-radius: 30px;
+    font-size: 18px;
+    display: inline-flex;
+    align-items: center;
+    img {
+        width: 36px;
+        margin-right: 14px;
+    }
+    &:hover {
+        @extend %white-color;
+        background: $btn-hover;
+    }
+}
+
+.link {
+    color: blue;
+    text-decoration: underline;
+    word-wrap: break-word;
+    &:hover {
+        color: blue;
+        text-decoration: underline;
+    }
+}
+
+.status_btn{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 110px;
+    padding: 8px 16px;
+    border-radius: 50px;
+    @extend %primary-font;
+    font-size: 12px;
+    border-color:$light-green;
+    cursor: pointer;
+    &.active_state_btn{
+        background: $light-green;
+        color: $green;
+    }
+    &.warning_state_btn{
+        background: $light-yellow;
+        color: $yellow;
+        cursor: pointer;
+    }
+    &.failed_state_btn{
+        background: $light-red;
+        color: $primary;
+        cursor: pointer;
+    }
+}
+
+.download_invoice{
+    border: none;
+    background: transparent;
+    img{
+        width: 24px !important;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .ioh_btn_outline_secondary{width: auto;}
+    .status_btn{width:100px;}
+}
+
+@media (max-width: 767.98px) {
+    .ioh_mail_btn {
+        padding: 6px 20px 6px 12px;
+        font-size: 14px;
+        img {
+            margin-right: 8px;
+        }
+    }
+}
+
+@media (max-width: 374.98px) {
+    .ioh_mail_btn {
+        font-size: 13px;
+        img {
+            width: 30px;
+            margin-right: 5px;
+        }
+    }
+}

@@ -1,0 +1,227 @@
+.corp-abt-thumb-slider {
+    .heading-cont {
+        margin-bottom: 75px;
+        text-align: center;
+    }
+    .year-sec-cont {
+        align-items: flex-start;
+        margin-bottom: 40px;
+        .year-container {
+            width: 60%;
+            .ioh_h2 {
+                margin: 0;
+            }
+            .year-desc {
+                font-family: $light-font;
+                max-height: 172px;
+                overflow-y: auto;
+                padding-right: 10px;
+                scrollbar-width: thin;
+                scrollbar-color: $primary #d8d8d8;
+                border: 0;
+                &::-webkit-scrollbar {
+                    width: 6px;
+                    border-radius: 20px;
+                }
+                &::-webkit-scrollbar-track {
+                    background: #d8d8d8;
+                    border-radius: 20px;
+                }
+                &::-webkit-scrollbar-thumb {
+                    background-color: $primary;
+                    border-radius: 20px;
+                    border: 0px solid #d8d8d8;
+                }
+            }
+        }
+        .image-round-cont {
+            margin-right: 36px;
+            width: calc(40% - 36px);
+            img {
+                width: 100%;
+            }
+        }
+    }
+    .year-cont {
+        padding: 8px 16px;
+        margin: 18px 10px;
+        color: #211e20;
+        font-size: 16px;
+        text-align: center;
+        cursor: pointer;
+        @extend %primary-font;
+    }
+    .swiper-slide-thumb-active {
+        .year-cont {
+            color: $white;
+            background-color: $primary;
+            border-radius: 25px;
+        }
+    }
+    .nav-btns {
+        padding: 0 50px;
+        border-top: 2px solid #eeeeee;
+    }
+    .c-about-thumbs {
+        margin: 0px;
+        position: relative;
+    }
+    .sw-btn-cont-thumbs {
+        position: absolute;
+        top: 20px;
+        width: 100%;
+        .swiper-button-next,
+        .swiper-button-prev {
+            position: relative;
+            width: 22px;
+            height: 22px;
+            box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0);
+            background-color: transparent;
+            padding: 0px;
+            img {
+                width: 12px;
+            }
+            margin: 0;
+        }
+    }
+    .swiper-button-next:after,
+    .swiper-button-prev:after {
+        padding: 12px 13px 12px 11px;
+        background-color: #fff;
+        height: 48px;
+        width: 48px;
+    }
+    .swiper-button-next:after,
+    .swiper-button-prev:after {
+        background-image: url("../images/icons/right_arrow_gray.svg");
+        background-repeat: no-repeat;
+        background-position: 50%;
+        border-radius: 50%;
+        transform: rotate(180deg);
+    }
+    .swiper-button-next:after {
+        transform: rotate(0deg);
+        box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.1);
+    }
+    .swiper-button-prev:after {
+        box-shadow: 0 -3px 5px 0 rgba(0, 0, 0, 0.1);
+    }
+    .swiper-button-next:after,
+    .swiper-rtl .swiper-button-prev:after,
+    .swiper-button-prev:after,
+    .swiper-rtl .swiper-button-next:after {
+        content: "";
+    }
+    .swiper-button-next,
+    .swiper-button-prev {
+        height: 48px;
+        width: 48px;
+        border-radius: 48px;
+    }
+    .swiper-button-prev,
+    .swiper-rtl .swiper-button-next {
+        left: 0;
+    }
+    .swiper-button-next,
+    .swiper-rtl .swiper-button-prev {
+        right: 0;
+    }
+}
+
+// `xxl` applies to x-large devices (large desktops, less than 1400px)
+@media (max-width: 1399.98px) {}
+
+// `xl` applies to large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) {}
+
+// `lg` applies to medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) {}
+
+// `md` applies to small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) {
+    .corp-abt-thumb-slider {
+        .heading-cont {
+            margin-bottom: 24px;
+            text-align: left;
+            h3 {
+                margin-bottom: 12px !important;
+            }
+        }
+    }
+}
+
+// `sm` applies to x-small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+    .corp-abt-thumb-slider {
+        padding-bottom: 20px;
+        .year-sec-cont {
+            flex-direction: column;
+            margin-bottom: 24px;
+            .year-container {
+                width: 100%;
+                order: 2;
+                .year-desc {
+                    max-height: 150px;
+                    overflow-y: auto;
+                }
+            }
+            .image-round-cont {
+                order: 1;
+                margin-left: 0%;
+                width: 100%;
+                margin-bottom: 24px;
+            }
+        }
+        .sw-btn-cont-thumbs .swiper-button-prev {
+            left: -10px;
+        }
+        .sw-btn-cont-thumbs .swiper-button-next {
+            right: -10px;
+        }
+        .sw-btn-cont-thumbs .swiper-button-prev {
+            margin-right: auto;
+        }
+        .sw-btn-cont-thumbs .swiper-button-prev {
+            margin-right: auto;
+        }
+        .corp-abt-thumb-slider .sw-btn-cont-thumbs {
+            top: 22px;
+        }
+        .sw-btn-cont-thumbs {
+            .swiper-button-next,
+            .swiper-button-prev {
+                position: relative;
+                width: 22px;
+                height: 22px;
+                background-color: transparent;
+                padding: 0px;
+                img {
+                    width: 22px;
+                }
+                margin: 0;
+            }
+        }
+        .year-cont {
+            margin: 10px 0;
+            padding: 8px;
+            font-size: 14px;
+        }
+        .nav-btns {
+            padding: 0 36px;
+        }
+        .swiper-button-next:after,
+        .swiper-button-prev:after {
+            padding: 12px 13px 12px 11px;
+            background-color: #fff;
+            height: 32px;
+            width: 32px;
+        }
+        .swiper-button-next,
+        .swiper-button-prev {
+            height: 32px;
+            width: 32px;
+            border-radius: 32px;
+            top: 58%;
+        }
+    }
+}

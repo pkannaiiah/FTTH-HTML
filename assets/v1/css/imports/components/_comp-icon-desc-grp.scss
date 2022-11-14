@@ -1,0 +1,186 @@
+//Blog image & descriptiopn group
+.icon_desc_grp {
+    @extend %flex_grp_align_start;
+    .icon_left_img {
+        margin-right: 30px;
+        img {
+            min-width: 64px;
+            max-width: 64px;
+            border-radius: 50px;
+        }
+    }
+    .icon_right_desc {
+        padding-right: 30px;
+        h4 {
+            @extend %primary-font;
+            font-size: 22px;
+            margin-bottom: 8px;
+        }
+        p {
+            font-family: $light-font;
+            font-size: 14px;
+            margin-bottom: 8px;
+        }
+    }
+    &.sm_grp{
+        .icon_left_img {
+            img {
+                min-width: 54px;
+                max-width: 54px;
+            }
+        }
+        .icon_right_desc {
+            padding-right: 0px;
+            h4 {
+                font-size: 20px;
+                margin-bottom: 5px;
+            }
+        }
+    }
+    &.lg_grp{
+        align-items: center;
+        .icon_left_img {
+            margin-right: 35px;
+            img {
+                min-width: 90px;
+                max-width: 90px;
+            }
+        }
+        .icon_right_desc {
+            padding-right: 0px;
+            h4 {
+                font-size: 20px;
+                margin-bottom: 8px;
+            }
+        }
+    }
+    &.xs_grp{
+        align-items: center;
+        .icon_left_img {
+            margin-right: 20px;
+            img {
+                min-width: 54px;
+                max-width: 54px;
+            }
+        }
+        .icon_right_desc {
+            padding-right: 0px;
+            h4 {
+                font-size: 18px;
+                margin-bottom: 0px;
+            }
+        }
+    }
+}
+
+@media (max-width: 1199.98px) {
+    .icon_desc_grp {
+        .icon_right_desc {
+            padding-right: 0px;
+        }
+        &.lg_grp{
+            .icon_left_img {
+                margin-right: 20px;
+                img {
+                    min-width: 70px;
+                    max-width: 70px;
+                }
+            }
+            .icon_right_desc {
+                h4 {
+                    font-size: 18px;
+                }
+            }
+        }
+        &.xs_grp{
+            .icon_left_img {
+                margin-right: 16px;
+            }
+            .icon_right_desc {
+                h4 {
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 991.98px) {}
+
+@media (max-width: 767.98px) {
+    .icon_desc_grp {
+        .icon_left_img {
+            margin-right: 16px;
+            img {
+                min-width: 48px;
+                max-width: 48px;
+            }
+        }
+        .icon_right_desc {
+            h4 {
+                font-size: 18px;
+                margin-bottom: 4px;
+            }
+        }
+        &.sm_grp{
+            align-items: center;
+            .icon_right_desc {
+                h4 {
+                    font-size: 18px;
+                }
+            }
+        }
+        &.xs_grp{
+            .icon_left_img {
+                img {
+                    min-width: 46px;
+                    max-width: 46px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 575.98px) {
+    .icon_desc_grp {
+        &.sm_grp{
+            .icon_right_desc {
+                h4 {
+                    font-size: 16px;
+                }
+            }
+        }
+        &.lg_grp{
+            .icon_left_img {
+                margin-right: 16px;
+                img {
+                    min-width: 64px;
+                    max-width: 64px;
+                }
+            }
+            .icon_right_desc {
+                h4 {
+                    font-size: 16px;
+                }
+            }
+        }
+        &.xs_grp{
+            .icon_left_img {
+                margin-right: 16px;
+                img {
+                    min-width: 40px;
+                    max-width: 40px;
+                }
+                .icon_right_desc {
+                    h4 {
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 424.98px) {}
+
+@media (max-width: 374.98px) {}

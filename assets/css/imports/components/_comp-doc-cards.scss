@@ -1,0 +1,210 @@
+//Doc Cards
+.doc_card {
+    padding: 30px;
+    @extend %white-bg;
+    border-radius: 14px;
+    @extend %flex_grp_between;
+    box-shadow: 0px 8px 60px 0px rgba(0, 0, 0, 0.08);
+    .doc_card_first,.doc_card_second {
+        flex: 1;
+    }
+    .doc_card_icon {
+        width: 64px;
+        height: 64px;
+        border-radius: 8px;
+        margin-right: 35px;
+        img {
+            width: 100%;
+            border-radius: 8px;
+        }
+    }
+    .doc_card_info {
+        flex: 1;
+        h4 {
+            font-size: 20px;
+            margin-bottom: 8px;
+            margin-right: 16px;
+        }
+        p {
+            font-size: 14px;
+            margin-bottom: 0px;
+        }
+    }
+}
+
+.doc_card_filter{
+    @extend %flex_grp_between;
+    p{
+        margin-bottom: 0px;
+        strong{
+            @extend %primary-font;
+        }
+    }
+    select{
+        width: 200px;
+    }
+}
+
+.doc_card_list{
+    li{
+        padding: 20px 0px;
+        border-bottom: 1px dotted #E0E0E0;
+        &:last-child{
+            border-bottom: 0px;
+        }
+        .doc_card{
+            padding: 0px;
+            background: transparent;
+            box-shadow: none;
+            &_icon{
+                margin-right: 20px;
+                width: 54px;
+                height: 54px;
+            }
+            &_info{
+                h4{
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+}
+
+.doc_type_grp{
+    margin-top: 35px;
+    margin-bottom: 30px;
+    &_img{
+        img{
+            width: 20px;
+        }
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .doc_card {
+        padding: 30px 25px;
+        .doc_card_icon {
+            margin-right: 25px;
+        }
+        .doc_card_info {
+            h4 {
+                font-size: 18px;
+                margin-right: 0px;
+            }
+        }
+    }
+    .doc_card_list{
+        li{
+            .doc_card{
+                align-items: flex-start;
+                .doc_card_second{
+                    flex-direction: column;
+                    align-items: flex-start;
+                }
+                &_info{
+                    align-self: stretch;
+                    margin-bottom: 12px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 767.98px) {
+    .doc_card {
+        padding: 25px 20px;
+        flex-direction: column;
+        align-items: flex-start;
+        .doc_card_first {
+            margin-bottom: 15px;
+            align-self: stretch;
+        }
+        .doc_card_icon {
+            margin-right: 25px;
+        }
+        .doc_card_info {
+            h4 {
+                font-size: 18px;
+            }
+        }
+    }
+    .doc_card_list{
+        li{
+            .doc_card{
+                flex-direction: row;
+            }
+        }
+    }
+    .doc_card_filter{
+        flex-direction: column-reverse;
+        align-items: flex-start;
+        p{
+            margin-top: 10px;
+            font-size: 14px;
+        }
+        select{
+            width: 100%;
+        }
+        > div{
+            flex: 1;
+            width: 100%;
+        }
+    }
+    .doc_type_grp{
+        margin-top: 25px;
+        margin-bottom: 25px;
+        &_row{
+            justify-content: space-between;
+        }
+    }
+}
+
+@media (max-width: 575.98px) {
+    .doc_card {
+        padding: 20px;
+        .doc_card_icon {
+            margin-right: 16px;
+            width: 48px;
+            height: 48px;
+        }
+        .doc_card_info {
+            h4 {
+                font-size: 16px;
+                margin-bottom: 6px;
+            }
+            p {
+                font-size: 12px;
+            }
+        }
+    }
+    .doc_card_list{
+        li{
+            .doc_card{
+                flex-direction: row;
+                &_icon{
+                    margin-right: 16px;
+                    width: 48px;
+                    height: 48px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 424.98px) {}
+
+@media (max-width: 360px) {
+    .doc_card .doc_card_actions{
+        flex-wrap: wrap;
+        .ioh_md_btn{
+            font-size: 11px;
+            padding: 4px 18px;
+        }
+        .ioh_btn{
+            &:first-child{
+                margin-right: 4px !important;
+            }
+        }
+    }
+}

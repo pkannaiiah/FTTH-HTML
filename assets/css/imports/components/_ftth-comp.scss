@@ -1,0 +1,164 @@
+//ftth-flx-card1
+.ftth-flx-card1{
+    .ioh_h1{color:$dark-black; margin-bottom:0.625em;}
+    .card{
+        border-radius:16px;box-shadow: 0 2px 20px rgba(0, 0, 0, 0.10);border:0px;
+        .card-img-top{background:#ccc;border-radius:16px 16px 0px 0px;height: 150px;}
+        .card-body{padding: 1.2em 1.2em 2em 1.2em;}
+        //p{font-size:14px;}
+    }
+}
+
+//newconnect-comp
+.newconnect-comp{
+    position:relative;
+    .col{text-align:center;z-index:5;}
+    .card-img-top{border-radius:50%;width:100px;height:100px;margin-bottom:15px;}
+    .ioh_h3{color:$dark-black; margin-bottom:0.625em;}
+    .ioh_h1{text-align: center;}
+
+    .connection-border{position: relative;}
+
+    .connection-border::before{
+        content: '';
+position: absolute;
+top: 54px;
+left: 50%;
+-webkit-transform: translateX(-50%);
+transform: translateX(-50%);
+width: 70%;
+border: 1px dashed $pink0;
+border-top:0px;
+    }
+}
+
+//ftth-packs-comp
+.ftth-packs-comp{
+    .ioh_h1{text-align: center;}
+    .ioh_h5{@extend %primary-font; font-size:12px; text-transform: uppercase; color:#898989;}
+    .card{border-radius:1rem;border:0px; box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);}
+    .card-img-top{background: linear-gradient(#D8D8D8, #EEEEEE);border-radius:16px 16px 0px 0px;height:150px;width:100%;}
+    .card-body{font-size:14px;}
+    .card-footer{display:flex;justify-content:space-between;align-items:center;border:0px;background:transparent;padding:1rem;margin-bottom:15px;}
+    ul{
+     li{
+        font-size:14px; margin:0px 0px 10px 0px;
+        img{margin-right: 5px;}
+        label{font-weight: 600; margin:0px; padding:0px}
+    }
+}
+    .pack-comp{
+        position: relative;
+        .packname-title{
+        font-family: $primary-font;
+        font-size: 24px;
+        color: $dark-black; 
+        position: absolute;
+        right: 30px;
+        bottom: 30px;
+        width: 150px;
+        text-align: right;
+        line-height: normal
+    }
+    }
+}
+//ftth-price-comp
+.price-sec-comp{
+    .price-title{@extend %primary-font;font-size: 12px;text-transform: uppercase;color: #898989;}
+    .price-amount{@extend %primary-font;font-size:22px;color:#ED1C24;}
+}
+
+//select location comp
+.ftth-location-comp{
+    background:#662E91;
+    .location-comp{
+        display: flex;justify-content: space-between;align-items: center;
+    .cont-text{font-family:$primary-font;color:$white;font-size:24px;}
+    .mobi-bg{display: none;}
+    }
+}
+
+@media (max-width: 992px) {
+    .ftth-location-comp{
+        background:#662E91;position: relative;text-align: center;
+        .location-comp{
+            display: block;padding:30px 0px;
+        .cont-text{font-size:18px;margin-bottom:15px;}
+        .web-bg{display: none;}
+        .mobi-bg{display: block;position: absolute;right: 0px;bottom:0px;}
+        }
+    }
+    
+}
+@media (max-width: 768px) {
+//newconnect-comp
+.newconnect-comp{
+    .mt-4{margin-top:2rem!important;}
+    .resd-flex{display:block; margin-bottom:20px;text-align: center;}
+    .card-img-top{border-radius:50%;width:70px;height:70px;margin-bottom:30px;margin-right:15px;}
+    .ioh_h3{color:$dark-black; margin-bottom:0.625em;}
+}
+
+//ftth-flx-card1
+.ftth-flx-card1{
+    .row-cols-md-3 > *{width:50%;}
+}
+.newconnect-comp{
+    .connection-border::before {
+        top: 35px;
+      }
+    }
+
+}
+
+@media (max-width: 576px) {
+.ftth-packs-comp{
+    .ioh_h1{text-align: left;}
+}
+.newconnect-comp{
+    .ioh_h1{text-align: center;}
+}
+
+}
+
+@media (max-width: 480px) {
+    .newconnect-comp{
+        .mt-4{margin-top:2rem!important;}
+        .resd-flex{display:flex; margin-bottom:20px;text-align: left;}
+        .card-img-top{border-radius:50%;width:70px;height:70px;margin-bottom:30px;margin-right:15px;}
+        .ioh_h3{color:$dark-black; margin-bottom:0.625em;}
+        
+        .col {
+            flex: 1 0 100%;
+          }
+    }
+    .ftth-location-comp{
+        .location-comp{
+        .cont-text{
+            width:80%;
+            margin:15px auto;
+        }
+    }
+    }
+    //ftth-flx-card1
+.ftth-flx-card1{
+    .row-cols-md-3 > *{width:80%; margin:20px auto 0px;}
+}
+
+.newconnect-comp{
+    .connection-border::before {
+        width: 1px;
+        height: 70%;
+        left: 50px;
+        top: 0px;
+      }
+    }
+}
+
+@media (max-width: 425px) {
+    .newconnect-comp{
+        .connection-border::before {
+            left: 47px;
+          }
+        }
+}

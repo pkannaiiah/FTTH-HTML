@@ -1,0 +1,220 @@
+//Leaders
+.leader_list_comp{
+    .leaders_card{
+        margin-top: 60px;
+    }
+}
+
+.leaders_card{
+    .leaders_card_img{
+        img{
+            width: 100%;
+            border-radius: 16px;
+        }
+    }
+    .leaders_card_body{
+        padding-top: 20px;
+        h4{
+            @extend %primary-font;
+            font-size: 20px;
+            margin-bottom: 8px;
+        }
+        p{
+            font-size: 16px;
+            margin-bottom: 0px;
+        }
+    }
+}
+
+.leaders_swiper_comp{
+    .ioh_h1{
+        margin-bottom: 24px;
+    }
+}
+
+.other_director{
+    padding-bottom: 70px;
+    .swiper-pagination-bullets {
+        width: 100%;
+        bottom: 10px;
+        text-align: left;
+    }
+    .swiper-pagination-bullet {
+        width: 10px;
+        height: 10px;
+        opacity: 0.3;
+    }
+    .swiper-pagination-bullet-active {
+        background: $primary;
+        opacity: 1;
+    }
+}
+
+.leaders_detail_wrap{
+    .leader_img{
+        img{
+            width: 100%;
+        }
+    }
+}
+
+.leaders_info_grp{
+    padding-left: 40px;
+    .leader_name{
+        font-size: 30px;
+        margin-bottom: 14px;
+    }
+    .leader_position{
+        font-size: 16px;
+        margin-bottom: 24px;
+    }
+    .leader_bio{
+        font-size: 16px;
+        margin-bottom: 24px;
+    }
+    .leader_info_list{
+        h4{
+            font-size: 18px;
+            margin-bottom: 8px;
+        }
+        ol{
+            list-style-type: lower-alpha;
+            padding-left: 24px;
+            li{
+                margin-bottom: 8px;
+                font-size: 16px;
+                &:last-child{
+                    margin-bottom: 0px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1199.98px) {
+
+}
+
+@media (max-width: 991.98px) {
+    .leaders_info_grp{
+        padding-left: 0px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .leaders_card{
+        .leaders_card_body{
+            h4{
+                font-size: 18px;
+            }
+            p{
+                font-size: 14px;
+            }
+        }
+    }
+    .leader_list_comp{
+        .leaders_card{
+            margin-top: 30px;
+        }
+    }
+    .other_director{
+        padding-bottom: 50px;
+    }
+    
+    .leaders_info_grp{
+        .leader_name{
+            font-size: 24px;
+        }
+    }
+}
+
+@media (max-width: 575.98px) {
+    .leader_list_comp{
+        .leaders_card{
+            margin-top: 20px;
+            display: flex;
+            align-items: center;
+            .leaders_card_img{
+                width: 150px;
+            }
+            .leaders_card_body{
+                flex: 1;
+                padding-top: 0px;
+                margin-left: 20px;
+            }
+        }
+        .row{
+            .col-md-4{
+                &:first-child{
+                    .leaders_card{
+                        margin-top: 30px;
+                    }
+                }
+            }
+        }
+    }
+    .leaders_card{
+        .leaders_card_img{
+            img{
+                border-radius: 8px;
+            }
+        }
+    }
+}
+
+@media (max-width: 424.98px) {
+    .leader_list_comp{
+        .leaders_card{
+            margin-top: 10px;
+            .leaders_card_img{
+                width: 120px;
+            }
+            .leaders_card_body{
+                margin-left: 14px;
+            }
+        }
+    }
+    .leaders_card{
+        .leaders_card_body{
+            h4{
+                font-size: 16px;
+                line-height: 22px;
+                margin-bottom: 5px;
+            }
+            p{
+                font-size: 12px;
+            }
+        }
+    }
+    .leaders_info_grp{
+        .leader_name{
+            font-size: 20px;
+            margin-bottom: 5px;
+        }
+        .leader_position{
+            font-size: 12px;
+            margin-bottom: 10px;
+        }
+        .leader_bio{
+            font-size: 14px;
+            margin-bottom: 20px;
+        }
+        .leader_info_list{
+            margin-bottom: 20px;
+            h4{
+                font-size: 16px;
+                margin-bottom: 8px;
+            }
+            ol{
+                li{
+                    margin-bottom: 8px;
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 374.98px) {
+
+}

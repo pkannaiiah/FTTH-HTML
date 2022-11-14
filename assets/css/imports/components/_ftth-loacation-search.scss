@@ -1,0 +1,106 @@
+.location-map-comp{position: relative;height:600px;}
+.ftth-loacation-search{
+    position: absolute;
+    width:390px;
+    top: 40px;
+left: auto;
+z-index: 8;
+height: 100%;
+overflow-x: hidden;
+overflow-y: auto;
+outline: 0;
+padding:7px 0px;
+
+    .ftth-loacation-cont{
+        background:$white;
+    padding:30px;
+    top:50px;
+    width:100%;
+    border-radius:10px;
+    }
+    label{
+        margin-bottom:20px;
+        @extend %primary-font;
+        
+    }
+    input[type=text] {
+        padding:0px 40px;
+        @extend %dark-black-color;
+        &::placeholder {
+            color: $disable;
+            opacity: 1;
+            @extend %light-font;
+        }
+        &::-webkit-input-placeholder {
+            color: $disable;
+            @extend %light-font;
+        }
+        &::-moz-placeholder {
+            color: $disable;
+            @extend %light-font;
+        }
+        &:-ms-input-placeholder {
+            color: $disable;
+            @extend %light-font;
+        }
+        &:-moz-placeholder {
+            color: $disable;
+            @extend %light-font;
+        }
+    }
+    .input-group-text{
+        background: transparent;
+        &.icon-left{
+            right: auto;
+        }
+    }
+}
+//result comp
+.ftth-search-results{
+    position: relative;
+    z-index: 9;
+    width:100%;
+    cursor: pointer;
+    
+    .ftth-results-cont{
+        font-size: 14px;
+    color:$disable;
+    border:1px solid #E0E0E0;
+    border-radius:8px;
+    padding:12px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+    background:$white;
+    position: absolute;
+    z-index: 9;
+    width:100%;
+    }
+    label{
+        color:#000;margin:0px;
+        @extend %regular-font;
+    }
+    ul{
+        margin:-10px 0px;
+     li{
+        margin:12px 0px;
+        list-style: none;
+        display: flex;
+        align-items: flex-start;
+        cursor: pointer;
+        img{margin-right:5px;}
+        label{
+            color:$dark-gray;
+            line-height: normal;
+            @include ellipsis2;
+            cursor: pointer;
+        }
+        b{color: $dark-black;}
+    }
+}
+}
+.search-location{display:none;}
+.gm-style .place-card-large{display: none;}
+.place-card div{display: none;}
+
+@media (max-width: 575.98px) {
+.ftth-loacation-search {width:100%;padding:7px 16px;left:0px;}
+}

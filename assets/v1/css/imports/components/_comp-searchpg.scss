@@ -1,0 +1,27 @@
+/*14-07-22 st*/
+.date-comp{
+    font-size: 14px;
+    color: #aaa;
+    margin-bottom: 0px;
+}
+.mini_search_comp{
+    label{
+        @extend %primary-color;
+    }
+    .search-tab-heading{
+        display: flex; 
+        justify-content: space-between;
+        align-items: center;
+        a{
+            font-family:$primary-font; font-size:14px; @extend %primary-color;
+            img {
+                margin-left: 0px;
+                width: 14px;
+                height: 14px;
+              }
+        }
+    }
+    .ioh_select{display: flex; align-items: center;}
+}
+.mini_search_bg{padding:0px 0px;
+    background: #fafafa;}

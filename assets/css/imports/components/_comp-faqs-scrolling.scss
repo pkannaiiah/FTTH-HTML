@@ -1,0 +1,117 @@
+.faq_component{
+    .ioh_h1{
+        margin-bottom: 50px;
+    }
+    .ioh_btn{
+        margin-top: 50px;
+    }
+}
+.faqs-compo-list{
+    .card{
+        border: 0px;
+        .card-header{
+            background: none;
+            padding: 0px;
+            border-bottom: 0px;
+            cursor: pointer;
+            .card-link{
+                font-size: 16px;
+                padding:25px 0px;
+                border-bottom: 1px dotted #d8d8d8;
+                display: block;
+                position: relative;
+                padding-right: 30px;
+                &::after{
+                    position: absolute;
+                    content: '';
+                    background: url(../../assets/images/icons/dark_arrow_down.svg);
+                    right: -5px;
+                    top: 32px;
+                    pointer-events: none;
+                    width: 28px;
+                    height: 28px;
+                    transform: rotate(0deg);
+                    transition: all .5s ease-out;
+                    background-size: cover;
+                }
+                &[aria-expanded="true"]{
+                    border-bottom: none;
+                    font-weight: 600;
+                    @extend %primary-font;
+                    &::after{
+                        transform: rotate(180deg);
+                        transition: all .5s ease-out;
+                    }
+                }
+            }
+        }
+        .card-body{
+            padding: 0px;
+            &-in{
+                padding-bottom: 30px;
+                padding-top: 10px;
+                border-bottom: 1px dotted #d8d8d8;
+            }
+            p{
+                margin-bottom: 10px;
+                &:last-child{
+                    margin-bottom: 0px;
+                }
+            }
+        }
+    }
+}
+
+
+//Media Queries
+@media (max-width: 991.98px) {
+    .faqs-compo-list{
+        .card{
+            .card-header{
+                .card-link{
+                    padding:20px 0px;
+                    padding-right:20px;
+                    &::after{
+                        top: 20px;
+                    }
+                }
+            }
+            .card-body{
+                &-in{
+                    padding-bottom: 25px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 575.98px) {
+    .faqs-compo-list{
+        .card{
+            .card-header{
+                .card-link{
+                    padding:16px 0px;
+                    font-size: 14px;
+                    padding-right: 20px;
+                    &::after{
+                        top: 12px;
+                    }
+                }
+            }
+            .card-body{
+                &-in{
+                    font-size:14px!important;
+                }
+            }
+        }
+    }
+    .faq_component{
+        .ioh_h1{
+            margin-bottom: 30px;
+        }
+        .ioh_btn{
+            margin-top: 30px;
+        }
+    }
+    
+}

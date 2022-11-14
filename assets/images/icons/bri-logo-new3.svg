@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="15" height="15" viewBox="0 0 15 15">
+  <defs>
+    <clipPath id="clip-bra-logo-new_">
+      <rect width="15" height="15"/>
+    </clipPath>
+  </defs>
+  <g id="bra-logo-new_" data-name="bra-logo-new " clip-path="url(#clip-bra-logo-new_)">
+    <rect width="15" height="15" fill="#fff"/>
+    <g id="Group_27347" data-name="Group 27347">
+      <g id="Group_27346" data-name="Group 27346">
+        <g id="Group_27345" data-name="Group 27345" transform="translate(3)">
+          <rect id="Rectangle_60126" data-name="Rectangle 60126" width="10" height="15" fill="none"/>
+        </g>
+        <rect id="Rectangle_60127" data-name="Rectangle 60127" width="15" height="15" fill="#fff"/>
+      </g>
+      <g id="Group_27345-2" data-name="Group 27345" transform="translate(0 -2)">
+        <path id="bri-logo" d="M6.991.983H1.259A1.275,1.275,0,0,0,0,2.273v5.67a1.275,1.275,0,0,0,1.24,1.29H6.987a1.276,1.276,0,0,0,1.26-1.29l0-5.67A1.275,1.275,0,0,0,6.991.983ZM1.94,8.572l-.313,0a.689.689,0,0,1-.685-.694l0-.055V2.59l0-.282a.676.676,0,0,1,.666-.67h.635a1.09,1.09,0,0,1,.743,1.841L1.366,5.122l1.52,1.547a1.087,1.087,0,0,1,.313.758A1.206,1.206,0,0,1,1.94,8.572Zm4.673,0H3.779a3.686,3.686,0,0,0,.328-1.146,2.013,2.013,0,0,0-.458-1.327L2.68,5.106l.988-1.02a1.84,1.84,0,0,0,.491-1.328,1.97,1.97,0,0,0-.321-1.12h.687A1.091,1.091,0,0,1,5.27,3.479L3.678,5.106l3.3,3.366A.7.7,0,0,1,6.614,8.568Zm.691-1.051L4.937,5.105,6.065,3.96a1.949,1.949,0,0,0,.376-1.2,2,2,0,0,0-.324-1.133l.5.016a.69.69,0,0,1,.686.695Z" transform="translate(3 4.017)" fill="#00529c"/>
+      </g>
+    </g>
+  </g>
+</svg>

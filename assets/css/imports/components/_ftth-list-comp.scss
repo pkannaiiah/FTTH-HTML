@@ -1,0 +1,43 @@
+.ftth-list-comp{
+    ul{
+        list-style:unset!important; margin:10px 11px;
+        li{font-size:12px;color:$dark-black;}
+    }
+}
+
+//personal-det-comp
+.personal-det-comp{
+    .cardheadin-row{
+        .ftth_h5{font-size:18px;}
+    }
+    .ioh_h5{margin:0px !important;}
+    .g-2, .gy-2 {
+        --bs-gutter-y: 0.625rem;
+      }
+      .g-2, .gx-2 {
+        --bs-gutter-x: 0.625rem;
+    }
+    
+}
+
+//passowrd list
+.ftth-password-list{
+    margin-top:10px;
+ul{
+    margin-bottom:-8px;
+    li{
+        font-size:12px;
+        color:$dark-gray;
+        padding-left:25px;
+        background: url(../images/icons/tick-mark-grey.svg) no-repeat 0px 3px;
+        margin-bottom:8px;
+        display:flex;
+        align-items: center;
+    }
+    .active{
+        color: $green;
+        padding-left:26px;
+        background: url(../images/icons/tick-mark-green.svg) no-repeat 0px 3px;
+    }
+}
+}

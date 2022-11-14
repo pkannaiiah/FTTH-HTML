@@ -1,0 +1,159 @@
+// GLOBAL VARIABLES
+@font-face {
+    font-family: 'qualy-bold';
+    src: url('./fonts/Qualy-Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'prompt-light';
+    src: url('./fonts/Prompt-Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'prompt-regular';
+    src: url('./fonts/Prompt-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+//Fonts
+$primary-font:'qualy-bold',
+'prompt-regular',
+Arial,
+Helvetica,
+sans-serif;
+$light-font:'prompt-light',
+Arial,
+Helvetica,
+sans-serif;
+$regular-font:'prompt-regular',
+Arial,
+Helvetica,
+sans-serif;
+//Colors
+$primary:#ED1D25;
+$secondary:#211e20;
+$dark-black:#4D4D4F;
+$dark-gray:#898989;
+$disable:#AAAAAA;
+$border:#E0E0E0;
+$white-light:#F8F8F8;
+$black:#000000;
+$white:#FFFFFF;
+$yellow: #FFCB05;
+$light-yellow: #FFF3C5;
+$light-red: #FFDDDD;
+$light-green: #F5FAE5;
+$btn-hover:#D41313;
+$white-light1:#f2f2f2;
+$color1: #f4f4f4;
+$magenta:#EC008C;
+$purple:#C6168D;
+$turqoise:#32BCAD;
+$green:#B0E01F;
+$blue:#017DC7;
+$light-blue:#D1EEFF;
+$pink0:#ec008c;
+$pink2:#76AC4E;
+$pink1:#017DC7;
+$pink:#32BCAD;
+$tints:#32BCAD;
+$tints-dark:#1d9d8f;
+
+//11-07 st
+$red-color:#ed1c24;
+%red-color {
+    color: $red-color;
+}
+%red-color-bg {
+    background: $red-color;
+}
+//11-07 end
+
+//Extendsrgb(19, 30, 28)
+%primary-font {
+    font-family: $primary-font;
+}
+
+%regular-font {
+    font-family: $regular-font;
+}
+
+%light-font {
+    font-family: $light-font;
+}
+
+%primary-color {
+    color: $primary;
+}
+
+%primary-bg {
+    background: $primary;
+}
+
+%secondary-color {
+    color: $secondary;
+}
+
+%secondary-bg {
+    background: $secondary;
+}
+
+%dark-black-color {
+    color: $dark-black;
+}
+
+%dark-black-bg {
+    background: $dark-black;
+}
+
+%white-color {
+    color: $white;
+}
+
+%white-bg {
+    background: $white;
+}
+
+%flex_grp_between {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+%flex_grp_center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+%flex_grp_align_center {
+    display: flex;
+    align-items: center;
+}
+
+%flex_grp_align_start {
+    display: flex;
+    align-items: flex-start;
+}
+
+//bg
+.table-yellow-bg{
+    background:$yellow;
+    border-radius:15px;
+}
+.table-white-bg {
+    background: #ffffff;
+    border-radius: 15px;
+  }
+
+//margins
+.ftth-mt-10{margin-top:10px;}
+.ftth-mt-20{margin-top:20px;}

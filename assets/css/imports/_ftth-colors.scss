@@ -1,0 +1,56 @@
+//Colors
+.primary_color {
+  @extend %primary-color;
+}
+
+.primary_bg {
+  @extend %primary-bg;
+}
+
+.secondary_color {
+  @extend %secondary-color;
+}
+
+.secondary_bg {
+  @extend %secondary-bg;
+}
+
+.white_color {
+  color: $white !important;
+}
+
+.white_bg {
+  @extend %white-bg;
+}
+
+.white_light_bg {
+  background-color: $white-light !important;
+}
+
+.gradient_bg_section {
+  background: $pink;
+  // background: linear-gradient(126deg, #ff006b 3%, #ed1c24 51%, #ba0fb5 111%);
+}
+
+.dark-gray-color {
+  color: $dark-gray;
+}
+
+.yellow_color {
+  color: $yellow;
+}
+
+.green_bg {
+  background-color: $green;
+}
+
+.blue_bg {
+  background-color: $blue;
+}
+
+.pink_color {
+  color: $magenta;
+}
+.red_color{
+  color: $primary;
+}
