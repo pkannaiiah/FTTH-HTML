@@ -960,6 +960,43 @@ input[type=number] {
   right: -4px;
 }
 
+.inter_img img {
+  width: 23px;
+  height: 23px;
+}
+
+s,
+strike {
+  text-decoration: none;
+  /*we're replacing the default line-through*/
+  position: relative;
+  display: inline-block;
+  /* keeps it from wrapping across multiple lines */
+}
+
+s:after,
+strike:after {
+  content: "";
+  /* required property */
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  border-top: 4px solid red;
+  height: 55%;
+  /* adjust as necessary, depending on line thickness */
+  /* or use calc() if you don't need to support IE8: */
+  height: calc(55% - 1px);
+  /* 1px = half the line thickness */
+  width: 100%;
+  transform: rotateZ(-13deg);
+}
+
+.offer-tag-comp2_new {
+  color: #4D4D4F !important;
+  font-weight: bold;
+  left: 35px !important;
+}
+
 /*ka 10-11-22 end*/
 @media (min-width: 1400px) {
   .container {
@@ -1015,6 +1052,14 @@ input[type=number] {
     top: 36%;
     left: 22%;
   }
+  /* Styles added by ra start */
+  .ioh_btn1 {
+    padding: 8px 16px !important;
+  }
+  .price-amount1 {
+    font-size: 18px !important;
+  }
+  /* Styles added by ra end */
 }
 @media (max-width: 760px) {
   .lh-1 {
@@ -6562,43 +6607,11 @@ ul {
   background: #F9B622;
   padding: 6px 15px;
   color: #fff;
-  left: 35px;
+  left: 21px;
   border-radius: 10px 10px 0px 0px;
   font-size: 18px;
-  color: #4D4D4F;
-  font-weight: bold;
-}
-.inter_img img
-{
- width: 23px;
- height: 23px;
 }
 
-s,
-strike {
-  text-decoration: none;
-  /*we're replacing the default line-through*/
-  position: relative;
-  display: inline-block;
-  /* keeps it from wrapping across multiple lines */
-}
-
-s:after,
-strike:after {
-  content: "";
-  /* required property */
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  border-top: 4px solid red;
-  height: 55%;
-  /* adjust as necessary, depending on line thickness */
-  /* or use calc() if you don't need to support IE8: */
-  height: calc(55% - 1px);
-  /* 1px = half the line thickness */
-  width: 100%;
-  transform: rotateZ(-13deg);
-}
 /*ka-10-11-22 end*/
 .ftth-packs-comp-v1 .pack-comp {
   height: 120px;
@@ -6778,12 +6791,6 @@ strike:after {
   .multi-rows-swp-01-v1 .swiper-horizontal > .swiper-pagination-bullets, .multi-rows-swp-01-v1 .swiper-pagination-bullets.swiper-pagination-horizontal {
     bottom: 40px;
   }
-  /* Styles added by ravi start */
-  .ioh_btn
-  {
-    padding: 8px 16px;
-  }
-    /* Styles added by ravi end */
 }
 @media (max-width: 575.98px) {
   .multi-rows-swp-01-v1 .swiper-horizontal > .swiper-pagination-bullets, .multi-rows-swp-01-v1 .swiper-pagination-bullets.swiper-pagination-horizontal {
