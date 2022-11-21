@@ -3640,6 +3640,33 @@ ul {
   font-size: 14px;
 }
 
+/*ftth-payment-channel-info*/
+.ftth-payment-channel-info {
+  border: 1px solid #ccc;
+}
+.ftth-payment-channel-info .nav-pills .nav-link {
+  text-align: left;
+  color: #000;
+}
+.ftth-payment-channel-info .nav-pills .nav-link::before {
+  content: ".";
+  width: 20px;
+  font-size: 20px;
+  color: #000;
+}
+.ftth-payment-channel-info .nav-pills .nav-link .active {
+  background-color: #ccc !important;
+  background: #ccc !important;
+}
+.ftth-payment-channel-info #v-pills-tab {
+  background: #ccc;
+  min-width: 300px;
+}
+.ftth-payment-channel-info .accordion-button:not(.collapsed) {
+  background-color: transparent;
+  color: #000;
+}
+
 @media (max-width: 991.98px) {
   .payment_main {
     padding-top: 0px;

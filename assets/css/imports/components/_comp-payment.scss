@@ -142,6 +142,28 @@
     }
 }
 
+/*ftth-payment-channel-info*/
+.ftth-payment-channel-info{
+    border:1px solid #ccc;
+    .nav-pills {
+        .nav-link{
+            text-align: left; color:#000;
+            &::before{
+                content:".";
+                width:20px;
+                font-size:20px;
+                color:#000;
+            }
+            .active{background-color:#ccc !important;background:#ccc !important;}
+        }
+    }
+    #v-pills-tab{background:#ccc;min-width:300px;}
+    .accordion-button:not(.collapsed){
+        background-color: transparent;
+        color: #000;
+    }
+}
+
 
 @media (max-width: 991.98px) {
     .payment_main{
