@@ -3438,6 +3438,12 @@ ul {
   .global_hero_banner .swiper-slide img {
     height: 454px;
   }
+  .global_hero_banner {
+    min-height: 250px;
+  }
+  .global_hero_banner .swiper-slide img {
+    height: 454px;
+  }
 }
 @media (max-width: 1199.98px) {
   .global_hero_banner .swiper-slide img {
@@ -3484,6 +3490,9 @@ ul {
   }
   .bg_text_banner {
     padding: 30px 0px 250px 0px;
+  }
+  .min_hero_banner {
+    min-height: 300px !important;
   }
 }
 @media (min-width: 320px) {
