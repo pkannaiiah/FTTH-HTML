@@ -3659,7 +3659,7 @@ ul {
   background: #ccc !important;
 }
 .ftth-payment-channel-info #v-pills-tab {
-  background: #ccc;
+  background: #ededed;
   min-width: 300px;
 }
 .ftth-payment-channel-info .accordion-button:not(.collapsed) {
