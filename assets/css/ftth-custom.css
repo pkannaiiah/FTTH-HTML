@@ -1282,6 +1282,20 @@ ul {
   margin-bottom: 0px;
 }
 
+/*ftth-payment-channel-info-comp st*/
+.no_ul {
+  list-style: symbols;
+  padding-left: 14px;
+  list-style-position: outside;
+}
+.no_ul li {
+  margin-bottom: 8px;
+}
+.no_ul li:last-child {
+  margin-bottom: 0px;
+}
+
+/*ftth-payment-channel-info-comp end*/
 .support_text {
   color: #898989;
   font-size: 14px !important;
@@ -3667,6 +3681,26 @@ ul {
   color: #000;
 }
 
+/*ftth-payment-channel-info-comp st*/
+.ftth-payment-channel-info-comp .ioh_h2 {
+  font-size: 30px;
+}
+.ftth-payment-channel-info-comp .ioh_tab .nav .nav-item .nav-link.active {
+  color: #EC008C;
+}
+.ftth-payment-channel-info-comp .faqs-compo-list .card .card-header .card-link {
+  font-family: "qualy-bold", "prompt-regular", Arial, Helvetica, sans-serif;
+  color: #EC008C;
+  font-weight: 400 !important;
+}
+.ftth-payment-channel-info-comp .ioh_tab .nav .nav-item .nav-link {
+  padding: 8px 10px;
+}
+.ftth-payment-channel-info-comp .pad-lef-40 {
+  padding-left: 20px;
+}
+
+/*ftth-payment-channel-info-comp end*/
 @media (max-width: 991.98px) {
   .payment_main {
     padding-top: 0px;
@@ -3716,6 +3750,11 @@ ul {
     font-size: 14px;
     color: #898989;
   }
+  /*ftth-payment-channel-info-comp st*/
+  .ftth-payment-channel-info-comp .ioh_h2 {
+    font-size: 14px;
+  }
+  /*ftth-payment-channel-info-comp end*/
 }
 @media (max-width: 424.98px) {
   .payment_main .payment_options h4 {
