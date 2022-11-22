@@ -134,6 +134,19 @@ ul {
         }
     }
 }
+/*ftth-payment-channel-info-comp st*/
+.no_ul {
+    list-style: symbols;
+    padding-left: 14px;
+    list-style-position: outside;
+    li {
+        margin-bottom: 8px;
+        &:last-child {
+            margin-bottom: 0px;
+        }
+    }
+}
+/*ftth-payment-channel-info-comp end*/
 
 .support_text{
     color: $dark-gray;

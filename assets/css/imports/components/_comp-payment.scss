@@ -162,9 +162,42 @@
         background-color: transparent;
         color: #000;
     }
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> 1a691201aa0e067f541f8ca24285e3ca06d9f11f
 }
 
+/*ftth-payment-channel-info-comp st*/
+.ftth-payment-channel-info-comp{
+    .ioh_h2{font-size:30px;}
+    .ioh_tab .nav .nav-item .nav-link.active{color:$magenta;}
+    .faqs-compo-list .card .card-header .card-link{
+        font-family:$primary-font;
+        color:$magenta;
+        font-weight: 400 !important;
+    }
+    .ioh_tab .nav .nav-item .nav-link{padding:8px 10px;}
+    .pad-lef-40{padding-left:20px;}
+}
+.youtube_video_grp {
+    position: relative;
+    border-radius: 15px;
+    overflow: hidden;
+    margin-left: 50px;
+    height: 250px;
+    min-height: 250px;
+  }
+  .youtube_video_grp iframe {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+  }
+  .overlap_content_desc{
+    label{font-family:$light-font;}
+  }
+/*ftth-payment-channel-info-comp end*/
 
 @media (max-width: 991.98px) {
     .payment_main{
@@ -221,6 +254,12 @@
             }
         }
     }
+/*ftth-payment-channel-info-comp st*/
+.ftth-payment-channel-info-comp{
+    .ioh_h2{font-size:14px;}
+}
+.youtube_video_grp{margin-left:0px;}
+/*ftth-payment-channel-info-comp end*/
 }
 
 @media (max-width: 424.98px) {
