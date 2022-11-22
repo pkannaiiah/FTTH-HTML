@@ -234,9 +234,7 @@ var swiper = new Swiper('.small_card_swiper', {
             spaceBetween: 30
         }
     }
-})
-
-
+});
 
 //Font Change
 $(document).ready(function() {
