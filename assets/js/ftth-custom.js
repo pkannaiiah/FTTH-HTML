@@ -30,7 +30,7 @@ accordionItemFooters.forEach((accordionItemFooter) => {
 });
 
 //FAQ Accordion
-$('.card .collapse1').on('shown.bs.collapse1', function(e) {
+$('.card .collapse').on('shown.bs.collapse', function(e) {
     var $card = $(this).closest('.card');
     $('html,body').animate({
       scrollTop: $card.offset().top - 100
