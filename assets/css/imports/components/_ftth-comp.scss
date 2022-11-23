@@ -65,7 +65,7 @@ border-top:0px;
 //ftth-price-comp
 .price-sec-comp{
     .price-title{@extend %primary-font;font-size: 12px;text-transform: uppercase;color: #898989;}
-    .price-amount{@extend %primary-font;font-size:22px;color:#ED1C24;}
+    .price-amount{@extend %primary-font;font-size:22px;color: $primary;}
 }
 
 //select location comp

@@ -33,7 +33,7 @@
     padding:10px 5px;
 }
 .swiper-pagination-clickable .swiper-pagination-bullet{width:10px;height:10px;}
-.swiper-pagination-bullet-active{background-color:#ED1C24;}
+.swiper-pagination-bullet-active{background-color: $primary;}
 
 .dashboardSwiper .swiper-horizontal > .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal{
     bottom:0px;

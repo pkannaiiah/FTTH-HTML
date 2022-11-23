@@ -213,7 +213,7 @@ z-index:1;
 
 ////datepicker
 .bootstrap-datetimepicker-widget td.active, .bootstrap-datetimepicker-widget td.active:hover {
-    background-color: #ed1c24;
+    background-color: $primary;
     color: $white;
 }
 .v-height{max-height:300px; overflow-y: scroll;text-align: left;}
@@ -279,11 +279,11 @@ cursor: pointer;
 }*/
 .dropdown-item:hover{
     background-color: transparent;
-    color:#ed1c24;
+    color: $primary;
 }
 .dropdown-item.active, .dropdown-item:active{
     background-color: transparent;
-    color:#ed1c24;
+    color: $primary;
 }
 .dropdown-toggle.open .caret {
     display: inline-block;

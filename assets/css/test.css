@@ -41,7 +41,7 @@
   display: block;
   position: relative;
   overflow: hidden;
-  font-family: #ED1D25;
+  font-family: #EC008C;
   text-transform: uppercase;
   font-weight: 600;
 }
@@ -67,7 +67,7 @@
   display: block;
   position: relative;
   overflow: hidden;
-  font-family: #ED1D25;
+  font-family: #EC008C;
   text-transform: inherit;
   font-weight: 600;
 }
@@ -78,7 +78,7 @@
   left: -40px;
   position: absolute;
   display: block;
-  background: #ED1D25;
+  background: #EC008C;
   color: #333;
   font-family: arial;
   font-size: 18px;
@@ -155,7 +155,7 @@
   display: block;
   position: absolute;
   overflow: hidden;
-  font-family: #ED1D25;
+  font-family: #EC008C;
   text-transform: uppercase;
   font-weight: 600;
 }
@@ -166,7 +166,7 @@
   left: -40px;
   position: absolute;
   display: block;
-  background: #ED1D25;
+  background: #EC008C;
   color: #333;
   font-family: arial;
   font-size: 18px;

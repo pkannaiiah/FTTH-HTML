@@ -193,6 +193,7 @@
   .overlap_content_desc{
     label{font-family:$light-font;}
   }
+
 /*ftth-payment-channel-info-comp end*/
 
 @media (max-width: 991.98px) {
@@ -225,6 +226,19 @@
     .payment_main .payment_options{
         padding: 30px;
     }
+    /*ftth-payment-channel-info-comp st*/
+    .ftth-payment-channel-info-comp
+    {
+        .ioh_tab .nav .nav-item .nav-link
+    {
+        font-size: 16px;
+    }
+    .ioh_h3
+    {
+        font-size: 14px;
+    }
+    } 
+    /*ftth-payment-channel-info-comp end*/
 }
 
 @media (max-width: 575.98px) {
