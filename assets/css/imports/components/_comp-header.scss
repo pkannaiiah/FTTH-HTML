@@ -369,11 +369,12 @@
                     >li {
                         margin-right: 0px;
                         align-self: stretch;
+                        border-bottom: 1px solid $border;
                         >a {
                             padding: 15px 0px;
                             font-family: $regular-font;
                             display: block;
-                            border-bottom: 1px solid $border;
+                            
                         }
                         &:last-child {
                             a {

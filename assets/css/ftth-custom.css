@@ -1135,7 +1135,7 @@ strike:after {
   /*ka 10-11-22 st*/
   .header_mainmenu .dropdown-menu {
     border: 0px solid #898989;
-    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+    box-shadow: none;
     position: relative !important;
     transform: translate3d(0px, 0px, 0px) !important;
   }
@@ -2178,12 +2178,12 @@ ul {
   .header_mainmenu .bottom_header .nav_menu > ul > li {
     margin-right: 0px;
     align-self: stretch;
+    border-bottom: 1px solid #E0E0E0;
   }
   .header_mainmenu .bottom_header .nav_menu > ul > li > a {
     padding: 15px 0px;
     font-family: "prompt-regular", Arial, Helvetica, sans-serif;
     display: block;
-    border-bottom: 1px solid #E0E0E0;
   }
   .header_mainmenu .bottom_header .nav_menu > ul > li:last-child a {
     border-bottom: 0px;
