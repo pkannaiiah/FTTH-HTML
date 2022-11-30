@@ -4516,7 +4516,7 @@ ul {
 }
 .comp_how_to_pay .comp_how_to_pay_row {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-between;
   margin-left: 35px;
 }
@@ -6168,6 +6168,9 @@ ul {
   background: transparent;
   padding: 1rem;
   margin-bottom: 15px;
+}
+.ftth-packs-comp ul {
+  flex: 1 0 auto;
 }
 .ftth-packs-comp ul li {
   font-size: 14px;

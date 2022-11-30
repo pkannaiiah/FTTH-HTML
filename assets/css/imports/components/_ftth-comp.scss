@@ -41,6 +41,7 @@ border-top:0px;
     .card-body{font-size:14px;}
     .card-footer{display:flex;justify-content:space-between;align-items:center;border:0px;background:transparent;padding:1rem;margin-bottom:15px;}
     ul{
+        flex: 1 0 auto;
      li{
         font-size:14px; margin:0px 0px 10px 0px;
         img{margin-right: 5px;}
