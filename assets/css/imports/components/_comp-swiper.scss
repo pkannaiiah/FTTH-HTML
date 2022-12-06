@@ -22,6 +22,7 @@
 }
 .sw_produts--swiper{
     padding:15px 15px 50px 0px;
+    position: relative;
     .swiper-slide{
         height: auto !important;
     }
@@ -100,6 +101,7 @@
       .swiper-wrapper {
      .swiper-slide {
         width: 100%;
+        // height: auto;
       }
     }
     }
@@ -114,7 +116,19 @@
             width: 100%;
           }
         }
-        }
+    }
+    .multi-rows-swp-01-v1 .swiper-wrapper .swiper-slide-v1 {	
+        width: 87%;	
+        margin-left: 30px !important;	
+        padding:13px;	
+    }	
+    .multi-rows-swp-01-v1 .swiper-wrapper .swiper-slide {	
+        padding: 0px;	
+        margin: 0px;	
+    }	
+    .ftth-packs-comp .card-footer-v1 {	
+        justify-content: center;	
+    }
     
 }
 

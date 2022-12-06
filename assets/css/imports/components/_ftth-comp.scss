@@ -3,7 +3,7 @@
     .ioh_h1{color:$dark-black; margin-bottom:0.625em;}
     .card{
         border-radius:16px;box-shadow: 0 2px 20px rgba(0, 0, 0, 0.10);border:0px;
-        .card-img-top{background:#ccc;border-radius:16px 16px 0px 0px;height: 150px;}
+        .card-img-top{background:#ccc;border-radius:16px 16px 0px 0px;height: 150px;object-fit: cover;object-position: top center;}
         .card-body{padding: 1.2em 1.2em 2em 1.2em;}
         //p{font-size:14px;}
     }
@@ -38,8 +38,8 @@ border-top:0px;
     .ioh_h5{@extend %primary-font; font-size:12px; text-transform: uppercase; color:#898989;}
     .card{border-radius:1rem;border:0px; box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);}
     .card-img-top{background: linear-gradient(#D8D8D8, #EEEEEE);border-radius:16px 16px 0px 0px;height:150px;width:100%;}
-    .card-body{font-size:14px;}
-    .card-footer{display:flex;justify-content:space-between;align-items:center;border:0px;background:transparent;padding:1rem;margin-bottom:15px;}
+    .card-body{font-size:14px;display: flex;flex-direction: column;}
+    .card-footer{display:flex;justify-content:space-between;align-items:flex-start;border:0px;background:transparent;padding:1rem;margin-bottom:15px;flex-direction: column;}
     ul{
         flex: 1 0 auto;
      li{

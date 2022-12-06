@@ -1,6 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
-  <g id="right-arrow-red" transform="translate(-15 -15)">
-    <path id="Path_1918" data-name="Path 1918" d="M3,0H23V20H3Z" transform="translate(12 15)" fill="none" fill-rule="evenodd"/>
-    <path id="Path_1919" data-name="Path 1919" d="M8.763,1.691a1.749,1.749,0,0,0,0,2.475L14.6,10,8.763,15.835a1.749,1.749,0,0,0-.1,2.369l.1.106a1.75,1.75,0,0,0,2.474,0l7.072-7.072a1.75,1.75,0,0,0,0-2.474L11.237,1.69a1.75,1.75,0,0,0-2.474,0Z" transform="translate(12 15)" fill="#ed1d25"/>
-  </g>
-</svg>

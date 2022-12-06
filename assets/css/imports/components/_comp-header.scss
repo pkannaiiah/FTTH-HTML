@@ -171,6 +171,9 @@
                 @extend %flex_grp_align_center;
                 z-index: 9;
             }
+            .pre_login_dropdown_contain{
+                @extend %flex_grp_align_center;
+            }
         }
         .post_login{
             &_dropdown{
@@ -369,12 +372,11 @@
                     >li {
                         margin-right: 0px;
                         align-self: stretch;
-                        border-bottom: 1px solid $border;
                         >a {
                             padding: 15px 0px;
                             font-family: $regular-font;
-                            display: block;
-                            
+                            display: block; 
+                            border-bottom: 1px solid $border;
                         }
                         &:last-child {
                             a {
@@ -432,16 +434,33 @@
                 &_dropdown{
                     display: none;
                     background: $white;
-                    border-radius: 8px;
-                    padding: 20px;
-                    position: absolute;
-                    top: 56px;
+                    border-radius: 0px;
+                    border-bottom-left-radius: 8px;
+                    border-bottom-right-radius: 8px;
+                    padding: 20px 16px;
+                    position: fixed;
+                    width: 100%;
+                    top: 104px;
+                    left: 0px;
                     right: 0px;
-                    box-shadow: 0px 1px 8px 0px rgba(0, 0, 0, 0.08);
+                    box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.08);
                     &.active{
                         display: flex;
                         animation: smoothScroll .5s forwards;
                     }
+                }
+                .pre_login_dropdown_contain{
+                    max-width: 540px;
+                    margin: 0px auto;
+                    width: 100%;
+                    justify-content: flex-end;
+                }
+            }
+        }
+        &.fixed {
+            .bottom_header {
+                .pre_login_dropdown{
+                    top: 70px;
                 }
             }
         }
@@ -457,6 +476,17 @@
 
 @media (max-width: 575.98px) {
 
+}
+
+@media (max-width: 480px) {
+    .header_mainmenu .bottom_header .pre_login .pre_login_dropdown_contain{
+        justify-content: center;
+        .ioh_btn{
+            min-width: auto;
+            width: 100%;
+            height: calc(2em + 6px);
+        }
+    }
 }
 
 @media (max-width: 424.98px) {
@@ -484,14 +514,23 @@
                 height: calc(100vh - 54px);
                 top: 54px;
             }
-            .post_login_dropdown,.pre_login_dropdown{
+            .pre_login_dropdown{
+                top: 80px;
+                padding: 16px;
+            }
+            .post_login_dropdown{
                 top: 48px;
             }
         }
         &.fixed {
-            .bottom_header .nav_menu {
-                top: 54px;
-                height: calc(100vh - 54px);
+            .bottom_header {
+                .nav_menu {
+                    top: 54px;
+                    height: calc(100vh - 54px);
+                }
+                .pre_login_dropdown{
+                    top: 54px;
+                }
             }
         }
     }

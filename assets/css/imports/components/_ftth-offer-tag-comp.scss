@@ -1,12 +1,14 @@
 .ribbon-left {
-    display: block;
+    // display: block;
     position: relative;
     overflow: hidden;
     font-family:$primary;
-    text-transform: uppercase;
-    font-weight: 600;
+    // text-transform: uppercase;
+    // font-weight: 600;
 
   & span {
+    text-transform: uppercase;
+    font-weight: 600;
     width: 150px;
     height: 34px;
     top: 20px;
@@ -32,10 +34,12 @@
     position: relative;
     overflow: hidden;
     font-family:$primary;
-    text-transform: inherit;
-    font-weight: 600;
+    // text-transform: inherit;
+    // font-weight: 600;
 
   & span {
+    text-transform: uppercase;
+    font-weight: 600;
     width: 150px;
     height: 34px;
     top: 20px;
@@ -67,6 +71,12 @@
   font-size: 18px;
 }
 /*ka-10-11-22 end*/
+
+//Live
+/* new package ui */	
+// .ftth-packs-comp-v1 {	
+//   display: none;	
+// }
   
 ///ribbon-left-comp st 10-10-22
 .ftth-packs-comp-v1{
@@ -107,7 +117,7 @@
 & span {
   width: 150px;
   height: 50px;
-  top: 90px;
+  top: 120px;
   left: -90px;
   position: absolute;
   display: block;
@@ -159,7 +169,7 @@
 .chat-btn {
   width: 140px;
   height: 140px;
-  background-color: #ed1c24;
+  background-color: $primary;
   border-radius: 50%;
   position: absolute;
   top:-50px;
@@ -180,7 +190,7 @@
     bottom: -16px;
     border-left: 5px solid transparent;
     border-right: 20px solid transparent;
-    border-top: 20px solid #ed1c24;
+    border-top: 20px solid $primary;
 }
 
 //swiper slider
@@ -198,19 +208,31 @@
 //cont swiper
 .multi-rows-swp-01-v1{
   position: relative;
-.swiper-wrapper{
-   display: flex;
-   flex-wrap: wrap;
-   justify-content: center;
-.swiper-slide {
-  padding: 0px 10px 30px;
-  width: 33.3%;
-  height: auto;
-  margin:0px 25px;
+  .swiper-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    //Local
+    .swiper-slide {
+      padding: 0px 10px 30px;
+      width: 33.3%;
+      height: auto;
+      margin:0px 25px;
+    }
+    //Live
+    // .swiper-slide {
+    //   padding: 50px 10px 30px;
+    //   width: 70%;
+    //   height: auto;
+    //   margin:auto;
+    // }
+  }
 }
 
-}
-}
+//Live
+// .sty-comp-sec {	
+//   display: none;	
+// }
 
 ///lisring
 .sty-comp-sec{

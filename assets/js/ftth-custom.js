@@ -51,7 +51,7 @@ if ($('.dashboardSwiper .swiper-slide').length == 1) {
 //Header Fixed
 $(document).ready(function() {
     $(window).scroll(function() {
-        if ($(this).scrollTop() >= 30) {
+        if ($(this).scrollTop() >= 10) {
             $('.header_mainmenu').addClass('fixed');
             $('.top_header').addClass('remove');
         } else {
@@ -67,7 +67,7 @@ $(".humburger").click(function() {
 
 //Open Dropdon when click on User icon
 $(".login_action").click(function(e) {
-    $(".post_login_dropdown,.pre_login_dropdown").addClass('active');
+    $(".post_login_dropdown,.pre_login_dropdown").toggleClass('active');
 	e.stopPropagation();
 });
 $(".post_login_dropdown,.pre_login_dropdown").click(function(e){
@@ -99,11 +99,32 @@ $(function () {
     $('[data-toggle="tooltip"]').tooltip()
 });
 
+//Scroll Top
+var btn = $('.sroll_top_fixed');
+
+$(window).scroll(function() {   
+  if ($(window).scrollTop() > 300) {
+    btn.addClass('show');
+  } else {
+    btn.removeClass('show');
+  }
+});
+
+btn.on('click', function(e) {
+  e.preventDefault();
+  $('html, body').animate({scrollTop:0}, '300');
+});
+
 //home global_hero_banner
 var swiper = new Swiper(".global_hero_banner", {
 	pagination: {
 	  el: ".swiper-pagination",
 	},
+    loop: true,
+    autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+    },
 });
 // Hide the pagination if only one slide
 if ($('.global_hero_banner .swiper-slide').length == 1) {
@@ -245,7 +266,7 @@ $('.preferred-package--swiper .swiper-pagination').addClass('pagenav');
         // slidesPerView: 1.2,
         slidesPerView: 'auto',
         centeredSlides: true,
-        spaceBetween: 60, 
+        spaceBetween: 10, 
         freeMode: true,
         observer: true,
         observeParents: true,
@@ -338,3 +359,5 @@ $('.modal').modal({backdrop: 'static', keyboard: false});
     breakpointChecker();
 })();
 //multi_row_swp-01 Ends
+
+

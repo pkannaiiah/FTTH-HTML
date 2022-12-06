@@ -1,6 +1,6 @@
 //Forms
 .iohform_control {
-    font-size: 16px;
+    font-size: 14px;
     border-radius: 8px;
     @extend %white-bg;
     border: 1px solid $border;
@@ -379,35 +379,6 @@ input[type=search]{
     }
   }
 }
-}
-
-.ioh_select {
-    position: relative;
-    select {
-        -webkit-appearance: none;
-        -moz-appearance: none;
-        appearance: none;
-        text-indent: 1px;
-        text-overflow: '';
-        padding-right: 36px;
-        &::-ms-expand {
-            display: none;
-        }
-        option {
-            width: 100%;
-        }
-    }
-    &::before {
-        position: absolute;
-        content: '';
-        background: url(../images/icons/arrow_down_gray.svg) no-repeat;
-        background-size: cover;
-        right: 6px;
-        top: 6px;
-        width: 28px;
-        height: 28px;
-        pointer-events: none;
-    }
 }
 
 @media (max-width: 1199.98px) {
