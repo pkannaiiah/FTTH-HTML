@@ -21,6 +21,8 @@
             margin-bottom: 16px;
         }
         ul{
+            display: flex;
+            flex-wrap: wrap;
             li{
                 padding: 6px 16px;
                 display: inline-flex;
@@ -32,9 +34,12 @@
                 &:last-child{
                     margin-right: 0px;
                 }
+                &:nth-child(2n+2) { 
+                    margin-right: 0px;
+                  }
                 img{
                     width: 40px;
-                    height: 40px;
+                    max-height: 40px;
                     margin-right: 10px;
                 }
                 font-size: 14px;

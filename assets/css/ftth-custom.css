@@ -4575,6 +4575,10 @@ ul {
   font-size: 16px;
   margin-bottom: 16px;
 }
+.comp_how_to_pay .comp_how_to_pay_col ul {
+  display: flex;
+  flex-wrap: wrap;
+}
 .comp_how_to_pay .comp_how_to_pay_col ul li {
   padding: 6px 16px;
   display: inline-flex;
@@ -4587,9 +4591,12 @@ ul {
 .comp_how_to_pay .comp_how_to_pay_col ul li:last-child {
   margin-right: 0px;
 }
+.comp_how_to_pay .comp_how_to_pay_col ul li:nth-child(2n+2) {
+  margin-right: 0px;
+}
 .comp_how_to_pay .comp_how_to_pay_col ul li img {
   width: 40px;
-  height: 40px;
+  max-height: 40px;
   margin-right: 10px;
 }
 
