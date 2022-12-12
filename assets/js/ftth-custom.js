@@ -235,6 +235,36 @@ $('.preferred-package--swiper .swiper-pagination').addClass('pagenav');
 }
 
 
+//Full Card Swiper
+var homeswiper02 = new Swiper('.full_card_swiper', {
+    spaceBetween: 30,
+    grabCursor: true,
+    pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+    },
+    navigation: {
+        nextEl: '.swiper_btn_next',
+        prevEl: '.swiper_btn_prev',
+    },
+});
+
+
+//Fixed to top when tab responsive
+$(window).scroll(function(){
+    if($(document).width() < 768) { 
+        if ($(this).scrollTop() > 160) {
+            $('.tab_responsive_fix').addClass('fixed');
+        } else {
+            $('.tab_responsive_fix').removeClass('fixed');
+        }
+    }
+});
+
+// $(document).ready(function(){
+//     $(this).scrollTop(0);
+// });
+
 ///////////////////////////
 //multi_row_swp-01 Starts
 (function() {
@@ -359,5 +389,3 @@ $('.modal').modal({backdrop: 'static', keyboard: false});
     breakpointChecker();
 })();
 //multi_row_swp-01 Ends
-
-
