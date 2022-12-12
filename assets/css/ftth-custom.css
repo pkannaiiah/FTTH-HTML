@@ -2612,10 +2612,6 @@ ul {
   background: #F8F8F8;
 }
 
-.main_footer .footer_top {
-  border-bottom: 1px solid #E0E0E0;
-}
-
 .main_footer .footer_desc {
   margin-right: 40px;
 }
@@ -2678,6 +2674,7 @@ ul {
 }
 
 .footer_mid {
+  background: #ffffff;
   padding: 60px 0px;
 }
 

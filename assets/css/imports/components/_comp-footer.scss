@@ -1,9 +1,9 @@
 //Footer
 .main_footer {
     background: $white-light;
-    .footer_top {
-        border-bottom: 1px solid #E0E0E0;
-    }
+    // .footer_top {
+    //     border-bottom: 1px solid #E0E0E0;
+    // }
     .footer_desc {
         margin-right: 40px;
         .footer_logo {
@@ -62,6 +62,7 @@
 }
 
 .footer_mid{
+    background: #ffffff;
     padding: 60px 0px;
     .footer_logo{
         margin-bottom: 40px;
