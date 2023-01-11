@@ -110,8 +110,9 @@
 
 .sroll_top_fixed{
     position: fixed;
-    bottom: 60px;
-    right: 80px;
+    bottom: 20px;
+    right: 40px;
+    // right: 110px;
     cursor: pointer;
     z-index: 600;
     transition: background-color .3s, 
@@ -137,6 +138,9 @@
             height: 40px;
         }
     }
+}
+.qcw-trigger-btn.svelte-1xkyjie.svelte-1xkyjie{
+    z-index: 999 !important;
 }
 
 @media (max-width: 991.98px) {
@@ -221,6 +225,7 @@
     .sroll_top_fixed{
         bottom: 20px;
         right: 40px;
+        // right: 110px;
         button{
             width: 44px;
             height: 44px;

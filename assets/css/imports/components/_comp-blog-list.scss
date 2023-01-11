@@ -84,18 +84,29 @@
     font-family: $primary-font;
     width: 100%;
     margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
     .close_icon {
         background: none;
         border: none;
         padding: 0px;
         margin-left: -15px;
         position: absolute;
-        left: 14px;
-        top: 2px;
+        left: 0px;
+        top: 50%;
+        transform: translateY(-50%);
     }
     h3 {
         font-size: 16px;
         text-align: center;
+        flex: 1;
+    }
+    .arrow-link{
+        position: absolute;
+        top: 0px;
+        right: 0px;
     }
     .arrow-link-red {
         color: $primary;
